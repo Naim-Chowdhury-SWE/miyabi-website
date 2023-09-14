@@ -10,7 +10,7 @@ const NavBar = () => {
   const [toggleMenu, setToggleMenu] = useState(false)
   return (
     <nav className="navbar">
-        <div className="navbar-logo">
+         <div className="navbar-logo">
             <img src={images.logo2} alt="Miyabi Logo" />
       </div>
       
