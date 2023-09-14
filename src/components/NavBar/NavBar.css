@@ -1,0 +1,36 @@
+.site__navbar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: var(--color-black);
+    border: 2px solid #000;
+    padding: 1rem 2rem;
+}
+
+.site__navbar-logo {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.site__navbar img {
+    width: 250px;
+    border: 2px solid #000;
+}
+
+.site__navbar-links {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+.site__navbar-links li {
+    margin: 0 1rem;
+    cursor: pointer;
+}
+.site__navbar-links li:hover {
+    color: var(--color-grey);
+}
