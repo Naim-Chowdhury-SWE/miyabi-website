@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from "react";
 import { GiHamburgerMenu } from "react-icons/gi"
 import { MdOutlineRestaurantMenu } from "react-icons/md"
 
@@ -11,7 +11,7 @@ const NavBar = () => {
   return (
     <nav className="navbar">
         <div className="navbar-logo">
-            <img src={images.logo} alt="Miyabi Logo" />
+            <img src={images.logo2} alt="Miyabi Logo" />
       </div>
       
       <ul className="navbar-links">
