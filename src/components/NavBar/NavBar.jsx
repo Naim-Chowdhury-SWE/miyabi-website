@@ -9,30 +9,51 @@ import images from "../../constants/images"
 const NavBar = () => {
   const [toggleMenu, setToggleMenu] = useState(false)
   return (
-    <div className="site__navbar">
-        <div className="site__navbar-logo">
+    <nav className="navbar">
+        <div className="navbar-logo">
             <img src={images.logo} alt="Miyabi Logo" />
       </div>
       
-      <ul className="site__navbar-links">
-        <li>
+      <ul className="navbar-links">
+        <li className="opensans">
           <a href="">Hem</a>
         </li>
-        <li>
+        <li className="opensans">
           <a href="">Meny</a>
         </li>
-        <li>
+        <li className="opensans">
           <a href="">Kontakta Oss</a>
         </li>
       </ul>
 
-      <nav className="site__navbar-homedelivery">
-        <a href="">Faster Order</a>
+      <div className="navbar-homedelivery">
+        <a href="" className="opensans">Faster Order</a>
         <div />
-        <a href="Wolt"></a>
-      </nav>
+        <a href className="opensans">Wolt</a>
+      </div>
+
+      <div className="navbar-smallscreen">
+        <GiHamburgerMenu color="#fff" fontSize={27} onClick={() => setToggleMenu(true)} />
+
+        {toggleMenu && (
+          <div className="navbar-smallscreen-overlay flex__center slide-bottom">
+            <MdOutlineRestaurantMenu fontSize={27} className="overlay__close" onClick={() => setToggleMenu(false)} />
+            <ul className="navbar-smallscreen-links">
+            <li>
+          <a href="" onClick={() => setToggleMenu(false)}>Hem</a>
+        </li>
+        <li>
+          <a href="" onClick={() => setToggleMenu(false)}>Meny</a>
+        </li>
+        <li>
+          <a href="" onClick={() => setToggleMenu(false)}>Kontakta Oss</a>
+        </li>
+            </ul>
+          </div>
+        )}
+      </div>
       
-    </div>
+    </nav>
   )
 }
 
