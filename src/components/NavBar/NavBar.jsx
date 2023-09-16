@@ -1,4 +1,4 @@
-import { useState } from "react";
+import React, { useState } from "react";
 import { GiHamburgerMenu } from "react-icons/gi"
 import { MdOutlineRestaurantMenu } from "react-icons/md"
 
@@ -11,9 +11,17 @@ const NavBar = () => {
   return (
     <nav className="navbar">
          <div className="navbar-logo">
-            <img src={images.logo2} alt="Miyabi Logo" />
-      </div>
-      
+            <img src={images.logowhite} alt="Miyabi Logo" />
+        </div>
+      <section className="upper">
+        <div className="homedelivery">
+        <a href="" className="opensans">Beställ och hämta med <span>Faster Order</span></a>
+        </div>
+        <div className="homedelivery">
+        <a href="" className="opensans">Beställ hemkörning med <span>Wolt</span></a>
+        </div>
+      </section>
+      <section className="lower">
       <ul className="navbar-links">
         <li className="opensans">
           <a href="">Hem</a>
@@ -26,13 +34,13 @@ const NavBar = () => {
         </li>
       </ul>
 
-      <div className="navbar-homedelivery">
+      {/* <div className="navbar-homedelivery">
         <a href="" className="opensans">Faster Order</a>
         <div />
         <a href className="opensans">Wolt</a>
-      </div>
-
-      <div className="navbar-smallscreen">
+      </div> */}
+      </section>
+      <section className="navbar-smallscreen">
         <GiHamburgerMenu color="#fff" fontSize={27} onClick={() => setToggleMenu(true)} />
 
         {toggleMenu && (
@@ -51,7 +59,7 @@ const NavBar = () => {
             </ul>
           </div>
         )}
-      </div>
+      </section>
       
     </nav>
   )
