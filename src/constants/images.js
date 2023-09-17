@@ -12,7 +12,8 @@ import logoWhite from "../assets/miyabilogoWhite.svg";
 import logowhite from "../assets/logowhite.svg";
 import logoblack from "../assets/logoblack.svg";
 import miyabitextblack from "../assets/miyabitextblack.svg";
-import miyabitextred from "../assets/miyabitextred.svg";
+import miyabitextredblack from "../assets/miyabitextredblack.svg";
+import miyabitextredwhite from "../assets/miyabitextredwhite.svg";
 import miyabitextwhite from "../assets/miyabitextwhite.svg";
 import bg from "../assets/bg.png";
 
@@ -31,7 +32,8 @@ export default {
   logowhite,
   logoblack,
   miyabitextblack,
-  miyabitextred,
+  miyabitextredblack,
+  miyabitextredwhite,
   miyabitextwhite,
   bg,
 };

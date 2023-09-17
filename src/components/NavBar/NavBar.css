@@ -57,6 +57,13 @@
 .navbar-smallscreen {
     display: none;
 }
+.navbar-smallscreen img, .navbar-smallscreen_overlay img {
+    cursor: pointer; 
+    width: 60px;
+    padding: 0.2em;
+    /* border: 2px solid rgba(255, 0, 0, 0.4);
+    border-radius: 25% 25%; */
+}
 
 .navbar-smallscreen_overlay {
     position: fixed;

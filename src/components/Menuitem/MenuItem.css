@@ -1,5 +1,5 @@
 .app__menuitem {
-    width: 100%;
+    width: 80%;
     margin: 1rem 0;
 
     display: flex;
@@ -22,7 +22,7 @@
 }
 
 .app__menuitem-dash {
-    width: 90px;
+    width: 50px;
     height: 1px;
     background: var(--color-golden);
     margin: 0 1rem;
@@ -32,4 +32,18 @@
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
+}
+
+@media screen and (max-width: 2000px) {
+}
+
+
+@media screen and (max-width: 1150px) {
+}
+
+@media screen and (max-width: 650px) {
+    .app__menuitem {
+        width: 100%;
+    }
+   
 }

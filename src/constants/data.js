@@ -1,26 +1,26 @@
 const lunchMeny1 = [
   {
-    dag: "Måndag",
+    title: "Måndag",
     description: "Wokade Risnudlar med entrecote samt grönsaker",
     price: "125kr",
   },
   {
-    dag: "Tisdag",
+    title: "Tisdag",
     description: "Wokad kyckling med ris samt grönsaker",
     price: "125kr",
   },
   {
-    dag: "Onsdag",
+    title: "Onsdag",
     description: "Wokade glasnudlar med kyckling samt grönsaker",
     price: "125kr",
   },
   {
-    dag: "Torsdag",
+    title: "Torsdag",
     description: "Yakisoba (Wokade äggnudlar med entrecote)",
     price: "125kr",
   },
   {
-    dag: "Fredag",
+    title: "Fredag",
     description: "Kyckling Karage (Friterad kyckling med ris samt sås)",
     price: "125kr",
   },
@@ -32,23 +32,23 @@ const lunchMeny2 = [
     price: "108/128/149kr",
   },
   {
-    title: "Bibimpab med entrecote, kyckling, räkor eller lax (rå lax)",
-    description: "",
+    title: "Bibimpab",
+    description: "Med entrecote, kyckling, räkor eller lax (rå lax)",
     price: "139kr",
   },
   {
     title: "Yakiniku",
-    description: "",
+    description: "Strimlad entrecôte med ris och teriyakisås",
     price: "123kr",
   },
   {
     title: "Yakitori",
-    description: "",
+    description: "Kycklingspett med ris och teriyakisås",
     price: "123kr",
   },
   {
     title: "Pokébowl",
-    description: "",
+    description: "Med Lax, Tonfisk, Kyckling eller Tofu",
     price: "139kr",
   },
 ];

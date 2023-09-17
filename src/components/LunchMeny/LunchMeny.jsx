@@ -21,7 +21,7 @@ const LunchMeny = () => {
                 </div> 
 
                 <div className="lunchMeny-meny-dagens2">
-                    <p className="lunchMeny-meny-heading">Dagens Rätt</p>
+                    <p className="lunchMeny-meny-heading">Finns varje dag</p>
                         <div className="lunchMeny-meny-mat">
                         {data.lunchMeny2.map((lunch, index) => (
                         <MenuItem key={lunch.title + index} title={lunch.title} price={lunch.price} description={lunch.description} />
