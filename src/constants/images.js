@@ -14,6 +14,7 @@ import logoblack from "../assets/logoblack.svg";
 import miyabitextblack from "../assets/miyabitextblack.svg";
 import miyabitextred from "../assets/miyabitextred.svg";
 import miyabitextwhite from "../assets/miyabitextwhite.svg";
+import bg from "../assets/bg.png";
 
 export default {
   fanblack,
@@ -32,4 +33,5 @@ export default {
   miyabitextblack,
   miyabitextred,
   miyabitextwhite,
+  bg,
 };

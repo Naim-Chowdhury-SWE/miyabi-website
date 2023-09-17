@@ -1,16 +1,15 @@
-import { useState } from 'react'
-import NavBar from './components/NavBar/NavBar'
+import NavBar from "./components/NavBar/NavBar"
+import LunchMeny from "./components/LunchMeny/LunchMeny"
 import './App.css'
 
 function App() {
 
   return (
-    <>
       <div>
-        <NavBar />
+      <NavBar />
+      <LunchMeny />
         
       </div>
-    </>
   )
 }
 
