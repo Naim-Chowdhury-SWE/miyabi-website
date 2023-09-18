@@ -1,4 +1,5 @@
-import data from '../../constants/data';
+import data from '../../constants/data';/* 
+import MenuSushi from "../../data/MenuSushi"; */
 import MenuItem from "../Menuitem/MenuItem";
 import "./LunchMeny.css";
 
@@ -16,8 +17,7 @@ const LunchMeny = () => {
                         {data.lunchMeny1.map((lunch, index) => (
                         <MenuItem key={lunch.title + index} title={lunch.title} price={lunch.price} description={lunch.description} />
                         ))}
-                        </div>
-                    
+                        </div>    
                 </div> 
 
                 <div className="lunchMeny-meny-dagens2">
@@ -27,9 +27,8 @@ const LunchMeny = () => {
                         <MenuItem key={lunch.title + index} title={lunch.title} price={lunch.price} description={lunch.description} />
                         ))}
                         </div>
-                    
-                </div> 
-
+                </div>
+                
             </div>
         </div>
 )}
