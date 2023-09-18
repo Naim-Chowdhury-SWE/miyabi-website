@@ -1,5 +1,5 @@
 import data from '../../constants/data';
-import MenuItem from '../MenuItem/MenuItem';
+import MenuItem from "../Menuitem/MenuItem";
 import "./LunchMeny.css";
 
 const LunchMeny = () => {
