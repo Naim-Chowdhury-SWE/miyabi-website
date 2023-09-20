@@ -1,27 +1,25 @@
+import menuSushi from "../../data/MenySushi"; // Import your updated data
+import "./MenySushi.css"; // Import your CSS for styling
 
-import data from "../../data/MenuSushi";
-import MenuItem from "../Menuitem/MenuItem";
-import "./MenySushi.css";
-
-const MenuSushi = () => {
-    return (
-        <div className="lunchMeny app__bg flex__center section__padding" id="lunchmeny">
-            <div className="lunchMeny-title">
-                <h1 className="headtext__cormorant">Sushi Meny</h1>
-            </div>
-            
-            <div className="lunchMeny-meny">
-                <div className="lunchMeny-meny-dagens">
-                    <p className="lunchMeny-meny-heading">Sushi</p>
-                        <div className="lunchMeny-meny-mat">
-                        {data.MenySushi.map((item, index) => (
-                        <MenuItem key={index} title={item.title} price={item.price} description={item.description} />
-                        ))}
-                        </div>    
-                </div> 
-                
-            </div>
+const MenySushi = () => {
+  return (
+    <div className="menySushi app__bg flex__center section__padding">
+      <div className="meny-sushi-heading">
+          <h1 className="headtext__cormorant">Sushi Meny</h1>
+      </div>
+      
+      <div>
+        {menuSushi.map((item, index) => (
+          <div key={index} className="meny-sushi-meny">
+            <h4 className="menu-title p__cormorant" style={{color: "#DCCA87"}}>{item.title}</h4>
+          <p className="">{item.description}</p>
+          <p className="">{item.price}</p>     
         </div>
-)}
- 
-export default MenuSushi;
+        ))}
+      </div>
+      
+    </div>
+  );
+};
+
+export default MenySushi;
