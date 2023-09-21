@@ -1,4 +1,4 @@
-const menuSushi = [
+const blandadSushi = [
   {
     title: "Blandad 7 bitar",
     description: "Blandad sushi med lax, rullar och avocado",
@@ -39,6 +39,9 @@ const menuSushi = [
     description: "Blandad sushi med lax, rullar, räkor och avocado",
     price: "219kr",
   },
+];
+
+const menuSushi = [
   {
     title: "Lax & Rullar 8 bitar",
     description: "Hälften lax & hälften rullar",
@@ -176,6 +179,9 @@ const menuSushi = [
     description: "Grillad laxsushi som toppas med chilimajonäs",
     price: "175kr",
   },
+];
+
+const familjeSushi = [
   {
     title: "Familjesushi 30 bitar",
     description: "En stor blandad sushi med alla möjliga sushityper i erbjuder",
@@ -198,4 +204,4 @@ const menuSushi = [
   },
 ];
 
-export default menuSushi;
+export default { blandadSushi, menuSushi, familjeSushi };

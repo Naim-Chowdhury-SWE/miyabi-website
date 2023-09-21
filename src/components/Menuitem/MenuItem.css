@@ -1,6 +1,6 @@
 .app__menuitem {
-    width: 80%;
-    margin: 1rem 0;
+    width: 90%;
+    margin: 1rem auto;
 
     display: flex;
     flex-direction: column;
