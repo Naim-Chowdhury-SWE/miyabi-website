@@ -31,7 +31,7 @@ const Meny = ({ menuData, menuTitle }) => {
 
             {Object.keys(filteredMenu).map((category) => (
                 <div key={category} className="category-wrapper">
-                    <h2>{category}</h2>
+                    {/* <h2>{category}</h2> */}
                     <div className="meny-meny">
                         {filteredMenu[category].map((item, index) => (
                             <div key={index} className="menu-title">

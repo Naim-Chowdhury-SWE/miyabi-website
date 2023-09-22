@@ -1,8 +1,8 @@
-import data from '../../data/Meny/Lunch';
-import MenuItem from "../Menuitem/MenuItem";
-import "./LunchMeny.css";
+import data from "../../../data/Meny/Lunch";
+import MenuItem from "../../Menuitem/MenuItem";
+import "./Lunch.css";
 
-const LunchMeny = () => {
+const Lunch = () => {
     return (
         <div className="lunchMeny app__bg flex__center section__padding" id="lunchmeny">
             <div className="lunchMeny-title">
@@ -32,4 +32,4 @@ const LunchMeny = () => {
         </div>
 )}
  
-export default LunchMeny;
+export default Lunch;
