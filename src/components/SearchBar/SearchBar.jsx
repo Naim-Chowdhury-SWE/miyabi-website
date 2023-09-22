@@ -1,13 +1,16 @@
 import { useState } from 'react';
 import "./SearchBar.css"
+import PropTypes from 'prop-types';
 
 const SearchBar = ({ onSearch }) => {
   const [query, setQuery] = useState("");
 
   const handleInputChange = (e) => {
-    setQuery(e.target.value);
-    onSearch(e.target.value); // Pass the query to the parent component for filtering
+    const newQuery = e.target.value;
+    setQuery(newQuery);
+    onSearch(newQuery);
   };
+
 
   return (
     <div className="search-bar">
@@ -20,5 +23,7 @@ const SearchBar = ({ onSearch }) => {
     </div>
   );
 };
-
+SearchBar.propTypes = {
+  onSearch: PropTypes.func.isRequired, // Expect onSearch to be a function and required
+};
 export default SearchBar;

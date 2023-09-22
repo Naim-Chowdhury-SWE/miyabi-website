@@ -1,6 +1,7 @@
 import NavBar from "./components/NavBar/NavBar"
 import LunchMeny from "./components/LunchMeny/LunchMeny"
-import MenySushi from "./components/MenySushi/MenySushi";
+import SushiMeny from "./components/Meny/Sushi/Sushi"
+import NorimakiMeny from "./components/Meny/Norimaki/Norimaki"
 import './App.css'
 
 function App() {
@@ -9,7 +10,8 @@ function App() {
       <div>
       <NavBar />
       <LunchMeny />
-      <MenySushi />
+      <SushiMeny />
+      <NorimakiMeny />
       </div>
   )
 }

@@ -34,6 +34,7 @@
     line-height: 58.5px;
     letter-spacing: 0.04em;
     color: var(--color-white);
+    text-align: center;
 }
 
 .lunchMeny-meny-dagens, .lunchMeny-meny-dagens2 {

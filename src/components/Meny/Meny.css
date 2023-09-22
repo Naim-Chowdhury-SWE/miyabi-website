@@ -1,8 +1,8 @@
-.menySushi {
+.meny {
     flex-direction: column;
 }
 
-.meny-sushi-meny {
+.meny-meny {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -11,15 +11,12 @@
   .menu-title {
     flex-basis: calc(50% - 1em); 
     margin: 5px;
-    /* text-align: center; */
-    /* border: 1px solid #DCCA87; */
-    border-radius: 20px;
     padding: 0px;
     box-sizing: border-box;
 }
 
 
-  .meny-sushi-heading {
+  .meny-heading {
     text-align: center;
     margin-bottom: 40px; 
   }

@@ -1,4 +1,4 @@
-import data from '../../constants/data';
+import data from '../../data/Meny/Lunch';
 import MenuItem from "../Menuitem/MenuItem";
 import "./LunchMeny.css";
 
