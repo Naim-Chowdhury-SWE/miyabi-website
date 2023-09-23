@@ -1,0 +1,10 @@
+.header {
+    width: 100%;
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.2em;
+}
+a {
+    margin-bottom: 1em; 
+}

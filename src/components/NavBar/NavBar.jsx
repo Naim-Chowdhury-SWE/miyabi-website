@@ -6,9 +6,12 @@ import images from "../../constants/images"
 const NavBar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
   return (
-    <nav className="navbar">
+    <nav className="navbar app__bg">
          <div className="navbar-logo">
-            <img src={images.miyabitextredwhite} alt="Miyabi Logo" />
+        <img src={images.miyabitextredwhite} alt="Miyabi Logo" />
+        
+        {/* <a className="p__opensans" href="tel:+46763043985">Tel: 076-304 39 85</a>
+        <a className="p__opensans" href="https://maps.app.goo.gl/jVynK1HvdsJKrXAx5" target="_blank" rel="noreferrer">Address: Kyrkvägen, Hersbyholms Stationshus, Lidingö</a> */}
         </div>
       <ul className="navbar-links">
         <li className="p__opensans">
@@ -28,14 +31,17 @@ const NavBar = () => {
       </div>
 
       <div className="navbar-smallscreen">
-        <img src={images.fanred} alt="Side Menu button" onClick={() => setToggleMenu(true)} />
+        <img src={images.fanred} alt="Side Menu button" className="rotate" onClick={() => setToggleMenu(true)} />
 
         {toggleMenu && (
           <div className="navbar-smallscreen_overlay flex__center slide-bottom">
             <img src={images.fanred} alt="Side Menu button" className="overlay__close" onClick={() => setToggleMenu(false)} />
             <ul className="navbar-smallscreen-links">
               <li className="p__opensans">
-                <a href="https://app.fasterorder.se/menu/sv/37">Beställ Takeaway</a>
+              <a href="tel:+46763043985">Ring och Beställ</a>
+              </li>
+              <li className="p__opensans">
+                <a href="https://app.fasterorder.se/menu/sv/37">Beställ Takeaway via vår App</a>
               </li>
               <li className="p__opensans">
                 <a href="https://wolt.com/sv/swe/stockholm/restaurant/miyabi">Hemleverans med Wolt</a>

@@ -43,6 +43,7 @@ const Meny = ({ menuData, menuTitle }) => {
                             </div>
                         ))}
                     </div>
+                    {/* <hr className="category-divider" /> */}
                 </div>
             ))}
         </div>

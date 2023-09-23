@@ -24,10 +24,17 @@
   .category-wrapper {
     margin-bottom: 3em;
   }
+/* .category-divider {
+  border-top:0.1px #DCCA87;
+  width: 60%;
+  border-radius: 5px;
+  margin: 20px auto 0;
+} */
+
     
   
   @media screen and (max-width: 651px) {
     .menu-title {
-      flex-basis: calc(40%);
+      flex-basis: 100%;
     }
   }

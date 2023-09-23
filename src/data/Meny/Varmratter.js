@@ -46,7 +46,7 @@ const Varmratter = [
   {
     title: "Vegetarisk Gyoza 6 Bitar",
     description: "6 bitar vegetariska degknyten som serveras med ris och sås",
-    price: "118",
+    price: "118kr",
   },
   {
     title: "Vegetarisk Gyoza 8 Bitar",

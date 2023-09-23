@@ -1,4 +1,4 @@
-const Norimaki = [
+const Norimaki1 = [
   {
     title: "California roll 10 bitar",
     description:
@@ -103,6 +103,51 @@ const Norimaki = [
     description: "Sjögräsrulle med halstrad lax, avocado, lök och samt sallad",
     price: "130kr",
   },
+];
+
+const Norimaki2 = [
+  {
+    title: "Tempura Roll Special",
+    description:
+      "Friterade jätteräkor, avokado, krispig sallad toppas med grillad lax",
+    price: "159kr",
+  },
+  {
+    title: "Dragon Roll",
+    description:
+      "Räka, krispig sallad, avokado, dragon sås toppas med grillad lax",
+    price: "149kr",
+  },
+  {
+    title: "Crispy Spicy Tuna Roll",
+    description:
+      "Marinerad tonfisk, krispig sallad, avokado med chilimajonnäs och srirachasås. Rullen friteras.",
+    price: "169kr",
+  },
+  {
+    title: "Crispy Miyabi Roll",
+    description:
+      "Avokado, marinerad lax, krispig sallad och chilimajonnäs. Rullen friteras",
+    price: "149kr",
+  },
+  {
+    title: "Crispy Tempura Roll",
+    description:
+      "Friterade jätteräkor, avokado, krispig sallad och chilimajonnäs. Rullen friteras",
+    price: "159kr",
+  },
+  {
+    title: "Crispy Alaska Roll",
+    description:
+      "Avokado, lax, krispig sallad och chilimajonnäs. Rullen friteras",
+    price: "159kr",
+  },
+  {
+    title: "Crispy Vegetarisk Roll",
+    description:
+      "Avokado, krispig sallad, tofu och veganmajonnäs. Rullen friteras",
+    price: "159kr",
+  },
   {
     title: "Bibimbap roll (entrecote, kyckling eller räkor)",
     description: "Sjögräsrulle med gurka, sallad, kimchi samt salladsmix",
@@ -110,4 +155,4 @@ const Norimaki = [
   },
 ];
 
-export default { Norimaki };
+export default { Norimaki1, Norimaki2 };
