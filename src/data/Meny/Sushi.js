@@ -71,14 +71,14 @@ const menuSushi = [
     image: images.placeholderNigiri,
   },
   {
-    title: "Vegetarisk/Vegansk 10 bitar",
+    title: "Vegetarisk / Vegansk 10 bitar",
     description:
       "Blandad sushi som innehåller Vegetariska rullar, Avocado och Tofu",
     price: "109kr",
     image: images.placeholderNigiri,
   },
   {
-    title: "Vegetarisk/Vegansk 12 bitar",
+    title: "Vegetarisk / Vegansk 12 bitar",
     description:
       "Blandad sushi som innehåller Vegetariska rullar, Avocado och Tofu",
     price: "129kr",
