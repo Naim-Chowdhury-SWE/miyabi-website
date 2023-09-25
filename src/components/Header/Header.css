@@ -1,10 +1,16 @@
 .header {
-    width: 100%;
     display: grid;
-    justify-content: center;
-    text-align: center;
+    justify-items: center;
+    align-items: center;
     font-size: 1.2em;
+    margin: 0 5em;
+    border-radius: 20px;
 }
-a {
-    margin-bottom: 1em; 
+
+.header:hover {
+    background: rgba(190, 0, 0, 0.9);
+}
+
+div a:nth-child(1) {
+    margin-bottom: 1em;
 }
