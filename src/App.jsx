@@ -5,6 +5,7 @@ import NorimakiMeny from "./components/Meny/Norimaki/Norimaki"
 import Varmratter from "./components/Meny/Varmratter/Varmratter"
 import './App.css'
 import Header from "./components/Header/Header"
+import Footer from "./components/Footer/Footer"
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
       <SushiMeny />
       <NorimakiMeny />
       <Varmratter />
+      <Footer />
       </div>
   )
 }
