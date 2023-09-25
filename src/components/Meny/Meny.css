@@ -33,8 +33,14 @@
 
     
   
+  @media screen and (max-width: 1200px) {
+    .menu-title {
+      flex-basis: 100%;
+    }
+  }
   @media screen and (max-width: 651px) {
     .menu-title {
       flex-basis: 100%;
+      max-width: 320px;
     }
   }
