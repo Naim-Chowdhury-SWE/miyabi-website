@@ -1,9 +1,10 @@
 import './MenuItem.css';
 import PropTypes from 'prop-types';
 
-const MenuItem = ({ title, price, description }) => (
+const MenuItem = ({ image, title, price, description }) => (
   <div className="app__menuitem">
     <div className="app__menuitem-head">
+      <img src={image} alt="placeholder" />
       <div className="app__menuitem-name">
         <p className="p__cormorant" style={{ color: '#DCCA87' }}>{title}</p>
       </div>
@@ -19,6 +20,7 @@ const MenuItem = ({ title, price, description }) => (
   </div>
 );
 MenuItem.propTypes = {
+  image: PropTypes.string.isRequired,
   title: PropTypes.string.isRequired,
   price: PropTypes.string.isRequired,
   description: PropTypes.string.isRequired,

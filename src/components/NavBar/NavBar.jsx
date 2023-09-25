@@ -1,7 +1,7 @@
 import { useState } from "react";
 import "./NavBar.css";
 
-import images from "../../constants/images"
+import images from "../../constants/logos"
 
 const NavBar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);

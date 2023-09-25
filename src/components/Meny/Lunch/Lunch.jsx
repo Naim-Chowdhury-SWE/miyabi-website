@@ -14,7 +14,12 @@ const Lunch = () => {
                     <p className="lunchMeny-meny-heading">Dagens Rätt</p>
                         <div className="lunchMeny-meny-mat">
                         {data.lunchMeny1.map((lunch, index) => (
-                        <MenuItem key={lunch.title + index} title={lunch.title} price={lunch.price} description={lunch.description} />
+                            <MenuItem
+                                key={lunch.title + index}
+                                image={lunch.image}
+                                title={lunch.title}
+                                price={lunch.price}
+                                description={lunch.description} />
                         ))}
                         </div>    
                 </div> 
@@ -23,7 +28,12 @@ const Lunch = () => {
                     <p className="lunchMeny-meny-heading">Finns varje dag</p>
                         <div className="lunchMeny-meny-mat">
                         {data.lunchMeny2.map((lunch, index) => (
-                        <MenuItem key={lunch.title + index} title={lunch.title} price={lunch.price} description={lunch.description} />
+                            <MenuItem
+                                key={lunch.title + index}
+                                image={lunch.image}
+                                title={lunch.title}
+                                price={lunch.price}
+                                description={lunch.description} />
                         ))}
                         </div>
                 </div>

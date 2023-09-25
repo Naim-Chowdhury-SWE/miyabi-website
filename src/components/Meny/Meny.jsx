@@ -1,8 +1,9 @@
 // Menu.jsx
-import React, { useState } from 'react';
+import { useState } from 'react';
 import SearchBar from '../SearchBar/SearchBar';
 import MenuItem from '../Menuitem/MenuItem';
-import "./Meny.css"
+import PropTypes from 'prop-types';
+import "./Meny.css";
 
 const Meny = ({ menuData, menuTitle }) => {
     const [filteredMenu, setFilteredMenu] = useState(menuData);
@@ -36,6 +37,7 @@ const Meny = ({ menuData, menuTitle }) => {
                         {filteredMenu[category].map((item, index) => (
                             <div key={index} className="menu-title">
                                 <MenuItem
+                                    image={item.image}
                                     title={item.title}
                                     price={item.price}
                                     description={item.description}
@@ -49,5 +51,10 @@ const Meny = ({ menuData, menuTitle }) => {
         </div>
     );
 };
+
+Meny.propTypes = {
+    menuData: PropTypes.string.isRequired,
+    menuTitle: PropTypes.string.isRequired,
+  };
 
 export default Meny;
