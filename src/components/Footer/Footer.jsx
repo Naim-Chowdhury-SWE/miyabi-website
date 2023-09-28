@@ -1,3 +1,5 @@
+import { FaLocationDot } from "react-icons/fa6"
+import {BsTelephoneFill} from "react-icons/bs"
 import logo from "../../constants/logos"
 
 import "./Footer.css"
@@ -10,19 +12,25 @@ const Footer = () => {
       <img src={logo.logo3} alt="Miyabi Logo" />
       </div>
 
-      <div className="info">
-      <address className="p__opensans">
-        Ni hittar oss på <br />
+      <div className="p__opensans info">
+        <address>
+          <div>
         <a href="https://maps.app.goo.gl/jVynK1HvdsJKrXAx5" target="_blank" rel="noreferrer">
+          <FaLocationDot style={{marginRight:"0.5em"}} />
         Kyrkvägen, Hersbyholms Stationshus, Lidingö
-        </a>
-        <a href="tel:+46763043985">
-        <p>Telefon</p>
-        <p>076-304 39 85</p>
-      </a> 
+            </a>
+          </div>
+          <div>
+            <a href="tel:+46763043985">
+            <BsTelephoneFill style={{
+              marginTop: "2em",
+              marginRight:"0.5em"}} />
+        076-304 39 85
+            </a>
+            </div>
       </address>
 
-      <section className="p__opensans">
+      <section>
         <p>Öppettider</p>
         <p>Måndag-Lördag</p>
         <p>11:00 - 21:00</p>

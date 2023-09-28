@@ -34,7 +34,7 @@
     align-items: flex-end;
 }
 
-img {
+.app__menuitem-head img {
     width: 100px;
     height: 100px;
     padding: 0 1em 1em 0;

@@ -2,15 +2,41 @@
 .footer-logo {
     display: flex;
     justify-content: center;
-    height: 25vh;
 }
+.footer-logo img {
+    height: 30vh;
+    margin-bottom: 3rem;
+}
+
 
 .info {
     display: flex;
     justify-content: space-between;
+    font-size: 1.2rem;
+    margin: 0 2em;
+}
+
+.info p {
+    margin: 0.4em 0;
 }
 .derp {
     margin: 5% 0;
     text-align: center;
     font-size: 1.5rem;
+}
+
+@media screen and (max-width: 1150px) {
+    .footer-logo img {
+        height: 15vh
+    }
+    .info {
+        font-size: 0.8rem;
+    }
+}
+
+@media screen and (max-width: 1150px) {
+    .info {
+        font-size: 0.6rem;
+        margin: 0 0;
+    }
 }
