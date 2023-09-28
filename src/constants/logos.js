@@ -8,6 +8,7 @@ import kanjiblack from "../assets/logos/kanjiblack.svg";
 import kanjiwhite from "../assets/logos/kanjiwhite.svg";
 import logo from "../assets/logos/miyabilogo.svg";
 import logo2 from "../assets/logos/miyabilogo2.svg";
+import logo3 from "../assets/logos/miyabilogo3.svg";
 import logoWhite from "../assets/logos/miyabilogoWhite.svg";
 import logowhite from "../assets/logos/logowhite.svg";
 import logoblack from "../assets/logos/logoblack.svg";
@@ -28,6 +29,7 @@ export default {
   kanjiwhite,
   logo,
   logo2,
+  logo3,
   logoWhite,
   logowhite,
   logoblack,

@@ -1,0 +1,16 @@
+
+.footer-logo {
+    display: flex;
+    justify-content: center;
+    height: 25vh;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+}
+.derp {
+    margin: 5% 0;
+    text-align: center;
+    font-size: 1.5rem;
+}

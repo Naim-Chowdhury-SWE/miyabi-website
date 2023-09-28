@@ -1,14 +1,14 @@
 import { useState } from "react";
 import "./NavBar.css";
 
-import images from "../../constants/logos"
+import logo from "../../constants/logos"
 
 const NavBar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
   return (
     <nav className="navbar app__bg">
          <div className="navbar-logo">
-        <img src={images.miyabitextredwhite} alt="Miyabi Logo" />
+        <img src={logo.miyabitextredwhite} alt="Miyabi Logo" />
         
         {/* <a className="p__opensans" href="tel:+46763043985">Tel: 076-304 39 85</a>
         <a className="p__opensans" href="https://maps.app.goo.gl/jVynK1HvdsJKrXAx5" target="_blank" rel="noreferrer">Address: Kyrkvägen, Hersbyholms Stationshus, Lidingö</a> */}
@@ -31,11 +31,11 @@ const NavBar = () => {
       </div>
 
       <div className="navbar-smallscreen">
-        <img src={images.fanred} alt="Side Menu button" className="rotate" onClick={() => setToggleMenu(true)} />
+        <img src={logo.fanred} alt="Side Menu button" className="rotate" onClick={() => setToggleMenu(true)} />
 
         {toggleMenu && (
           <div className="navbar-smallscreen_overlay flex__center slide-bottom">
-            <img src={images.fanred} alt="Side Menu button" className="overlay__close" onClick={() => setToggleMenu(false)} />
+            <img src={logo.fanred} alt="Side Menu button" className="overlay__close" onClick={() => setToggleMenu(false)} />
             <ul className="navbar-smallscreen-links">
               <li className="p__opensans">
               <a href="tel:+46763043985">Ring och Beställ</a>
