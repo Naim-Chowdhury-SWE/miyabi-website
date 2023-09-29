@@ -5,13 +5,25 @@ import NorimakiMeny from "./components/Meny/Norimaki/Norimaki"
 import Varmratter from "./components/Meny/Varmratter/Varmratter"
 import './App.css'
 import Header from "./components/Header/Header"
-import Footer from "./components/Footer/Footer"
+import Footer from "./components/Footer/Footer" 
+import Carousel from "./components/Carousel/Carousel"
 
+const OPTIONS = {}
+const SLIDE_COUNT = 5
+const SLIDES = Array.from(Array(SLIDE_COUNT).keys())
 function App() {
+
+
 
   return (
       <div>
       <NavBar />
+
+      <div className="sandbox app__bg">
+        <section className="sandbox__carousel">
+          <Carousel slides={SLIDES} options={OPTIONS} />
+        </section>
+      </div>
       <Header />
       <LunchMeny />
       <SushiMeny />
