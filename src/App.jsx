@@ -9,7 +9,7 @@ import Footer from "./components/Footer/Footer"
 import Carousel from "./components/Carousel/Carousel"
 
 const OPTIONS = {}
-const SLIDE_COUNT = 5
+const SLIDE_COUNT = 4
 const SLIDES = Array.from(Array(SLIDE_COUNT).keys())
 function App() {
 

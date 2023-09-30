@@ -6,7 +6,7 @@ import logo from "../../constants/logos"
 const NavBar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
   return (
-    <nav className="navbar app__bg">
+    <nav id="Hem" className="navbar app__bg">
          <div className="navbar-logo">
         <img src={logo.miyabitextredwhite} alt="Miyabi Logo" />
         
@@ -15,10 +15,10 @@ const NavBar = () => {
         </div>
       <ul className="navbar-links">
         <li className="p__opensans">
-          <a href="">Hem</a>
+          <a href="#Hem">Hem</a>
         </li>
         <li className="p__opensans">
-          <a href="">Meny</a>
+          <a href="#Meny">Meny</a>
         </li>
         <li className="p__opensans">
           <a href="">Kontakta Oss</a>
