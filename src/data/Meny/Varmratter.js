@@ -35,8 +35,28 @@ const Varmratter = [
   {
     title: "Bentolåda",
     description:
-      "Yakiniku, Yakitori (2 kycklingspett) och Sushi (2 rullar, 1 lax, 1 räka)",
+      "Yakiniku, Yakitori (2 kycklingspett) samt Sushi (2 rullar, 1 lax, 1 räka)",
     price: "149kr",
+    image: images.placeholderFood,
+  },
+  {
+    title: " Miyabi Bento",
+    description:
+      "Yakiniku, Yakitori, Tempura (2st friterade jätträkor) samt Sushi (1 lax, 1 räka, 1 )",
+    price: "165kr",
+    image: images.placeholderFood,
+  },
+  {
+    title: "Bento Deluxe",
+    description:
+      "Yakiniku, Yakitori, Tempura, Gyoza (2st) samt Sushi (1 lax, 1 räka, 1 tuna alt valfritt)",
+    price: "185kr",
+    image: images.placeholderFood,
+  },
+  {
+    title: "Bento Gyoza",
+    description: "Yakiniku, Yakitori och Gyoza (2st)",
+    price: "185kr",
     image: images.placeholderFood,
   },
   {
@@ -96,9 +116,9 @@ const Varmratter = [
     image: images.placeholderFood,
   },
   {
-    title: "Uddon",
-    description: "Nudelsoppa med Entrecote eller Vegetarisk eller Tempura",
-    price: "145kr",
+    title: "Karaage",
+    description: "Friterade kycklingbitar med ris samt sås",
+    price: "150kr",
     image: images.placeholderFood,
   },
   {
@@ -120,6 +140,12 @@ const Varmratter = [
     image: images.placeholderFood,
   },
   {
+    title: "Lax Teriyaki",
+    description: "Stekt Lax med wokade grönsaker, teriyakisås samt ris",
+    price: "150kr",
+    image: images.placeholderFood,
+  },
+  {
     title: "Vegetariska Vårrullar 7 bitar",
     description: "Serveras med ris sallad samt sås",
     price: "110kr",
@@ -133,4 +159,38 @@ const Varmratter = [
   },
 ];
 
-export default { Varmratter };
+const Soppor = [
+  {
+    title: "Uddon Entrecote",
+    description: "Nudelsoppa gjord på Risnudlar, grönsaker samt entrecote",
+    price: "145kr",
+    image: images.placeholderFood,
+  },
+  {
+    title: "Uddon Tempura",
+    description:
+      "Nudelsoppa gjord på Risnudlar grönsaker samt friterade grönsaker",
+    price: "145kr",
+    image: images.placeholderFood,
+  },
+  {
+    title: "Uddon Vegetarisk",
+    description: "Nudelsoppa gjord på Risnudlar samt grönsaker",
+    price: "145kr",
+    image: images.placeholderFood,
+  },
+  {
+    title: "Ramen Kyckling",
+    description: "Nudelsoppa gjord på äggnudlar, grönsaker och kokt ägg",
+    price: "145kr",
+    image: images.placeholderFood,
+  },
+  {
+    title: "Ramen Räka",
+    description: "Nudelsoppa gjord på äggnudlar, grönsaker och kokt ägg",
+    price: "145kr",
+    image: images.placeholderFood,
+  },
+];
+
+export default { Varmratter, Soppor };

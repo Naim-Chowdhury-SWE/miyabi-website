@@ -2,8 +2,8 @@ import Data from '../../../data/Meny/Varmratter';
 import './Varmratter.css';
 import Menu from "../Meny";
 
-const Sushi = () => {
+const Varmratter = () => {
   return <Menu menuData={Data} menuTitle="Varmrätter" />;
 };
 
-export default Sushi;
+export default Varmratter;

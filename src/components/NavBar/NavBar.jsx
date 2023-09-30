@@ -25,9 +25,9 @@ const NavBar = () => {
         </li>
       </ul>
       <div className="navbar-login">
-        <a href="https://app.fasterorder.se/menu/sv/37" className="p__opensans">Beställ Takeaway</a>
+        <a href="https://app.fasterorder.se/menu/sv/37" target="_blank" rel="noreferrer" className="p__opensans">Beställ Takeaway</a>
         <div />
-        <a href="https://wolt.com/sv/swe/stockholm/restaurant/miyabi" className="p__opensans">Hemleverans med Wolt</a>
+        <a href="https://wolt.com/sv/swe/stockholm/restaurant/miyabi" target="_blank" rel="noreferrer" className="p__opensans">Hemleverans med Wolt</a>
       </div>
 
       <div className="navbar-smallscreen">
@@ -41,10 +41,10 @@ const NavBar = () => {
               <a href="tel:+46763043985">Ring och Beställ</a>
               </li>
               <li className="p__opensans">
-                <a href="https://app.fasterorder.se/menu/sv/37">Beställ Takeaway via vår App</a>
+                <a href="https://app.fasterorder.se/menu/sv/37" target="_blank" rel="noreferrer">Beställ Takeaway via vår App</a>
               </li>
               <li className="p__opensans">
-                <a href="https://wolt.com/sv/swe/stockholm/restaurant/miyabi">Hemleverans med Wolt</a>
+                <a href="https://wolt.com/sv/swe/stockholm/restaurant/miyabi" target="_blank" rel="noreferrer">Hemleverans med Wolt</a>
               </li>
               <li className="p__opensans">
                 <a href="">Hem</a>

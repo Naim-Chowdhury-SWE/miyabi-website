@@ -112,19 +112,19 @@ const menuSushi = [
     title: "Lax Sushi 8 bitar",
     description: "Laxsushi",
     price: "120kr",
-    image: images.LaxSushi,
+    image: images.LaxSushi2,
   },
   {
     title: "Lax Sushi 10 bitar",
     description: "Laxsushi",
     price: "140kr",
-    image: images.LaxSushi,
+    image: images.LaxSushi2,
   },
   {
     title: "Lax Sushi 12 bitar",
     description: "Laxsushi",
     price: "160kr",
-    image: images.LaxSushi,
+    image: images.LaxSushi2,
   },
   {
     title: "Lax & Avocado Sushi 8 bitar",
