@@ -39,9 +39,21 @@
     }
   }
   @media screen and (max-width: 651px) {
+    .meny-meny {
+      justify-content: center;
+    }
+    .app__menuitem-head {
+      flex-direction: column;
+    }
+    .app__menuitem-dash{
+      width: 60%;
+    }
     
     .menu-title {
       flex-basis: 100%;
       max-width: 320px;
+    }
+    .p__opensans, .p__cormorant {
+      text-align: center;
     }
   }

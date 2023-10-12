@@ -7,9 +7,7 @@ import LaxSushi from "../assets/food/LaxSushi.webp";
 import LaxSushi2 from "../assets/food/LaxSushi2.webp";
 import GrillLaxSushi from "../assets/food/GrillLaxSushi.webp";
 
-import RamenRäka from "../assets/food/RamenRäka.webp";
-
-export const images = [RamenRäka, LaxSushi, LaxSushi2, GrillLaxSushi];
+export const images = [LaxSushi, LaxSushi2, GrillLaxSushi];
 
 const imageByIndex = (index) => images[index % images.length];
 
