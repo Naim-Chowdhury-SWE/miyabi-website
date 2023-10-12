@@ -5,13 +5,13 @@ const BarnMeny = [
     title: "Yakiniku",
     description: "Strimlad Entrecote, serveras med ris",
     price: "89kr",
-    image: images.placeholderFood,
+    image: images.BarnYakiniku,
   },
   {
     title: "Yakitori",
     description: "Kycklingspett med yakitorisås, serveras med ris",
     price: "89kr",
-    image: images.placeholderFood,
+    image: images.BarnYakitori,
   },
   {
     title: "Karaage",

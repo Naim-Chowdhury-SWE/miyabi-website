@@ -5,25 +5,25 @@ const Varmratter = [
     title: "Yakiniku Normal",
     description: "Strimlad Entrecote, serveras med ris",
     price: "123kr",
-    image: images.placeholderFood,
+    image: images.Yakiniku,
   },
   {
     title: "Yakiniku Stor",
     description: "Strimlad Entrecote, serveras med ris",
     price: "143kr",
-    image: images.placeholderFood,
+    image: images.Yakiniku,
   },
   {
     title: "Yakitori Normal",
-    description: "Kycklingspett med yakitorisås, serveras med ris",
+    description: "5st Kycklingspett med yakitorisås, serveras med ris",
     price: "123kr",
-    image: images.placeholderFood,
+    image: images.Yakitori,
   },
   {
     title: "Yakitori Stor",
-    description: "Kycklingspett med yakitorisås, serveras med ris",
+    description: "7st Kycklingspett med yakitorisås, serveras med ris",
     price: "143kr",
-    image: images.placeholderFood,
+    image: images.Yakitori,
   },
   {
     title: "Yakiniku + 5 bitar sushi",
@@ -64,14 +64,14 @@ const Varmratter = [
     description:
       "6 bitar blandfärsfyllda degknyten som serveras med ris och sås",
     price: "118kr",
-    image: images.placeholderFood,
+    image: images.Gyoza,
   },
   {
     title: "Gyoza 8 Bitar",
     description:
       "8 bitar blandfärsfyllda degknyten som serveras med ris och sås",
     price: "138kr",
-    image: images.placeholderFood,
+    image: images.Gyoza,
   },
   {
     title: "Vegetarisk Gyoza 6 Bitar",
@@ -189,7 +189,7 @@ const Soppor = [
     title: "Ramen Räka",
     description: "Nudelsoppa gjord på äggnudlar, grönsaker och kokt ägg",
     price: "145kr",
-    image: images.placeholderFood,
+    image: images.RamenRäka,
   },
 ];
 

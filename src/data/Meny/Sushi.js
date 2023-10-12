@@ -202,19 +202,19 @@ const menuSushi = [
     title: "Grillad Lax med chilimajo 8 bitar",
     description: "Grillad laxsushi som toppas med chilimajonäs",
     price: "135kr",
-    image: images.placeholderNigiri,
+    image: images.GrillLaxSushi,
   },
   {
     title: "Grillad Lax med chilimajo 10 bitar",
     description: "Grillad laxsushi som toppas med chilimajonäs",
     price: "155kr",
-    image: images.placeholderNigiri,
+    image: images.GrillLaxSushi,
   },
   {
     title: "Grillad Lax med chilimajo 12 bitar",
     description: "Grillad laxsushi som toppas med chilimajonäs",
     price: "175kr",
-    image: images.placeholderNigiri,
+    image: images.GrillLaxSushi,
   },
 ];
 
