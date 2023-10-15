@@ -10,6 +10,10 @@ import GrillLaxSushi from "../assets/food/GrillLaxSushi.webp";
 import Yakitori from "../assets/food/Yakitori.webp";
 import Yakiniku from "../assets/food/Yakiniku.webp";
 import Gyoza from "../assets/food/Gyoza.webp";
+import WokadKyckling from "../assets/food/WokadKyckling.webp";
+import WokadRäkor from "../assets/food/WokadRäkor.webp";
+import WokadKycklingStark from "../assets/food/WokadKycklingStark.webp";
+import WokadRäkorStark from "../assets/food/WokadRäkorStark.webp";
 
 import BarnYakiniku from "../assets/food/BarnYakiniku.webp";
 import BarnYakitori from "../assets/food/BarnYakitori.webp";
@@ -27,6 +31,10 @@ export default {
   Yakiniku,
   Yakitori,
   Gyoza,
+  WokadKyckling,
+  WokadRäkor,
+  WokadKycklingStark,
+  WokadRäkorStark,
   BarnYakiniku,
   BarnYakitori,
   RamenRäka,

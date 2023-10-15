@@ -47,13 +47,13 @@ const SpecialMeny = [
     title: "Wokad kyckling (stark)",
     description: "Stark smak ris/nudlar (cashew + 5kr)",
     price: "150 kr",
-    image: images.placeholderFood,
+    image: images.WokadKycklingStark,
   },
   {
     title: "Wokade räkor (stark)",
     description: "Stark smak ris/nudlar (cashew + 5kr)",
     price: "150 kr",
-    image: images.placeholderFood,
+    image: images.WokadRäkorStark,
   },
   {
     title: "Wokade räkor + kyckling (stark)",
@@ -69,16 +69,16 @@ const SpecialMeny = [
   },
   {
     title: "Pad Thai Kyckling",
-    description: "150 kr",
-    price: "Serveras med ris",
+    description: "Wokade Risnudlar med Kyckling, Grönsaker och Sallad",
+    price: "150 kr",
     image: images.placeholderFood,
   },
   {
     title: "Pad Thai Räkor",
-    description: "150 kr",
-    price: "Serveras med ris",
+    description: "Wokade Risnudlar med Räkor, Grönsaker och Sallad",
+    price: "150 kr",
     image: images.placeholderFood,
   },
 ];
 
-export default SpecialMeny;
+export default { SpecialMeny };

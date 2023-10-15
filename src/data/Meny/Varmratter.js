@@ -95,13 +95,13 @@ const Varmratter = [
     title: "Wokade räkor med grönsaker",
     description: "Serveras med ris eller nudlar",
     price: "149kr",
-    image: images.placeholderFood,
+    image: images.WokadRäkor,
   },
   {
     title: "Wokad kyckling med grönsaker",
     description: "Serveras med ris eller nudlar",
     price: "145kr",
-    image: images.placeholderFood,
+    image: images.WokadKyckling,
   },
   {
     title: "Wokad biff med grönsaker",
