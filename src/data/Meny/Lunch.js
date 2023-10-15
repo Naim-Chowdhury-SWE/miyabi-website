@@ -49,13 +49,13 @@ const lunchMeny2 = [
     title: "Yakiniku",
     description: "Strimlad entrecôte med ris och teriyakisås",
     price: "123kr",
-    image: images.placeholderPhoto,
+    image: images.Yakiniku,
   },
   {
     title: "Yakitori",
     description: "Kycklingspett med ris och teriyakisås",
     price: "123kr",
-    image: images.placeholderPhoto,
+    image: images.Yakitori,
   },
   {
     title: "Pokébowl",
