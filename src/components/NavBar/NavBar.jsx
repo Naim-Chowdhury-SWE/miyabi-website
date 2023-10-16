@@ -9,9 +9,6 @@ const NavBar = () => {
     <nav id="Hem" className="navbar app__bg">
          <div className="navbar-logo">
         <img src={logo.miyabitextredwhite} alt="Miyabi Logo" />
-        
-        {/* <a className="p__opensans" href="tel:+46763043985">Tel: 076-304 39 85</a>
-        <a className="p__opensans" href="https://maps.app.goo.gl/jVynK1HvdsJKrXAx5" target="_blank" rel="noreferrer">Address: Kyrkvägen, Hersbyholms Stationshus, Lidingö</a> */}
         </div>
       <ul className="navbar-links">
         <li className="p__opensans">
