@@ -14,9 +14,6 @@ const OPTIONS = {}
 const SLIDE_COUNT = 4
 const SLIDES = Array.from(Array(SLIDE_COUNT).keys())
 function App() {
-
-
-
   return (
       <div>
       <NavBar />

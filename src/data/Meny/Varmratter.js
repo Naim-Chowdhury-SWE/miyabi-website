@@ -1,6 +1,6 @@
 import images from "../../constants/images";
 
-const Varmratter = [
+const VarmratterMeny = [
   {
     title: "Yakiniku Normal",
     description: "Strimlad Entrecote, serveras med ris",
@@ -193,4 +193,4 @@ const Soppor = [
   },
 ];
 
-export default { Varmratter, Soppor };
+export default { VarmratterMeny, Soppor };

@@ -1,6 +1,6 @@
 import images from "../../constants/images";
 
-const Norimaki1 = [
+const NorimakiMeny1 = [
   {
     title: "California roll 10 bitar",
     description:
@@ -127,7 +127,7 @@ const Norimaki1 = [
   },
 ];
 
-const Norimaki2 = [
+const NorimakiMeny2 = [
   {
     title: "Tempura Roll Special",
     description:
@@ -185,4 +185,4 @@ const Norimaki2 = [
   },
 ];
 
-export default { Norimaki1, Norimaki2 };
+export default { NorimakiMeny1, NorimakiMeny2 };
