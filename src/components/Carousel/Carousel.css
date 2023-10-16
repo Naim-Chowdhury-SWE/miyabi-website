@@ -39,6 +39,9 @@
     background-color: var(--background-code);
   }
   @media (max-width: 749px) {
+    .embla {
+      --slide-height: 10rem;
+    }
     .sandbox__carousel {
       border-top: 0.1rem solid var(--detail-low-contrast);
       border-bottom: 0.1rem solid var(--detail-low-contrast);

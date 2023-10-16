@@ -4,7 +4,7 @@ import "./Lunch.css";
 
 const Lunch = () => {
     return (
-        <div className="lunchMeny app__bg flex__center section__padding" id="lunchmeny">
+        <div className="lunchMeny app__bg flex__center section__padding" id="Meny">
             <div className="lunchMeny-title">
                 <h1 className="headtext__cormorant">Lunch Meny</h1>
             </div>

@@ -19,10 +19,23 @@
 .info p {
     margin: 0.4em 0;
 }
-.derp {
-    margin: 5% 0;
+.bottom {
     text-align: center;
-    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5%;
+   
+}
+
+.bottom a {
+    margin: 2% 3rem;
+    text-decoration: none;
+    transition: 0.5 ease;
+    color: var(--color-golden);
+}
+.bottom a:hover {
+    border-bottom: solid 1px var(--color-golden);
 }
 
 @media screen and (max-width: 1150px) {

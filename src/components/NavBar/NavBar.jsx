@@ -18,7 +18,7 @@ const NavBar = () => {
           <a href="#Meny">Meny</a>
         </li>
         <li className="p__opensans">
-          <a href="">Kontakta Oss</a>
+          <a href="#Contact">Kontakta Oss</a>
         </li>
       </ul>
       <div className="navbar-login">
@@ -43,14 +43,14 @@ const NavBar = () => {
               <li className="p__opensans">
                 <a href="https://wolt.com/sv/swe/stockholm/restaurant/miyabi" target="_blank" rel="noreferrer">Hemleverans med Wolt</a>
               </li>
-              <li className="p__opensans">
-                <a href="">Hem</a>
+              <li className="p__opensans" onClick={() => setToggleMenu(false)}>
+                <a href="#Hem">Hem</a>
               </li>
-              <li className="p__opensans">
-                <a href="">Meny</a>
+              <li className="p__opensans" onClick={() => setToggleMenu(false)}>
+                <a href="#Meny">Meny</a>
               </li>
-              <li className="p__opensans">
-                <a href="">Kontakta Oss</a>
+              <li className="p__opensans" onClick={() => setToggleMenu(false)}>
+                <a href="#Contact">Kontakta Oss</a>
               </li>
             </ul>
           </div>

@@ -7,7 +7,7 @@ import "./Footer.css"
 const Footer = () => {
   const currentYear = new Date().getFullYear();
   return (
-    <footer className="app__bg section__padding">
+    <footer className="app__bg section__padding" id="Contact">
       <div className="footer-logo">
       <img src={logo.logo3} alt="Miyabi Logo" />
       </div>
@@ -39,8 +39,11 @@ const Footer = () => {
         </section>
       </div>
         
-      <p className="p__opensans derp">OBS! Sista Beställning tas kl 20:30</p>
-      <p className="p__opensans" style={{textAlign: "center"}}>{currentYear} &copy; Miabi AB</p>
+      <section className="p__opensans bottom">
+        <p>OBS! Sista Beställning tas kl 20:30</p>
+        <a href="#Hem">Till Toppen</a>
+        <p>{currentYear} &copy; Miabi AB</p>
+      </section>
       
     </footer>
   )
