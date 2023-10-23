@@ -16,7 +16,7 @@ const MenuNavbar = () => {
           <a href="#NorimakiMeny">Norimaki</a>
         </li>
         <li>
-          <a href="#VarmratterMeny">Varmratter</a>
+          <a href="#VarmratterMeny">Varmrätter</a>
         </li>
         <li>
           <a href="#SpecialMeny">Special</a>
