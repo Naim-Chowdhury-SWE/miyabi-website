@@ -1,10 +1,8 @@
-/* MenuNavbar.css */
 .menu-navbar {
     position: sticky;
     top: 0;
-    /* background-color: #333;  */
     z-index: 1000;
-    padding: 1em;
+    padding: 1em 0;
   }
   
   .menu-navbar ul {
@@ -17,3 +15,9 @@
     color: #DCCA87; 
   }
   
+  @media screen and (max-width: 650px) {
+    .menu-navbar ul {
+      font-size: 18px;
+    }
+    
+  }

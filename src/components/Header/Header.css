@@ -1,3 +1,7 @@
+header {
+    height: 40vh;
+}
+
 .header {
     display: flex;
     flex-direction: column;
@@ -6,6 +10,7 @@
     margin: 0 30em;
     text-align: center;
 }
+
 
 .header:hover {
     background: rgba(190, 0, 0, 0.9);

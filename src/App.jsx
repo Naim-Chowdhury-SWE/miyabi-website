@@ -1,4 +1,5 @@
 import NavBar from "./components/NavBar/NavBar";
+import MenyNavbar from "./components/NavBar/MenyNavbar";
 import LunchMeny from "./components/Meny/Lunch/Lunch";
 import SushiMeny from "./components/Meny/Sushi/Sushi";
 import NorimakiMeny from "./components/Meny/Norimaki/Norimaki";
@@ -24,12 +25,15 @@ function App() {
         </section>
       </div>
       <Header />
-      <LunchMeny />
-      <SushiMeny />
-      <NorimakiMeny />
-      <Varmratter />
-      <Special />
-      <BarnMeny />
+      <main>
+        <MenyNavbar />
+        <LunchMeny />
+        <SushiMeny />
+        <NorimakiMeny />
+        <Varmratter />
+        <Special />
+        <BarnMeny />
+      </main>
       <Footer />
     </div>
   );
