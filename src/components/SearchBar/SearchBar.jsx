@@ -1,6 +1,8 @@
-import { useState } from 'react';
-import "./SearchBar.css"
-import PropTypes from 'prop-types';
+/* SearchBar.jsx */
+
+import { useState } from "react";
+import "./SearchBar.css";
+import PropTypes from "prop-types";
 
 const SearchBar = ({ onSearch }) => {
   const [query, setQuery] = useState("");
@@ -10,7 +12,6 @@ const SearchBar = ({ onSearch }) => {
     setQuery(newQuery);
     onSearch(newQuery);
   };
-
 
   return (
     <div className="search-bar">

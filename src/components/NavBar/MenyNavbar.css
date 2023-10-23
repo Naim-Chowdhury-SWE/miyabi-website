@@ -1,0 +1,19 @@
+/* MenuNavbar.css */
+.menu-navbar {
+    position: sticky;
+    top: 0;
+    /* background-color: #333;  */
+    z-index: 1000;
+    padding: 1em;
+  }
+  
+  .menu-navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .menu-navbar a:hover {
+    color: #DCCA87; 
+  }
+  
