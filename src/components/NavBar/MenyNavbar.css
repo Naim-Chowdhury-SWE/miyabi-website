@@ -12,7 +12,11 @@
 }
 
 .menu-navbar a:hover {
-  color: #DCCA87; 
+  border-bottom: 1px solid #DCCA87; 
+}
+.menu-navbar a.active {
+  color: #DCCA87;
+  border-bottom: 1px solid #DCCA87;
 }
 
 @media screen and (max-width: 650px) {

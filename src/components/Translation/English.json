@@ -1,0 +1,58 @@
+{
+    "lunchMeny1": [
+      {
+        "title": "Monday",
+        "description": "Stir-fried rice noodles with entrecote and vegetables",
+        "price": "125 SEK"
+      },
+      {
+        "title": "Tuesday",
+        "description": "Stir-fried chicken with rice and vegetables",
+        "price": "125 SEK"
+      },
+      {
+        "title": "Wednesday",
+        "description": "Stir-fried glass noodles with chicken and vegetables",
+        "price": "125 SEK"
+      },
+      {
+        "title": "Thursday",
+        "description": "Yakisoba (Stir-fried egg noodles with entrecote)",
+        "price": "125 SEK"
+      },
+      {
+        "title": "Friday",
+        "description": "Chicken Karage (Fried chicken with rice and sauce)",
+        "price": "125 SEK"
+      }
+    ],
+    "lunchMeny2": [
+      {
+        "title": "Assorted Sushi 9/11/13 pieces",
+        "description": "Assorted sushi with salmon, rolls, shrimp, and avocado",
+        "price": "108/128/149 SEK"
+      },
+      {
+        "title": "Bibimbap",
+        "description": "With entrecote, chicken, shrimp, or raw salmon",
+        "price": "139 SEK"
+      },
+      {
+        "title": "Yakiniku",
+        "description": "Sliced entrecote with rice and teriyaki sauce",
+        "price": "123 SEK"
+      },
+      {
+        "title": "Yakitori",
+        "description": "Chicken skewer with rice and teriyaki sauce",
+        "price": "123 SEK"
+      },
+      {
+        "title": "Pokébowl",
+        "description": "With Salmon, Tuna, Chicken, or Tofu",
+        "price": "139 SEK"
+      }
+    ]
+  }
+
+  

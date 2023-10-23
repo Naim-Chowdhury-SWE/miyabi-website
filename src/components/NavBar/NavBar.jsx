@@ -1,5 +1,6 @@
 import { useState } from "react";
 import "./NavBar.css";
+import ScrollLink from "../ScrollLink/ScrollLink";
 
 import logo from "../../constants/logos";
 
@@ -11,14 +12,14 @@ const NavBar = () => {
         <img src={logo.miyabitextredwhite} alt="Miyabi Logo" />
       </div>
       <ul className="navbar-links">
+        {/* <li className="p__opensans">
+          <ScrollLink targetId="Hem">Hem</ScrollLink>
+        </li> */}
         <li className="p__opensans">
-          <a href="#Hem">Hem</a>
+          <ScrollLink targetId="LunchMeny">Meny</ScrollLink>
         </li>
         <li className="p__opensans">
-          <a href="#Meny">Meny</a>
-        </li>
-        <li className="p__opensans">
-          <a href="#Contact">Kontakta Oss</a>
+          <ScrollLink targetId="Contact">Kontakta Oss</ScrollLink>
         </li>
       </ul>
       <div className="navbar-login">
@@ -80,13 +81,13 @@ const NavBar = () => {
                 </a>
               </li>
               <li className="p__opensans" onClick={() => setToggleMenu(false)}>
-                <a href="#Hem">Hem</a>
+                <ScrollLink targetId="Hem">Hem</ScrollLink>
               </li>
               <li className="p__opensans" onClick={() => setToggleMenu(false)}>
-                <a href="#SushiMeny">Meny</a>
+                <ScrollLink targetId="LunchMeny">Meny</ScrollLink>
               </li>
               <li className="p__opensans" onClick={() => setToggleMenu(false)}>
-                <a href="#Contact">Kontakta Oss</a>
+                <ScrollLink targetId="Contact">Kontakta Oss</ScrollLink>
               </li>
             </ul>
           </div>

@@ -1,6 +1,7 @@
 import { FaLocationDot } from "react-icons/fa6";
 import { BsTelephoneFill } from "react-icons/bs";
 import logo from "../../constants/logos";
+import ScrollLink from "../ScrollLink/ScrollLink";
 
 import "./Footer.css";
 
@@ -54,7 +55,9 @@ const Footer = () => {
         <p>
           OBS! Sista Beställning tas kl <time>20:30</time>
         </p>
-        <a href="#Hem">Till Toppen</a>
+        <ScrollLink targetId="Hem">
+          <a href="#Hem">Till Toppen</a>
+        </ScrollLink>
         <p>{currentYear} &copy; Miabi AB</p>
       </section>
     </footer>
