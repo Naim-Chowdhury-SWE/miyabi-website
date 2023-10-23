@@ -1,23 +1,23 @@
 .menu-navbar {
-    position: sticky;
-    top: 0;
-    z-index: 1000;
-    padding: 1em 0;
-  }
-  
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  padding: 1em 0;
+}
+
+.menu-navbar ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+.menu-navbar a:hover {
+  color: #DCCA87; 
+}
+
+@media screen and (max-width: 650px) {
   .menu-navbar ul {
-    list-style: none;
-    display: flex;
-    justify-content: space-around;
+    font-size: 18px;
   }
   
-  .menu-navbar a:hover {
-    color: #DCCA87; 
-  }
-  
-  @media screen and (max-width: 650px) {
-    .menu-navbar ul {
-      font-size: 18px;
-    }
-    
-  }
+}

@@ -32,7 +32,6 @@ const Meny = ({ menuData, menuTitle, id }) => {
 
       {Object.keys(filteredMenu).map((category) => (
         <div key={category} className="category-wrapper">
-          {/* <h2>{category}</h2> */}
           <div className="meny-meny">
             {filteredMenu[category].map((item, index) => (
               <div key={index} className="menu-title">
@@ -54,7 +53,6 @@ const Meny = ({ menuData, menuTitle, id }) => {
 Meny.propTypes = {
   menuData: PropTypes.string.isRequired,
   menuTitle: PropTypes.string.isRequired,
-  id: PropTypes.string.isRequired,
 };
 
 export default Meny;
