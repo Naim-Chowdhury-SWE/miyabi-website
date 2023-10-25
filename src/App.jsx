@@ -3,6 +3,7 @@ import MenyNavbar from "./components/NavBar/MenyNavbar";
 import LunchMeny from "./components/Meny/Lunch/Lunch";
 import SushiMeny from "./components/Meny/Sushi/Sushi";
 import NorimakiMeny from "./components/Meny/Norimaki/Norimaki";
+import SashimiMeny from "./components/Meny/Sashimi/Sashimi";
 import Varmratter from "./components/Meny/Varmratter/Varmratter";
 import Special from "./components/Meny/Special/Special";
 import BarnMeny from "./components/Meny/Barn/Barn";
@@ -30,6 +31,7 @@ function App() {
         <LunchMeny />
         <SushiMeny />
         <NorimakiMeny />
+        <SashimiMeny />
         <Varmratter />
         <Special />
         <BarnMeny />

@@ -10,6 +10,7 @@ const MenuNavbar = () => {
     LunchMeny: "Lunch",
     SushiMeny: "Sushi",
     NorimakiMeny: "Norimaki",
+    SashimiMeny: "Sashimi",
     VarmratterMeny: "Varmrätter",
     SpecialMeny: "Special",
     BarnMeny: "Barn",
@@ -55,7 +56,7 @@ const MenuNavbar = () => {
   return (
     <nav className="menu-navbar app__bg">
       <ul className="p__cormorant">{menuItems}</ul>
-      <div></div>
+      <div />
     </nav>
   );
 };
