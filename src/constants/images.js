@@ -3,6 +3,8 @@ import placeholderMaki from "../assets/food/maki.jpg";
 import placeholderNigiri from "../assets/food/nigiri.jpg";
 import placeholderFood from "../assets/food/food.svg";
 
+/* -----Sushi Meny----- */
+
 import BlandadSushi from "../assets/food/BlandadSushi.webp";
 import LaxSushi from "../assets/food/LaxSushi.webp";
 import LaxSushi2 from "../assets/food/LaxSushi2.webp";
@@ -11,8 +13,17 @@ import GrillLaxSushi from "../assets/food/GrillLaxSushi.webp";
 import LaxAvocadoSushi from "../assets/food/LaxAvocadoSushi.webp";
 import AvocadoSushi from "../assets/food/AvocadoSushi.webp";
 
+/* -----FamilySushi----- */
+
 import FamiljeSushiSmall from "../assets/food/FamiljeSushi30.webp";
 import FamiljeSushiMedium from "../assets/food/FamiljeSushi40.webp";
+
+/* -----Norimaki Meny----- */
+
+import StandardRoll from "../assets/food/StandardRoll.webp";
+import CaliforniaRoll from "../assets/food/CaliforniaRoll.webp";
+
+/* -----Varmrätter----- */
 
 import Yakitori from "../assets/food/Yakitori.webp";
 import Yakiniku from "../assets/food/Yakiniku.webp";
@@ -41,6 +52,8 @@ export default {
   AvocadoSushi,
   FamiljeSushiSmall,
   FamiljeSushiMedium,
+  StandardRoll,
+  CaliforniaRoll,
   Yakiniku,
   Yakitori,
   Gyoza,

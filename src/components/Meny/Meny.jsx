@@ -7,19 +7,29 @@ import "./Meny.css";
 
 const Meny = ({ menuData, menuTitle, id }) => {
   const [filteredMenu, setFilteredMenu] = useState(menuData);
+  const [originalMenu] = useState(menuData);
 
   const handleSearch = (query) => {
-    const filteredItems = Object.keys(menuData).reduce((result, category) => {
-      const filteredCategory = menuData[category].filter((item) =>
-        item.title.toLowerCase().includes(query.toLowerCase())
+    if (query === "") {
+      setFilteredMenu(originalMenu);
+    } else {
+      const filteredItems = Object.keys(originalMenu).reduce(
+        (result, category) => {
+          const filteredCategory = originalMenu[category].filter(
+            (item) =>
+              item.title.toLowerCase().includes(query.toLowerCase()) ||
+              item.description.toLowerCase().includes(query.toLowerCase())
+          );
+          if (filteredCategory.length > 0) {
+            result[category] = filteredCategory;
+          }
+          return result;
+        },
+        {}
       );
-      if (filteredCategory.length > 0) {
-        result[category] = filteredCategory;
-      }
-      return result;
-    }, {});
 
-    setFilteredMenu(filteredItems);
+      setFilteredMenu(filteredItems);
+    }
   };
 
   return (
@@ -53,6 +63,7 @@ const Meny = ({ menuData, menuTitle, id }) => {
 Meny.propTypes = {
   menuData: PropTypes.string.isRequired,
   menuTitle: PropTypes.string.isRequired,
+  id: PropTypes.string.isRequired,
 };
 
 export default Meny;
