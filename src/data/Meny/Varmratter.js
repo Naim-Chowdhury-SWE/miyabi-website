@@ -15,13 +15,13 @@ const VarmratterMeny = [
   },
   {
     title: "Yakitori Normal",
-    description: "5st Kycklingspett med yakitorisås, serveras med ris",
+    description: "5 st Kycklingspett med yakitorisås, serveras med ris",
     price: "123kr",
     image: images.Yakitori,
   },
   {
     title: "Yakitori Stor",
-    description: "7st Kycklingspett med yakitorisås, serveras med ris",
+    description: "7 st Kycklingspett med yakitorisås, serveras med ris",
     price: "143kr",
     image: images.Yakitori,
   },
@@ -37,27 +37,27 @@ const VarmratterMeny = [
     description:
       "Yakiniku, Yakitori (2 kycklingspett) samt Sushi (2 rullar, 1 lax, 1 räka)",
     price: "149kr",
-    image: images.placeholderFood,
+    image: images.Bento,
   },
   {
     title: " Miyabi Bento",
     description:
       "Yakiniku, Yakitori, Tempura (2st friterade jätträkor) samt Sushi (1 lax, 1 räka, 1 )",
     price: "165kr",
-    image: images.placeholderFood,
+    image: images.BentoMiyabi,
   },
   {
     title: "Bento Deluxe",
     description:
       "Yakiniku, Yakitori, Tempura, Gyoza (2st) samt Sushi (1 lax, 1 räka, 1 tuna alt valfritt)",
     price: "185kr",
-    image: images.placeholderFood,
+    image: images.BentoDeluxe,
   },
   {
     title: "Bento Gyoza",
     description: "Yakiniku, Yakitori och Gyoza (2st)",
     price: "185kr",
-    image: images.placeholderFood,
+    image: images.BentoGyoza,
   },
   {
     title: "Gyoza 6 Bitar",
