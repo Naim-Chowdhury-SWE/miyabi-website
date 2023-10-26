@@ -1,4 +1,6 @@
-
+footer {
+    padding: 1rem 4rem;
+}
 .footer-logo {
     display: flex;
     justify-content: center;

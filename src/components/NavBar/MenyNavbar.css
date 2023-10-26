@@ -19,9 +19,14 @@
   border-bottom: 1px solid #DCCA87;
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 768px) {
   .menu-navbar ul {
-    font-size: 18px;
+    font-size: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .menu-navbar li {
+    margin: 0 1em;
   }
   
 }
