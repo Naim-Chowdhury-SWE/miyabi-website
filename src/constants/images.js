@@ -1,6 +1,7 @@
 import placeholderPhoto from "../assets/food/sushi.svg";
 import placeholderMaki from "../assets/food/maki.jpg";
 import placeholderNigiri from "../assets/food/nigiri.jpg";
+import placeholderSashimi from "../assets/food/sashimi.jpg";
 import placeholderFood from "../assets/food/food.svg";
 
 /* -----Sushi Meny----- */
@@ -27,6 +28,11 @@ import CaliforniaRoll from "../assets/food/CaliforniaRoll.webp";
 
 import Yakitori from "../assets/food/Yakitori.webp";
 import Yakiniku from "../assets/food/Yakiniku.webp";
+
+import Bento from "../assets/food/Bento.webp";
+import BentoMiyabi from "../assets/food/BentoMiyabi.webp";
+import BentoDeluxe from "../assets/food/BentoDeluxe.webp";
+import BentoGyoza from "../assets/food/BentoGyoza.webp";
 import Gyoza from "../assets/food/Gyoza.webp";
 import WokadKyckling from "../assets/food/WokadKyckling.webp";
 import WokadRäkor from "../assets/food/WokadRäkor.webp";
@@ -42,6 +48,7 @@ export default {
   placeholderPhoto,
   placeholderMaki,
   placeholderNigiri,
+  placeholderSashimi,
   placeholderFood,
   BlandadSushi,
   LaxSushi,
@@ -56,6 +63,10 @@ export default {
   CaliforniaRoll,
   Yakiniku,
   Yakitori,
+  Bento,
+  BentoMiyabi,
+  BentoDeluxe,
+  BentoGyoza,
   Gyoza,
   WokadKyckling,
   WokadRäkor,
