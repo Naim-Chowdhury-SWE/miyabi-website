@@ -2,13 +2,17 @@
   position: sticky;
   top: 0;
   z-index: 400;
-  padding: 1em 0;
+  padding: auto 0;
 }
 
 .menu-navbar ul {
   list-style: none;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+}
+
+.menu-navbar ul li {
+  margin: 0 2em;
 }
 
 .menu-navbar a:hover {
@@ -18,14 +22,21 @@
   color: #DCCA87;
   border-bottom: 1px solid #DCCA87;
 }
-
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1200px) {
   .menu-navbar ul {
-    font-size: 20px;
     flex-wrap: wrap;
     justify-content: center;
   }
-  .menu-navbar li {
+
+  .menu-navbar ul li {
+    margin: 0 auto;
+  }
+}
+@media screen and (max-width: 768px) {
+  .menu-navbar ul {
+    font-size: 16px;
+  }
+  .menu-navbar ul li {
     margin: 0 1em;
   }
   

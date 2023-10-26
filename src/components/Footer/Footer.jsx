@@ -8,7 +8,7 @@ import "./Footer.css";
 const Footer = () => {
   const currentYear = new Date().getFullYear();
   return (
-    <footer className="app__bg" id="Contact">
+    <footer className="app__bg section__padding" id="Contact">
       <div className="footer-logo">
         <img src={logo.logo3} alt="Miyabi Logo" />
       </div>
