@@ -33,16 +33,24 @@ import Bento from "../assets/food/Bento.webp";
 import BentoMiyabi from "../assets/food/BentoMiyabi.webp";
 import BentoDeluxe from "../assets/food/BentoDeluxe.webp";
 import BentoGyoza from "../assets/food/BentoGyoza.webp";
+
 import Gyoza from "../assets/food/Gyoza.webp";
 import WokadKyckling from "../assets/food/WokadKyckling.webp";
 import WokadRäkor from "../assets/food/WokadRäkor.webp";
 import WokadKycklingStark from "../assets/food/WokadKycklingStark.webp";
 import WokadRäkorStark from "../assets/food/WokadRäkorStark.webp";
 
-import BarnYakiniku from "../assets/food/BarnYakiniku.webp";
-import BarnYakitori from "../assets/food/BarnYakitori.webp";
+import UdonEntrecote from "../assets/food/UdonEntrecote.webp";
+import UdonVegetarisk from "../assets/food/UdonVegetarisk.webp";
+import UdonTempura from "../assets/food/UdonTempura.webp";
+import UdonGyoza from "../assets/food/UdonGyoza.webp";
 
 import RamenRäka from "../assets/food/RamenRäka.webp";
+
+/* -----Barn Meny----- */
+
+import BarnYakiniku from "../assets/food/BarnYakiniku.webp";
+import BarnYakitori from "../assets/food/BarnYakitori.webp";
 
 export default {
   placeholderPhoto,
@@ -72,6 +80,10 @@ export default {
   WokadRäkor,
   WokadKycklingStark,
   WokadRäkorStark,
+  UdonEntrecote,
+  UdonVegetarisk,
+  UdonTempura,
+  UdonGyoza,
   BarnYakiniku,
   BarnYakitori,
   RamenRäka,

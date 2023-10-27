@@ -164,20 +164,27 @@ const Soppor = [
     title: "Uddon Entrecote",
     description: "Nudelsoppa gjord på Risnudlar, grönsaker samt entrecote",
     price: "145kr",
-    image: images.placeholderFood,
+    image: images.UdonEntrecote,
   },
   {
     title: "Uddon Tempura",
     description:
       "Nudelsoppa gjord på Risnudlar grönsaker samt friterade grönsaker",
     price: "145kr",
-    image: images.placeholderFood,
+    image: images.UdonTempura,
   },
   {
     title: "Uddon Vegetarisk",
     description: "Nudelsoppa gjord på Risnudlar samt grönsaker",
     price: "145kr",
-    image: images.placeholderFood,
+    image: images.UdonVegetarisk,
+  },
+  {
+    title: "Uddon Gyoza",
+    description:
+      "Nudelsoppa gjord på Risnudlar, grönsaker samt Gyoza (Kött eller Veg)",
+    price: "145kr",
+    image: images.UdonGyoza,
   },
   {
     title: "Ramen Kyckling",
