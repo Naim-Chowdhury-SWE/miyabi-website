@@ -34,6 +34,13 @@ const MenuNavbar = () => {
     }
 
     setActiveSection(active);
+    const menuNavbar = document.querySelector(".menu-navbar");
+
+    if (scrollY < 1000) {
+      menuNavbar.classList.add("hidden");
+    } else {
+      menuNavbar.classList.remove("hidden");
+    }
   };
 
   useEffect(() => {
@@ -54,9 +61,8 @@ const MenuNavbar = () => {
   ));
 
   return (
-    <nav className="menu-navbar app__bg">
+    <nav className={`menu-navbar ${scrollY > 100 ? "hidden" : ""}`}>
       <ul className="p__cormorant">{menuItems}</ul>
-      <div />
     </nav>
   );
 };

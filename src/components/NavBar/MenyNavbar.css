@@ -2,15 +2,26 @@
   position: sticky;
   top: 0;
   z-index: 400;
-  padding: auto 0;
-  border: 1px solid var(--color-golden);
+  display: flex;
+  justify-content: center;
+
 }
 
 .menu-navbar ul {
   list-style: none;
   display: flex;
   justify-content: center;
-  margin: 0.2em 0;
+  border: 1px solid var(--color-golden);
+  border-radius: 25px;
+  padding: 0.2em 0;
+  margin-top: 1em;
+  background: #000;
+}
+
+.menu-navbar.hidden {
+  background: url("../../assets/bg.webp");
+  background-size: cover;
+  background-position: 20% 20%;
 }
 
 .menu-navbar ul li {
@@ -27,15 +38,17 @@
   .menu-navbar ul {
     flex-wrap: wrap;
     justify-content: center;
+    margin: 1em 2em;
   }
 
   .menu-navbar ul li {
-    margin: 0 auto;
+    margin: 0 1em;
   }
 }
 @media screen and (max-width: 768px) {
   .menu-navbar ul {
     font-size: 16px;
+    
   }
   .menu-navbar ul li {
     margin: 0 1em;
