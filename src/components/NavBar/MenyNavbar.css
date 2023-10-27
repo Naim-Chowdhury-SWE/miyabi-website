@@ -3,12 +3,14 @@
   top: 0;
   z-index: 400;
   padding: auto 0;
+  border: 1px solid var(--color-golden);
 }
 
 .menu-navbar ul {
   list-style: none;
   display: flex;
   justify-content: center;
+  margin: 0.2em 0;
 }
 
 .menu-navbar ul li {
@@ -16,11 +18,10 @@
 }
 
 .menu-navbar a:hover {
-  border-bottom: 1px solid #DCCA87; 
+  border-bottom: 1px solid var(--color-golden); 
 }
 .menu-navbar a.active {
-  color: #DCCA87;
-  border-bottom: 1px solid #DCCA87;
+  color: var(--color-golden);
 }
 @media screen and (max-width: 1200px) {
   .menu-navbar ul {
