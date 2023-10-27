@@ -3,8 +3,8 @@
     justify-content: center;
 }
 .footer-logo img {
-    height: 30vh;
-    margin-bottom: 3rem;
+    height: 20vh;
+    margin: 3rem 0;
 }
 
 
@@ -12,11 +12,17 @@
     display: flex;
     justify-content: space-between;
     font-size: 1.2rem;
-    margin: 0 2em;
+    margin: 5em 2em;
 }
 
 .info p {
     margin: 0.4em 0;
+}
+
+address, .opentimes {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
 .bottom {
     text-align: center;
@@ -41,11 +47,13 @@
 
 @media screen and (max-width: 1150px) {
     .footer-logo img {
-        height: 15vh
+        height: 15vh;
+        margin-top: 20em;
     }
     .info {
         font-size: 0.8rem;
     }
+    
 }
 
 @media screen and (max-width: 1150px) {

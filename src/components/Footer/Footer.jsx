@@ -38,7 +38,7 @@ const Footer = () => {
           </div>
         </address>
 
-        <section>
+        <section className="opentimes">
           <p>Öppettider</p>
           <p>Måndag-Lördag</p>
           <p>
