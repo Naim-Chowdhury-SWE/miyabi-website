@@ -36,13 +36,50 @@ const MenuNavbar = () => {
     setActiveSection(active);
     const menuNavbar = document.querySelector(".menu-navbar");
 
-    if (scrollY < 1000) {
-      menuNavbar.classList.add("hidden");
-    } else {
-      menuNavbar.classList.remove("hidden");
+    const screenWidth = window.innerWidth;
+
+    // Check if the device is in landscape or portrait mode
+    const isLandscape = window.matchMedia("(orientation: landscape)").matches;
+    const isPortrait = window.matchMedia("(orientation: portrait)").matches;
+
+    // Apply different scroll conditions based on screen width and orientation
+    if (isLandscape) {
+      switch (true) {
+        case screenWidth >= 1400 && scrollY < 1000:
+          menuNavbar.classList.add("hidden");
+          break;
+        case screenWidth <= 1399 && screenWidth >= 1100 && scrollY < 1100:
+          menuNavbar.classList.add("hidden");
+          break;
+        case screenWidth <= 1099 && screenWidth >= 900 && scrollY < 1300:
+          menuNavbar.classList.add("hidden");
+          break;
+        // Add more conditions as needed
+        default:
+          menuNavbar.classList.remove("hidden");
+          break;
+      }
+    } else if (isPortrait) {
+      // Apply conditions for portrait mode
+      // You can define specific conditions for portrait mode here
+      switch (true) {
+        case screenWidth <= 899 && screenWidth >= 700 && scrollY < 1400:
+          menuNavbar.classList.add("hidden");
+          break;
+        case screenWidth <= 699 && screenWidth >= 500 && scrollY < 600:
+          menuNavbar.classList.add("hidden");
+          break;
+        case screenWidth <= 499 && screenWidth > 300 && scrollY < 800:
+          menuNavbar.classList.add("hidden");
+          break;
+        default:
+          menuNavbar.classList.remove("hidden");
+          break;
+      }
     }
   };
 
+  // useEffect and rendering part should be outside handleScroll
   useEffect(() => {
     window.addEventListener("scroll", handleScroll);
     return () => {
@@ -74,3 +111,27 @@ MenuNavbar.propTypes = {
 };
 
 export default MenuNavbar;
+
+/* switch (true) {
+  case screenWidth >= 1400 && scrollY < 1000:
+    menuNavbar.classList.add("hidden");
+    break;
+  case screenWidth <= 1399 && screenWidth >= 1100 && scrollY < 1100:
+    menuNavbar.classList.add("hidden");
+    break;
+  case screenWidth <= 1099 && screenWidth >= 900 && scrollY < 1300:
+    menuNavbar.classList.add("hidden");
+    break;
+  case screenWidth <= 899 && screenWidth >= 700 && scrollY < 1400:
+    menuNavbar.classList.add("hidden");
+    break;
+  case screenWidth <= 699 && screenWidth >= 500 && scrollY < 600:
+    menuNavbar.classList.add("hidden");
+    break;
+  case screenWidth <= 499 && screenWidth > 300 && scrollY < 800:
+    menuNavbar.classList.add("hidden");
+    break;
+  default:
+    menuNavbar.classList.remove("hidden");
+    break;
+} */
