@@ -46,6 +46,12 @@ const NorimakiMeny1 = [
     image: images.placeholderMaki,
   },
   {
+    title: "Shakemaki",
+    description: "Sjögräsrulle med lax",
+    price: "125kr",
+    image: images.ShakeMaki,
+  },
+  {
     title: "Tekkamaki",
     description: "Sjögräsrulle med tonfisk samt gurka",
     price: "129kr",

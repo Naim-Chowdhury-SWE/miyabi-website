@@ -23,6 +23,7 @@ import FamiljeSushiMedium from "../assets/food/FamiljeSushi40.webp";
 
 import StandardRoll from "../assets/food/StandardRoll.webp";
 import CaliforniaRoll from "../assets/food/CaliforniaRoll.webp";
+import ShakeMaki from "../assets/food/ShakeMaki.webp";
 
 /* -----Varmrätter----- */
 
@@ -69,6 +70,7 @@ export default {
   FamiljeSushiMedium,
   StandardRoll,
   CaliforniaRoll,
+  ShakeMaki,
   Yakiniku,
   Yakitori,
   Bento,
