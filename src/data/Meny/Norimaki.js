@@ -13,10 +13,10 @@ const NorimakiMeny1 = [
     description:
       "Inside-Out sjögräsrulle med avocado, gurka, crabbstick och chilimajo",
     price: "149kr",
-    image: images.placeholderMaki,
+    image: images.CaliforniaRollSpecial,
   },
   {
-    title: "Standard roll (Shakemaki) 10 bitar",
+    title: "Standard roll 10 bitar",
     description: "Inside-Out sjögräsrulle med lax, gurka, crabbstick",
     price: "105kr",
     image: images.StandardRoll,
@@ -43,7 +43,7 @@ const NorimakiMeny1 = [
     title: "Kappamaki",
     description: "Sjögräsrulle med gurka",
     price: "105kr",
-    image: images.placeholderMaki,
+    image: images.KappaMaki,
   },
   {
     title: "Shakemaki",
