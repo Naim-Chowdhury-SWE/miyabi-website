@@ -24,8 +24,10 @@ import FamiljeSushiMedium from "../assets/food/FamiljeSushi40.webp";
 import StandardRoll from "../assets/food/StandardRoll.webp";
 import CaliforniaRoll from "../assets/food/CaliforniaRoll.webp";
 import CaliforniaRollSpecial from "../assets/food/CaliforniaRollSpecial.webp";
+import VegetariskMangoRoll from "../assets/food/VegetariskMangoRoll.webp";
 import ShakeMaki from "../assets/food/ShakeMaki.webp";
 import KappaMaki from "../assets/food/KappaMaki.webp";
+import SpicytunaRoll from "../assets/food/SpicytunaRoll.webp";
 
 /* -----Varmrätter----- */
 
@@ -73,8 +75,10 @@ export default {
   StandardRoll,
   CaliforniaRoll,
   CaliforniaRollSpecial,
+  VegetariskMangoRoll,
   ShakeMaki,
   KappaMaki,
+  SpicytunaRoll,
   Yakiniku,
   Yakitori,
   Bento,
