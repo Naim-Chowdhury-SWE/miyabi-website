@@ -103,7 +103,7 @@ const NorimakiMeny1 = [
     title: "Karageroll",
     description: "Sjögräsrulle med friterad kyckling, toppas med chilimajo",
     price: "130kr",
-    image: images.placeholderMaki,
+    image: images.KaraageRoll,
   },
   {
     title: "Philadelphiaroll",

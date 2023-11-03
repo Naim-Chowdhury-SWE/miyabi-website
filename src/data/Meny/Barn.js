@@ -17,7 +17,7 @@ const BarnMeny = [
     title: "Karaage",
     description: "Friterade kycklingbitar med ris samt sås",
     price: "89kr",
-    image: images.placeholderFood,
+    image: images.BarnKaraage,
   },
 ];
 

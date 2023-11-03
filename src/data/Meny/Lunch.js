@@ -11,7 +11,7 @@ const lunchMeny1 = [
     title: "Tisdag",
     description: "Wokad kyckling med ris samt grönsaker",
     price: "125kr",
-    image: images.placeholderPhoto,
+    image: images.WokadKyckling,
   },
   {
     title: "Onsdag",
@@ -29,7 +29,7 @@ const lunchMeny1 = [
     title: "Fredag",
     description: "Kyckling Karage (Friterad kyckling med ris samt sås)",
     price: "125kr",
-    image: images.placeholderPhoto,
+    image: images.Karaage,
   },
 ];
 const lunchMeny2 = [

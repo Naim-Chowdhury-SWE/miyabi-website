@@ -119,7 +119,7 @@ const VarmratterMeny = [
     title: "Karaage",
     description: "Friterade kycklingbitar med ris samt sås",
     price: "150kr",
-    image: images.placeholderFood,
+    image: images.Karaage,
   },
   {
     title: "Stekt Ris med Entrecote",
