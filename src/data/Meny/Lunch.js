@@ -23,7 +23,7 @@ const lunchMeny1 = [
     title: "Torsdag",
     description: "Yakisoba (Wokade äggnudlar med entrecote)",
     price: "125kr",
-    image: images.placeholderPhoto,
+    image: images.Yakisoba,
   },
   {
     title: "Fredag",

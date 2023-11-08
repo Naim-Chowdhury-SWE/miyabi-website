@@ -41,6 +41,7 @@ import BentoDeluxe from "../assets/food/BentoDeluxe.webp";
 import BentoGyoza from "../assets/food/BentoGyoza.webp";
 
 import Gyoza from "../assets/food/Gyoza.webp";
+import Yakisoba from "../assets/food/Yakisoba.webp";
 import WokadKyckling from "../assets/food/WokadKyckling.webp";
 import WokadRäkor from "../assets/food/WokadRäkor.webp";
 import Karaage from "../assets/food/Karaage.webp";
@@ -90,6 +91,7 @@ export default {
   BentoDeluxe,
   BentoGyoza,
   Gyoza,
+  Yakisoba,
   WokadKyckling,
   WokadRäkor,
   Karaage,

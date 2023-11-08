@@ -89,7 +89,7 @@ const VarmratterMeny = [
     title: "Yakisoba",
     description: "Wokad äggnudlar med entrecote, grönsaker",
     price: "149kr",
-    image: images.placeholderFood,
+    image: images.Yakisoba,
   },
   {
     title: "Wokade räkor med grönsaker",
