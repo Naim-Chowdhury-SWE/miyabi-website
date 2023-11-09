@@ -109,14 +109,14 @@ const NorimakiMeny1 = [
     title: "Philadelphiaroll",
     description: "Sjögräsrulle med lax, avocado, gurka och philadephiaost",
     price: "125kr",
-    image: images.placeholderMaki,
+    image: images.PhiladelphiaRoll,
   },
   {
     title: "Alaskaroll",
     description:
       "Sjögräsrulle med lax, avocado och gurka, toppas med chilimajo",
     price: "125kr",
-    image: images.placeholderMaki,
+    image: images.AlaskaRoll,
   },
   {
     title: "Yakinikuroll",

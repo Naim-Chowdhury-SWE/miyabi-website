@@ -11,6 +11,7 @@ import "./App.css";
 import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
 import Carousel from "./components/Carousel/Carousel";
+import { Suspense } from "react";
 
 const OPTIONS = {};
 const SLIDE_COUNT = 6;
@@ -29,12 +30,14 @@ function App() {
       <main>
         <MenyNavbar />
         <LunchMeny />
-        <SushiMeny />
-        <NorimakiMeny />
-        <SashimiMeny />
-        <Varmratter />
-        <Special />
-        <BarnMeny />
+        <Suspense>
+          <SushiMeny />
+          <NorimakiMeny />
+          <SashimiMeny />
+          <Varmratter />
+          <Special />
+          <BarnMeny />
+        </Suspense>
       </main>
       <Footer />
     </div>

@@ -27,6 +27,8 @@ import CaliforniaRollSpecial from "../assets/food/CaliforniaRollSpecial.webp";
 import VegetariskMangoRoll from "../assets/food/VegetariskMangoRoll.webp";
 import ShakeMaki from "../assets/food/ShakeMaki.webp";
 import KappaMaki from "../assets/food/KappaMaki.webp";
+import PhiladelphiaRoll from "../assets/food/PhiladelphiaRoll.webp";
+import AlaskaRoll from "../assets/food/AlaskaRoll.webp";
 import SpicytunaRoll from "../assets/food/SpicytunaRoll.webp";
 import KaraageRoll from "../assets/food/KaraageRoll.webp";
 
@@ -82,6 +84,8 @@ export default {
   VegetariskMangoRoll,
   ShakeMaki,
   KappaMaki,
+  PhiladelphiaRoll,
+  AlaskaRoll,
   SpicytunaRoll,
   KaraageRoll,
   Yakiniku,
