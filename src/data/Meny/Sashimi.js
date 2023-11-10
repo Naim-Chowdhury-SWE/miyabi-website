@@ -47,7 +47,7 @@ const SashimiMeny = [
     title: "Sashimi Mix Stor",
     description: "Blandade fiskar på salladsbädd",
     price: "250 kr",
-    image: images.placeholderSashimi,
+    image: images.SashimiMixStor,
   },
 ];
 

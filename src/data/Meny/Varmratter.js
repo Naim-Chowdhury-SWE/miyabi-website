@@ -143,7 +143,7 @@ const VarmratterMeny = [
     title: "Lax Teriyaki",
     description: "Stekt Lax med wokade grönsaker, teriyakisås samt ris",
     price: "150kr",
-    image: images.placeholderFood,
+    image: images.Laxteriyaki,
   },
   {
     title: "Vegetariska Vårrullar 7 bitar",

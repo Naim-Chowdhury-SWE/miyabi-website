@@ -32,6 +32,10 @@ import AlaskaRoll from "../assets/food/AlaskaRoll.webp";
 import SpicytunaRoll from "../assets/food/SpicytunaRoll.webp";
 import KaraageRoll from "../assets/food/KaraageRoll.webp";
 
+/* -----Sashimi----- */
+
+import SashimiMixStor from "../assets/food/SashimiMixStor.webp";
+
 /* -----Varmrätter----- */
 
 import Yakitori from "../assets/food/Yakitori.webp";
@@ -47,6 +51,7 @@ import Yakisoba from "../assets/food/Yakisoba.webp";
 import WokadKyckling from "../assets/food/WokadKyckling.webp";
 import WokadRäkor from "../assets/food/WokadRäkor.webp";
 import Karaage from "../assets/food/Karaage.webp";
+import Laxteriyaki from "../assets/food/Laxteriyaki.webp";
 
 import UdonEntrecote from "../assets/food/UdonEntrecote.webp";
 import UdonVegetarisk from "../assets/food/UdonVegetarisk.webp";
@@ -88,6 +93,7 @@ export default {
   AlaskaRoll,
   SpicytunaRoll,
   KaraageRoll,
+  SashimiMixStor,
   Yakiniku,
   Yakitori,
   Bento,
@@ -99,6 +105,7 @@ export default {
   WokadKyckling,
   WokadRäkor,
   Karaage,
+  Laxteriyaki,
   WokadKycklingStark,
   WokadRäkorStark,
   UdonEntrecote,
