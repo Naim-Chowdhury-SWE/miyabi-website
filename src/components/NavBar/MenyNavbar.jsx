@@ -11,6 +11,7 @@ const MenuNavbar = () => {
     SushiMeny: "Sushi",
     NorimakiMeny: "Norimaki",
     SashimiMeny: "Sashimi",
+    PokebowlMeny: "PokeBowl",
     VarmratterMeny: "Varmrätter",
     SpecialMeny: "Special",
     BarnMeny: "Barn",
