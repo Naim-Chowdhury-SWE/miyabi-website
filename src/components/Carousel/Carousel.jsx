@@ -21,9 +21,7 @@ const EmblaCarousel = (props) => {
                   src={imageData.src}
                   alt={imageData.alt}
                 />
-                <div className="embla__text-box">
-                  <p className="p__cormorant">{imageData.alt}</p>
-                </div>
+                <p className="embla__text p__cormorant">{imageData.alt}</p>
               </div>
             );
           })}
