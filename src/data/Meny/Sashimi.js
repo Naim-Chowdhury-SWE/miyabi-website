@@ -1,6 +1,6 @@
 import images from "../../constants/images";
 
-const SashimiMeny = [
+const sashimiMeny = [
   {
     title: "Lax Sashimi Liten",
     description: "Stora skivor Lax på salladsbädd",
@@ -29,7 +29,7 @@ const SashimiMeny = [
     title: "Lax & Tonfisk Sashimi Liten",
     description: "Stora skivor Lax och Tonfisk på salladsbädd",
     price: "130 kr",
-    image: images.placeholderSashimi,
+    image: images.LaxTunaSashimiLiten,
   },
   {
     title: "Lax & Tonfisk Sashimi Stor",
@@ -47,8 +47,8 @@ const SashimiMeny = [
     title: "Sashimi Mix Stor",
     description: "Blandade fiskar på salladsbädd",
     price: "250 kr",
-    image: images.placeholderSashimi,
+    image: images.SashimiMixStor,
   },
 ];
 
-export default { SashimiMeny };
+export default { sashimiMeny };

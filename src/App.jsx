@@ -1,9 +1,10 @@
 import NavBar from "./components/NavBar/NavBar";
-import MenyNavbar from "./components/NavBar/MenyNavbar";
+import MenuNavbar from "./components/NavBar/MenuNavbar";
 import LunchMeny from "./components/Meny/Lunch/Lunch";
 import SushiMeny from "./components/Meny/Sushi/Sushi";
 import NorimakiMeny from "./components/Meny/Norimaki/Norimaki";
 import SashimiMeny from "./components/Meny/Sashimi/Sashimi";
+import PokeBowl from "./components/Meny/PokeBowl/PokeBowl";
 import Varmratter from "./components/Meny/Varmratter/Varmratter";
 import Special from "./components/Meny/Special/Special";
 import BarnMeny from "./components/Meny/Barn/Barn";
@@ -28,12 +29,13 @@ function App() {
       </div>
       <Header />
       <main>
-        <MenyNavbar />
+        <MenuNavbar />
         <LunchMeny />
         <Suspense>
           <SushiMeny />
           <NorimakiMeny />
           <SashimiMeny />
+          <PokeBowl />
           <Varmratter />
           <Special />
           <BarnMeny />

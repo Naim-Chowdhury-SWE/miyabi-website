@@ -6,12 +6,30 @@ import WokadKyckling from "../assets/food/WokadKyckling.webp";
 import FamiljeSushiMedium from "../assets/food/FamiljeSushi40.webp";
 
 export const images = [
-  LaxSushi,
-  CaliforniaRollSpecial,
-  BentoDeluxe,
-  GrillLaxSushi,
-  WokadKyckling,
-  FamiljeSushiMedium,
+  {
+    src: LaxSushi,
+    alt: "Lax Sushi",
+  },
+  {
+    src: CaliforniaRollSpecial,
+    alt: "California Roll Special",
+  },
+  {
+    src: BentoDeluxe,
+    alt: "Bento Deluxe",
+  },
+  {
+    src: GrillLaxSushi,
+    alt: "Grillad Lax Sushi",
+  },
+  {
+    src: WokadKyckling,
+    alt: "Wokad Kyckling",
+  },
+  {
+    src: FamiljeSushiMedium,
+    alt: "Familje Sushi",
+  },
 ];
 
 const imageByIndex = (index) => images[index % images.length];

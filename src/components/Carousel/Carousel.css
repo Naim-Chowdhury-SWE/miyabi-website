@@ -29,6 +29,14 @@
   .sandbox {
     width: 100%;
   }
+
+  .embla__text {
+    position: absolute;
+    bottom: 1%;
+    right: 1%;
+  }
+
+
   @media (min-width: 750px) {
     .sandbox {
         padding: 0 5rem;
@@ -38,6 +46,8 @@
     position: relative;
     background-color: var(--background-code);
   }
+
+  
   @media (max-width: 749px) {
     .embla {
       --slide-height: 10rem;

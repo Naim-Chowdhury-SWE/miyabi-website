@@ -184,19 +184,19 @@ const menuSushi = [
     title: "Räksushi 8 bitar",
     description: "Sushiräkor",
     price: "120kr",
-    image: images.placeholderNigiri,
+    image: images.RäkSushi,
   },
   {
     title: "Räksushi 10 bitar",
     description: "Sushiräkor",
     price: "139kr",
-    image: images.placeholderNigiri,
+    image: images.RäkSushi,
   },
   {
     title: "Räksushi 12 bitar",
     description: "Sushiräkor",
     price: "160kr",
-    image: images.placeholderNigiri,
+    image: images.RäkSushi,
   },
   {
     title: "Grillad Lax med chilimajo 8 bitar",

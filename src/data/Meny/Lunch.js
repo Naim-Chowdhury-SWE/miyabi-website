@@ -61,7 +61,7 @@ const lunchMeny2 = [
     title: "Pokébowl",
     description: "Med Lax, Tonfisk, Kyckling eller Tofu",
     price: "139kr",
-    image: images.placeholderPhoto,
+    image: images.PokebowlLax,
   },
 ];
 

@@ -10,6 +10,7 @@ import BlandadSushi from "../assets/food/BlandadSushi.webp";
 import LaxSushi from "../assets/food/LaxSushi.webp";
 import LaxSushi2 from "../assets/food/LaxSushi2.webp";
 import LaxRäkorSushi from "../assets/food/LaxRäkorSushi.webp";
+import RäkSushi from "../assets/food/RäkSushi.webp";
 import GrillLaxSushi from "../assets/food/GrillLaxSushi.webp";
 import LaxAvocadoSushi from "../assets/food/LaxAvocadoSushi.webp";
 import AvocadoSushi from "../assets/food/AvocadoSushi.webp";
@@ -32,6 +33,17 @@ import AlaskaRoll from "../assets/food/AlaskaRoll.webp";
 import SpicytunaRoll from "../assets/food/SpicytunaRoll.webp";
 import KaraageRoll from "../assets/food/KaraageRoll.webp";
 
+/* -----Sashimi----- */
+
+import SashimiMixStor from "../assets/food/SashimiMixStor.webp";
+import LaxTunaSashimiLiten from "../assets/food/LaxTunaSashimiLiten.webp";
+
+/* -----PokeBowls----- */
+
+import PokebowlLax from "../assets/food/PokebowlLax.webp";
+import PokebowlRäka from "../assets/food/PokebowlRäka.webp";
+import PokebowlKyckling from "../assets/food/PokebowlKyckling.webp";
+import PokebowlTofu from "../assets/food/PokebowlTofu.webp";
 /* -----Varmrätter----- */
 
 import Yakitori from "../assets/food/Yakitori.webp";
@@ -47,6 +59,7 @@ import Yakisoba from "../assets/food/Yakisoba.webp";
 import WokadKyckling from "../assets/food/WokadKyckling.webp";
 import WokadRäkor from "../assets/food/WokadRäkor.webp";
 import Karaage from "../assets/food/Karaage.webp";
+import Laxteriyaki from "../assets/food/Laxteriyaki.webp";
 
 import UdonEntrecote from "../assets/food/UdonEntrecote.webp";
 import UdonVegetarisk from "../assets/food/UdonVegetarisk.webp";
@@ -74,6 +87,7 @@ export default {
   LaxSushi2,
   LaxAvocadoSushi,
   LaxRäkorSushi,
+  RäkSushi,
   GrillLaxSushi,
   AvocadoSushi,
   FamiljeSushiSmall,
@@ -88,6 +102,12 @@ export default {
   AlaskaRoll,
   SpicytunaRoll,
   KaraageRoll,
+  LaxTunaSashimiLiten,
+  SashimiMixStor,
+  PokebowlLax,
+  PokebowlRäka,
+  PokebowlKyckling,
+  PokebowlTofu,
   Yakiniku,
   Yakitori,
   Bento,
@@ -99,6 +119,7 @@ export default {
   WokadKyckling,
   WokadRäkor,
   Karaage,
+  Laxteriyaki,
   WokadKycklingStark,
   WokadRäkorStark,
   UdonEntrecote,

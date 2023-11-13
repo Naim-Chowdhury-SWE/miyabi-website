@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import ScrollLink from "../ScrollLink/ScrollLink";
 import PropTypes from "prop-types";
-import "./MenyNavbar.css";
+import "./MenuNavbar.css";
 
 const MenuNavbar = () => {
   const [activeSection, setActiveSection] = useState("LunchMeny");
@@ -11,6 +11,7 @@ const MenuNavbar = () => {
     SushiMeny: "Sushi",
     NorimakiMeny: "Norimaki",
     SashimiMeny: "Sashimi",
+    PokebowlMeny: "PokeBowl",
     VarmratterMeny: "Varmrätter",
     SpecialMeny: "Special",
     BarnMeny: "Barn",
@@ -102,11 +103,9 @@ const MenuNavbar = () => {
     </nav>
   );
 };
-
 MenuNavbar.propTypes = {
   menuData: PropTypes.string.isRequired,
   menuTitle: PropTypes.string.isRequired,
   id: PropTypes.string.isRequired,
 };
-
 export default MenuNavbar;
