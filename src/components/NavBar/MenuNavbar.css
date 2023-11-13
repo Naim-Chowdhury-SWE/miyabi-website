@@ -38,7 +38,7 @@
   .menu-navbar ul {
     flex-wrap: wrap;
     justify-content: center;
-    margin: 1em 2em;
+    margin: 1em 1em;
   }
 
   .menu-navbar ul li {
@@ -48,8 +48,8 @@
 @media screen and (max-width: 768px) {
   .menu-navbar ul {
     font-size: 16px;
-    margin: 1em 1em;
-    padding: 0 1em;
+    margin: 1em 0.6em;
+    padding: 0 0.2em;
 
     
   }
