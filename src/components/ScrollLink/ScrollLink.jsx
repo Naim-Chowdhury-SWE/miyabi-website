@@ -10,11 +10,12 @@ function ScrollLink({ targetId, children }) {
   };
 
   return (
-    <a href={`#${targetId}`} onClick={handleLinkClick}>
+    <div onClick={handleLinkClick} style={{ cursor: "pointer" }}>
       {children}
-    </a>
+    </div>
   );
 }
+
 ScrollLink.propTypes = {
   targetId: PropTypes.string.isRequired,
   children: PropTypes.node,

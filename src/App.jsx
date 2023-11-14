@@ -1,13 +1,13 @@
 import NavBar from "./components/NavBar/NavBar";
-import MenuNavbar from "./components/NavBar/MenuNavbar";
-import LunchMeny from "./components/Meny/Lunch/Lunch";
+/* import MenuNavbar from "./components/NavBar/MenuNavbar"; */
+/* import LunchMeny from "./components/Meny/Lunch/Lunch"; */
 import SushiMeny from "./components/Meny/Sushi/Sushi";
-import NorimakiMeny from "./components/Meny/Norimaki/Norimaki";
+/* import NorimakiMeny from "./components/Meny/Norimaki/Norimaki";
 import SashimiMeny from "./components/Meny/Sashimi/Sashimi";
 import PokeBowl from "./components/Meny/PokeBowl/PokeBowl";
 import Varmratter from "./components/Meny/Varmratter/Varmratter";
 import Special from "./components/Meny/Special/Special";
-import BarnMeny from "./components/Meny/Barn/Barn";
+import BarnMeny from "./components/Meny/Barn/Barn"; */
 import "./App.css";
 import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
@@ -29,16 +29,16 @@ function App() {
       </div>
       <Header />
       <main>
-        <MenuNavbar />
-        <LunchMeny />
+        {/*  <MenuNavbar /> */}
+        {/*         <LunchMeny /> */}
         <Suspense>
           <SushiMeny />
-          <NorimakiMeny />
+          {/* <NorimakiMeny />
           <SashimiMeny />
           <PokeBowl />
           <Varmratter />
           <Special />
-          <BarnMeny />
+          <BarnMeny /> */}
         </Suspense>
       </main>
       <Footer />

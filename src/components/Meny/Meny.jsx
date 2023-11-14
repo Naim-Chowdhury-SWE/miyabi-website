@@ -1,4 +1,4 @@
-// Menu.jsx
+// Meny.jsx
 import { useState } from "react";
 import SearchBar from "../SearchBar/SearchBar";
 import MenuItem from "../Menuitem/MenuItem";
@@ -13,20 +13,14 @@ const Meny = ({ menuData, menuTitle, id }) => {
     if (query === "") {
       setFilteredMenu(originalMenu);
     } else {
-      const filteredItems = Object.keys(originalMenu).reduce(
-        (result, category) => {
-          const filteredCategory = originalMenu[category].filter(
-            (item) =>
-              item.title.toLowerCase().includes(query.toLowerCase()) ||
-              item.description.toLowerCase().includes(query.toLowerCase())
-          );
-          if (filteredCategory.length > 0) {
-            result[category] = filteredCategory;
-          }
-          return result;
-        },
-        {}
-      );
+      const filteredItems = originalMenu.map((category) => {
+        const filteredCategory = category.variants.filter(
+          (variant) =>
+            variant.title.toLowerCase().includes(query.toLowerCase()) ||
+            variant.description.toLowerCase().includes(query.toLowerCase())
+        );
+        return { ...category, variants: filteredCategory };
+      });
 
       setFilteredMenu(filteredItems);
     }
@@ -40,17 +34,12 @@ const Meny = ({ menuData, menuTitle, id }) => {
 
       <SearchBar onSearch={handleSearch} />
 
-      {Object.keys(filteredMenu).map((category) => (
-        <div key={category} className="category-wrapper">
+      {filteredMenu.map((category) => (
+        <div key={category.title} className="category-wrapper">
           <div className="meny-meny">
-            {filteredMenu[category].map((item, index) => (
+            {category.variants.map((variant, index) => (
               <div key={index} className="menu-title">
-                <MenuItem
-                  image={item.image}
-                  title={item.title}
-                  price={item.price}
-                  description={item.description}
-                />
+                <MenuItem variants={[variant]} />
               </div>
             ))}
           </div>
@@ -61,7 +50,20 @@ const Meny = ({ menuData, menuTitle, id }) => {
 };
 
 Meny.propTypes = {
-  menuData: PropTypes.string.isRequired,
+  menuData: PropTypes.arrayOf(
+    PropTypes.shape({
+      title: PropTypes.string.isRequired,
+      variants: PropTypes.arrayOf(
+        PropTypes.shape({
+          title: PropTypes.string.isRequired,
+          description: PropTypes.string.isRequired,
+          price: PropTypes.string.isRequired,
+          image: PropTypes.string.isRequired,
+          alt: PropTypes.string.isRequired,
+        })
+      ).isRequired,
+    })
+  ).isRequired,
   menuTitle: PropTypes.string.isRequired,
   id: PropTypes.string.isRequired,
 };

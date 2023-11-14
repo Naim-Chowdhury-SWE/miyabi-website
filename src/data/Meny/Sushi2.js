@@ -2,31 +2,31 @@ import images from "../../constants/images";
 
 const blandadSushi2 = [
   {
-    title: "Blandad Sushi",
+    title: "Blandad Sushi 1",
     variants: [
       {
-        title: "7 bitar",
+        subtitle: "7 bitar",
         description: "Blandad sushi med lax, rullar och avocado",
         price: "89kr",
         image: images.BlandadSushi,
         alt: "Blandad Sushi 7 bitar",
       },
       {
-        title: "8 bitar",
+        subtitle: "8 bitar",
         description: "Blandad sushi med lax, rullar och avocado",
         price: "99kr",
         image: images.BlandadSushi,
         alt: "Blandad Sushi 8 bitar",
       },
       {
-        title: "9 bitar",
+        subtitle: "9 bitar",
         description: "Blandad sushi med lax, rullar, räkor och avocado",
         price: "109kr",
         image: images.BlandadSushi,
         alt: "Blandad Sushi 9 bitar",
       },
       {
-        title: "11 bitar",
+        subtitle: "11 bitar",
         description: "Blandad sushi med lax, rullar, räkor och avocado",
         price: "129kr",
         image: images.BlandadSushi,
@@ -35,31 +35,31 @@ const blandadSushi2 = [
     ],
   },
   {
-    title: "Blandad Sushi",
+    title: "Blandad Sushi 2",
     variants: [
       {
-        title: "13 bitar",
+        subtitle: "13 bitar",
         description: "Blandad sushi med lax, rullar, räkor och avocado",
         price: "149kr",
         image: images.placeholderNigiri,
         alt: "Blandad Sushi 13 bitar",
       },
       {
-        title: "14 bitar",
+        subtitle: "14 bitar",
         description: "Blandad sushi med lax, rullar, räkor och avocado",
         price: "159kr",
         image: images.placeholderNigiri,
         alt: "Blandad Sushi 14 bitar",
       },
       {
-        title: "16 bitar",
+        subtitle: "16 bitar",
         description: "Blandad sushi med lax, rullar, räkor och avocado",
         price: "179kr",
         image: images.placeholderNigiri,
         alt: "Blandad Sushi 16 bitar",
       },
       {
-        title: "20 bitar",
+        subtitle: "20 bitar",
         description: "Blandad sushi med lax, rullar, räkor och avocado",
         price: "219kr",
         image: images.placeholderNigiri,
@@ -74,21 +74,21 @@ const menuSushi2 = [
     title: "Lax & Rullar Sushi",
     variants: [
       {
-        title: "8 bitar",
+        subtitle: "8 bitar",
         description: "Hälften lax & hälften rullar",
         price: "99kr",
         image: images.placeholderNigiri,
         alt: "Lax & Rullar 8 bitar",
       },
       {
-        title: "10 bitar",
+        subtitle: "10 bitar",
         description: "Hälften lax & hälften rullar",
         price: "119kr",
         image: images.placeholderNigiri,
         alt: "Lax & Rullar 10 bitar",
       },
       {
-        title: "12 bitar",
+        subtitle: "12 bitar",
         description: "Hälften lax & hälften rullar",
         price: "139kr",
         image: images.placeholderNigiri,
@@ -100,7 +100,7 @@ const menuSushi2 = [
     title: "Vegetarisk / Vegansk Sushi",
     variants: [
       {
-        title: "10 bitar",
+        subtitle: "10 bitar",
         description:
           "Blandad sushi som innehåller Vegetariska rullar, Avocado och Tofu",
         price: "109kr",
@@ -108,7 +108,7 @@ const menuSushi2 = [
         alt: "Vegansk Sushi 10 bitar",
       },
       {
-        title: "12 bitar",
+        subtitle: "12 bitar",
         description:
           "Blandad sushi som innehåller Vegetariska rullar, Avocado och Tofu",
         price: "129kr",
@@ -121,14 +121,14 @@ const menuSushi2 = [
     title: "Mamma Sushi",
     variants: [
       {
-        title: "10 bitar",
+        subtitle: "10 bitar",
         description: "Blandad sushi men utan råfisk",
         price: "109kr",
         image: images.placeholderNigiri,
         alt: "Mamma Sushi 10 bitar",
       },
       {
-        title: "12 bitar",
+        subtitle: "12 bitar",
         description: "Blandad sushi men utan råfisk",
         price: "135kr",
         image: images.placeholderNigiri,
@@ -140,7 +140,7 @@ const menuSushi2 = [
     title: "9 bitar Blandad Nigiri (utan rullar)",
     variants: [
       {
-        title: "9 bitar",
+        subtitle: "9 bitar",
         description: "Endast blandat med olika fisksorter",
         price: "119kr",
         image: images.placeholderNigiri,
@@ -152,7 +152,7 @@ const menuSushi2 = [
     title: "12 bitar Blandad Nigiri (utan rullar)",
     variants: [
       {
-        title: "12 bitar",
+        subtitle: "12 bitar",
         description: "Endast blandat med olika fisksorter",
         price: "150kr",
         image: images.placeholderNigiri,
@@ -164,21 +164,21 @@ const menuSushi2 = [
     title: "Lax Sushi",
     variants: [
       {
-        title: "8 bitar",
+        subtitle: "8 bitar",
         description: "Laxsushi",
         price: "120kr",
         image: images.LaxSushi,
         alt: "Lax Sushi 8 bitar",
       },
       {
-        title: "10 bitar",
+        subtitle: "10 bitar",
         description: "Laxsushi",
         price: "140kr",
         image: images.LaxSushi,
         alt: "Lax Sushi 10 bitar",
       },
       {
-        title: "12 bitar",
+        subtitle: "12 bitar",
         description: "Laxsushi",
         price: "160kr",
         image: images.LaxSushi,
@@ -190,21 +190,21 @@ const menuSushi2 = [
     title: "Lax & Avocado Sushi",
     variants: [
       {
-        title: "8 bitar",
+        subtitle: "8 bitar",
         description: "Hälften lax och hälften avocado",
         price: "115kr",
         image: images.LaxAvocadoSushi,
         alt: "Lax & Avocado Sushi 8 bitar",
       },
       {
-        title: "10 bitar",
+        subtitle: "10 bitar",
         description: "Hälften lax och hälften avocado",
         price: "125kr",
         image: images.LaxAvocadoSushi,
         alt: "Lax & Avocado Sushi 10 bitar",
       },
       {
-        title: "12 bitar",
+        subtitle: "12 bitar",
         description: "Hälften lax och hälften avocado",
         price: "145kr",
         image: images.LaxAvocadoSushi,
@@ -217,21 +217,21 @@ const menuSushi2 = [
     title: "Lax & Räkor Sushi",
     variants: [
       {
-        title: "8 bitar",
+        subtitle: "8 bitar",
         description: "Hälften lax & hälften räkor",
         price: "115kr",
         image: images.LaxRäkorSushi,
         alt: "Lax & Räkor Sushi 8 bitar",
       },
       {
-        title: "10 bitar",
+        subtitle: "10 bitar",
         description: "Hälften lax & hälften räkor",
         price: "130kr",
         image: images.LaxRäkorSushi,
         alt: "Lax & Räkor Sushi 10 bitar",
       },
       {
-        title: "12 bitar",
+        subtitle: "12 bitar",
         description: "Hälften lax & hälften räkor",
         price: "150kr",
         image: images.LaxRäkorSushi,
@@ -243,21 +243,21 @@ const menuSushi2 = [
     title: "Avocado Sushi",
     variants: [
       {
-        title: "8 bitar",
+        subtitle: "8 bitar",
         description: "Avocadosushi",
         price: "105kr",
         image: images.AvocadoSushi,
         alt: "Avocado Sushi 8 bitar",
       },
       {
-        title: "10 bitar",
+        subtitle: "10 bitar",
         description: "Avocadosushi",
         price: "125kr",
         image: images.AvocadoSushi,
         alt: "Avocado Sushi 10 bitar",
       },
       {
-        title: "12 bitar",
+        subtitle: "12 bitar",
         description: "Avocadosushi",
         price: "140kr",
         image: images.AvocadoSushi,
@@ -269,21 +269,21 @@ const menuSushi2 = [
     title: "Räk Sushi",
     variants: [
       {
-        title: "8 bitar",
+        subtitle: "8 bitar",
         description: "Sushiräkor",
         price: "120kr",
         image: images.placeholderNigiri,
         alt: "Räk Sushi 8 bitar",
       },
       {
-        title: "10 bitar",
+        subtitle: "10 bitar",
         description: "Sushiräkor",
         price: "139kr",
         image: images.placeholderNigiri,
         alt: "Räk Sushi 10 bitar",
       },
       {
-        title: "12 bitar",
+        subtitle: "12 bitar",
         description: "Sushiräkor",
         price: "160kr",
         image: images.placeholderNigiri,
@@ -295,21 +295,21 @@ const menuSushi2 = [
     title: "Grillad Lax med chilimajo",
     variants: [
       {
-        title: "8 bitar",
+        subtitle: "8 bitar",
         description: "Grillad laxsushi som toppas med chilimajonäs",
         price: "135kr",
         image: images.GrillLaxSushi,
         alt: "Grillad Lax Sushi 8 bitar",
       },
       {
-        title: "10 bitar",
+        subtitle: "10 bitar",
         description: "Grillad laxsushi som toppas med chilimajonäs",
         price: "155kr",
         image: images.GrillLaxSushi,
         alt: "Grillad Lax Sushi 10 bitar",
       },
       {
-        title: "12 bitar",
+        subtitle: "12 bitar",
         description: "Grillad laxsushi som toppas med chilimajonäs",
         price: "175kr",
         image: images.GrillLaxSushi,
@@ -354,4 +354,4 @@ const familjeSushi2 = [
   },
 ];
 
-export default { blandadSushi2, menuSushi2, familjeSushi2 };
+export default [blandadSushi2, menuSushi2, familjeSushi2];
