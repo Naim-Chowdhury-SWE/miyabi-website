@@ -29,12 +29,14 @@ import VegetariskMangoRoll from "../assets/food/VegetariskMangoRoll.webp";
 import ShakeMaki from "../assets/food/ShakeMaki.webp";
 import KappaMaki from "../assets/food/KappaMaki.webp";
 import PhiladelphiaRoll from "../assets/food/PhiladelphiaRoll.webp";
+import FutomakiRoll from "../assets/food/FutomakiRoll.webp";
 import AlaskaRoll from "../assets/food/AlaskaRoll.webp";
 import SpicytunaRoll from "../assets/food/SpicytunaRoll.webp";
 import KaraageRoll from "../assets/food/KaraageRoll.webp";
 
 /* -----Sashimi----- */
 
+import SashimiMixLiten from "../assets/food/SashimiMixLiten.webp";
 import SashimiMixStor from "../assets/food/SashimiMixStor.webp";
 import LaxTunaSashimiLiten from "../assets/food/LaxTunaSashimiLiten.webp";
 
@@ -99,10 +101,12 @@ export default {
   ShakeMaki,
   KappaMaki,
   PhiladelphiaRoll,
+  FutomakiRoll,
   AlaskaRoll,
   SpicytunaRoll,
   KaraageRoll,
   LaxTunaSashimiLiten,
+  SashimiMixLiten,
   SashimiMixStor,
   PokebowlLax,
   PokebowlRäka,

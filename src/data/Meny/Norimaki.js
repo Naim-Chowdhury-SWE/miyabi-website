@@ -79,7 +79,7 @@ const NorimakiMeny1 = [
     title: "Futomaki",
     description: "Sjögräsrulle med lax, omelett, gurka och avocado",
     price: "129kr",
-    image: images.placeholderMaki,
+    image: images.FutomakiRoll,
   },
   {
     title: "Tempuraroll (friterad rulle)",
