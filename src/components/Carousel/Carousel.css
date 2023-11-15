@@ -29,6 +29,14 @@
   .sandbox {
     width: 100%;
   }
+
+  .embla__text {
+    position: absolute;
+    bottom: 1%;
+    right: 1%;
+  }
+
+
   @media (min-width: 750px) {
     .sandbox {
         padding: 0 5rem;
@@ -39,21 +47,7 @@
     background-color: var(--background-code);
   }
 
-  .embla__text-box {
-    position: absolute;
-    top: 90%;
-    left: 80%;
-    transform: translate(-20%, -50%);
-    text-align: center;
-    background-color: rgba(255, 255, 255, 0.025);
-    padding: 10px;
-    border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  }
   
-  .embla__text-box p {
-    color: #333; /* Adjust text color here */
-  }
   @media (max-width: 749px) {
     .embla {
       --slide-height: 10rem;
