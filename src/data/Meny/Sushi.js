@@ -224,28 +224,28 @@ const familjeSushi = [
     description:
       "En stor blandad sushi med alla möjliga sushityper vi erbjuder",
     price: "329kr",
-    image: images.FamiljeSushiSmall,
+    image: images.FamiljeSushi30,
   },
   {
     title: "Familjesushi 40 bitar",
     description:
       "En stor blandad sushi med alla möjliga sushityper vi erbjuder",
     price: "429kr",
-    image: images.FamiljeSushiMedium,
+    image: images.FamiljeSushi40,
   },
   {
     title: "Familjesushi 50 bitar",
     description:
       "En stor blandad sushi med alla möjliga sushityper vi erbjuder",
     price: "529kr",
-    image: images.FamiljeSushiMedium,
+    image: images.FamiljeSushi40,
   },
   {
     title: "Familjesushi 70 bitar",
     description:
       "En stor blandad sushi med alla möjliga sushityper vi erbjuder",
     price: "729kr",
-    image: images.placeholderNigiri,
+    image: images.FamiljeSushi70,
   },
 ];
 

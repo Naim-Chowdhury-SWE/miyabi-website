@@ -17,8 +17,9 @@ import AvocadoSushi from "../assets/food/AvocadoSushi.webp";
 
 /* -----FamilySushi----- */
 
-import FamiljeSushiSmall from "../assets/food/FamiljeSushi30.webp";
-import FamiljeSushiMedium from "../assets/food/FamiljeSushi40.webp";
+import FamiljeSushi30 from "../assets/food/FamiljeSushi30.webp";
+import FamiljeSushi40 from "../assets/food/FamiljeSushi40.webp";
+import FamiljeSushi70 from "../assets/food/FamiljeSushi70.webp";
 
 /* -----Norimaki Meny----- */
 
@@ -93,8 +94,9 @@ export default {
   RäkSushi,
   GrillLaxSushi,
   AvocadoSushi,
-  FamiljeSushiSmall,
-  FamiljeSushiMedium,
+  FamiljeSushi30,
+  FamiljeSushi40,
+  FamiljeSushi70,
   StandardRoll,
   CaliforniaRoll,
   CaliforniaRollSpecial,
