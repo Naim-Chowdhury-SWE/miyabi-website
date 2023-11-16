@@ -30,6 +30,7 @@ import ShakeMaki from "../assets/food/ShakeMaki.webp";
 import KappaMaki from "../assets/food/KappaMaki.webp";
 import PhiladelphiaRoll from "../assets/food/PhiladelphiaRoll.webp";
 import FutomakiRoll from "../assets/food/FutomakiRoll.webp";
+import TeriyakiRoll from "../assets/food/TeriyakiRoll.webp";
 import AlaskaRoll from "../assets/food/AlaskaRoll.webp";
 import SpicytunaRoll from "../assets/food/SpicytunaRoll.webp";
 import KaraageRoll from "../assets/food/KaraageRoll.webp";
@@ -102,6 +103,7 @@ export default {
   KappaMaki,
   PhiladelphiaRoll,
   FutomakiRoll,
+  TeriyakiRoll,
   AlaskaRoll,
   SpicytunaRoll,
   KaraageRoll,

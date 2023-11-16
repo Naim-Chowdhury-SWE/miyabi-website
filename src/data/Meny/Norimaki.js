@@ -129,7 +129,7 @@ const NorimakiMeny1 = [
     title: "Teriyakiroll",
     description: "Sjögräsrulle med halstrad lax, avocado, lök och samt sallad",
     price: "130kr",
-    image: images.placeholderMaki,
+    image: images.TeriyakiRoll,
   },
 ];
 
