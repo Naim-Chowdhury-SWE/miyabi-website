@@ -1,3 +1,4 @@
+import Warning from "./components/Warning/Warning";
 import NavBar from "./components/NavBar/NavBar";
 import MenuNavbar from "./components/NavBar/MenuNavbar";
 import LunchMeny from "./components/Meny/Lunch/Lunch";
@@ -21,6 +22,7 @@ function App() {
   return (
     <div>
       <NavBar />
+      <Warning />
 
       <div className="sandbox app__bg">
         <section className="sandbox__carousel">

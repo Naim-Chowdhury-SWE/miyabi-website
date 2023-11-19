@@ -122,22 +122,28 @@ const VarmratterMeny = [
     image: images.Karaage,
   },
   {
+    title: "Stekt Ris med Tofu",
+    description: "Grönsaker samt sallad ingår",
+    price: "149kr",
+    image: images.StektRisVeg,
+  },
+  {
     title: "Stekt Ris med Entrecote",
     description: "Grönsaker samt sallad ingår",
     price: "149kr",
-    image: images.placeholderFood,
+    image: images.StektRisEntrecote,
   },
   {
     title: "Stekt Ris med Kyckling",
     description: "Grönsaker samt sallad ingår",
     price: "149kr",
-    image: images.placeholderFood,
+    image: images.StektRisKyckling,
   },
   {
     title: "Stekt Ris med Räkor",
     description: "Grönsaker samt sallad ingår",
     price: "149kr",
-    image: images.placeholderFood,
+    image: images.StektRisRäka,
   },
   {
     title: "Lax Teriyaki",

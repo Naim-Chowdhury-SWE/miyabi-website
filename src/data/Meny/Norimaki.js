@@ -25,7 +25,7 @@ const NorimakiMeny1 = [
     title: "Vegetarisk roll 10 bitar",
     description: "Sjögräsrulle med gurka, avocado och sallad",
     price: "105kr",
-    image: images.placeholderMaki,
+    image: images.VegetariskRoll,
   },
   {
     title: "Vegetarisk roll + mango 10 bitar",

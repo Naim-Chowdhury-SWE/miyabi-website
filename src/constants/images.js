@@ -26,6 +26,7 @@ import FamiljeSushi70 from "../assets/food/FamiljeSushi70.webp";
 import StandardRoll from "../assets/food/StandardRoll.webp";
 import CaliforniaRoll from "../assets/food/CaliforniaRoll.webp";
 import CaliforniaRollSpecial from "../assets/food/CaliforniaRollSpecial.webp";
+import VegetariskRoll from "../assets/food/VegetariskRoll.webp";
 import VegetariskMangoRoll from "../assets/food/VegetariskMangoRoll.webp";
 import ShakeMaki from "../assets/food/ShakeMaki.webp";
 import KappaMaki from "../assets/food/KappaMaki.webp";
@@ -62,6 +63,10 @@ import Gyoza from "../assets/food/Gyoza.webp";
 import Yakisoba from "../assets/food/Yakisoba.webp";
 import WokadKyckling from "../assets/food/WokadKyckling.webp";
 import WokadRäkor from "../assets/food/WokadRäkor.webp";
+import StektRisVeg from "../assets/food/StektRisVeg.webp";
+import StektRisKyckling from "../assets/food/StektRisKyckling.webp";
+import StektRisRäka from "../assets/food/StektRisRäka.webp";
+import StektRisEntrecote from "../assets/food/StektRisEntrecote.webp";
 import Karaage from "../assets/food/Karaage.webp";
 import Laxteriyaki from "../assets/food/Laxteriyaki.webp";
 
@@ -100,6 +105,7 @@ export default {
   StandardRoll,
   CaliforniaRoll,
   CaliforniaRollSpecial,
+  VegetariskRoll,
   VegetariskMangoRoll,
   ShakeMaki,
   KappaMaki,
@@ -126,6 +132,10 @@ export default {
   Yakisoba,
   WokadKyckling,
   WokadRäkor,
+  StektRisVeg,
+  StektRisKyckling,
+  StektRisRäka,
+  StektRisEntrecote,
   Karaage,
   Laxteriyaki,
   WokadKycklingStark,
