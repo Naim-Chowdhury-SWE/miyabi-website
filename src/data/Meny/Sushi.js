@@ -238,7 +238,7 @@ const familjeSushi = [
     description:
       "En stor blandad sushi med alla möjliga sushityper vi erbjuder",
     price: "529kr",
-    image: images.FamiljeSushi40,
+    image: images.FamiljeSushi50,
   },
   {
     title: "Familjesushi 70 bitar",

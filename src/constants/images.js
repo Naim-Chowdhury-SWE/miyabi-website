@@ -19,6 +19,7 @@ import AvocadoSushi from "../assets/food/AvocadoSushi.webp";
 
 import FamiljeSushi30 from "../assets/food/FamiljeSushi30.webp";
 import FamiljeSushi40 from "../assets/food/FamiljeSushi40.webp";
+import FamiljeSushi50 from "../assets/food/FamiljeSushi50.webp";
 import FamiljeSushi70 from "../assets/food/FamiljeSushi70.webp";
 
 /* -----Norimaki Meny----- */
@@ -32,6 +33,7 @@ import ShakeMaki from "../assets/food/ShakeMaki.webp";
 import KappaMaki from "../assets/food/KappaMaki.webp";
 import PhiladelphiaRoll from "../assets/food/PhiladelphiaRoll.webp";
 import FutomakiRoll from "../assets/food/FutomakiRoll.webp";
+import TempuraRollFriterad from "../assets/food/TempuraRollFriterad.webp";
 import TeriyakiRoll from "../assets/food/TeriyakiRoll.webp";
 import AlaskaRoll from "../assets/food/AlaskaRoll.webp";
 import SpicytunaRoll from "../assets/food/SpicytunaRoll.webp";
@@ -101,6 +103,7 @@ export default {
   AvocadoSushi,
   FamiljeSushi30,
   FamiljeSushi40,
+  FamiljeSushi50,
   FamiljeSushi70,
   StandardRoll,
   CaliforniaRoll,
@@ -112,6 +115,7 @@ export default {
   PhiladelphiaRoll,
   FutomakiRoll,
   TeriyakiRoll,
+  TempuraRollFriterad,
   AlaskaRoll,
   SpicytunaRoll,
   KaraageRoll,

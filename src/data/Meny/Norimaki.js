@@ -85,7 +85,7 @@ const NorimakiMeny1 = [
     title: "Tempuraroll (friterad rulle)",
     description: "Sjögräsrulle med friterade räkor samt chilimajo",
     price: "145kr",
-    image: images.placeholderMaki,
+    image: images.TempuraRollFriterad,
   },
   {
     title: "Tempuraroll (ej friterad)",
