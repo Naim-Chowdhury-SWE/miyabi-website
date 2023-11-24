@@ -98,15 +98,21 @@ const menuSushi = [
   },
   {
     title: "9 bitar Blandad Nigiri (utan rullar)",
-    description: "Endast blandat med olika fisksorter",
+    description: "Blandad sushi men utan rullar",
     price: "119kr",
-    image: images.placeholderNigiri,
+    image: images.BlandadNigiri9,
   },
   {
     title: "12 bitar Blandad Nigiri (utan rullar)",
-    description: "Endast blandat med olika fisksorter",
+    description: "Blandad sushi men utan rullar",
     price: "150kr",
-    image: images.placeholderNigiri,
+    image: images.BlandadNigiri12,
+  },
+  {
+    title: "Pappa Lyx 12 bitar (utan rullar)",
+    description: "Endast blandat med olika fisksorter",
+    price: "160kr",
+    image: images.PappaLyx,
   },
   {
     title: "Lax Sushi 8 bitar",

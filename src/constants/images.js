@@ -7,6 +7,9 @@ import placeholderFood from "../assets/food/food.svg";
 /* -----Sushi Meny----- */
 
 import BlandadSushi from "../assets/food/BlandadSushi.webp";
+import BlandadNigiri9 from "../assets/food/BlandadNigiri9.webp";
+import BlandadNigiri12 from "../assets/food/BlandadNigiri12.webp";
+import PappaLyx from "../assets/food/PappaLyx.webp";
 import LaxSushi from "../assets/food/LaxSushi.webp";
 import LaxSushi2 from "../assets/food/LaxSushi2.webp";
 import LaxRäkorSushi from "../assets/food/LaxRäkorSushi.webp";
@@ -94,6 +97,9 @@ export default {
   placeholderSashimi,
   placeholderFood,
   BlandadSushi,
+  BlandadNigiri9,
+  BlandadNigiri12,
+  PappaLyx,
   LaxSushi,
   LaxSushi2,
   LaxAvocadoSushi,
