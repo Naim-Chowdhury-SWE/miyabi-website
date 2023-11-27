@@ -56,19 +56,19 @@ const menuSushi = [
     title: "Lax & Rullar 8 bitar",
     description: "Hälften lax & hälften rullar",
     price: "99kr",
-    image: images.placeholderNigiri,
+    image: images.LaxRullar8,
   },
   {
     title: "Lax & Rullar 10 bitar",
     description: "Hälften lax & hälften rullar",
     price: "119kr",
-    image: images.placeholderNigiri,
+    image: images.LaxRullar10,
   },
   {
     title: "Lax & Rullar 12 bitar",
     description: "Hälften lax & hälften rullar",
     price: "139kr",
-    image: images.placeholderNigiri,
+    image: images.LaxRullar12,
   },
   {
     title: "Vegetarisk / Vegansk 10 bitar",

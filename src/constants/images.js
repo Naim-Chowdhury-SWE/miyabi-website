@@ -12,6 +12,9 @@ import BlandadNigiri12 from "../assets/food/BlandadNigiri12.webp";
 import PappaLyx from "../assets/food/PappaLyx.webp";
 import LaxSushi from "../assets/food/LaxSushi.webp";
 import LaxSushi2 from "../assets/food/LaxSushi2.webp";
+import LaxRullar8 from "../assets/food/LaxRullar8.webp";
+import LaxRullar10 from "../assets/food/LaxRullar10.webp";
+import LaxRullar12 from "../assets/food/LaxRullar12.webp";
 import LaxRäkorSushi from "../assets/food/LaxRäkorSushi.webp";
 import RäkSushi from "../assets/food/RäkSushi.webp";
 import GrillLaxSushi from "../assets/food/GrillLaxSushi.webp";
@@ -102,6 +105,9 @@ export default {
   PappaLyx,
   LaxSushi,
   LaxSushi2,
+  LaxRullar8,
+  LaxRullar10,
+  LaxRullar12,
   LaxAvocadoSushi,
   LaxRäkorSushi,
   RäkSushi,
