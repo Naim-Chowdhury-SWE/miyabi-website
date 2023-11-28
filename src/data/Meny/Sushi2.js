@@ -354,4 +354,4 @@ const familjeSushi2 = [
   },
 ];
 
-export default [blandadSushi2, menuSushi2, familjeSushi2];
+export default [blandadSushi2 /* , menuSushi2, familjeSushi2 */];

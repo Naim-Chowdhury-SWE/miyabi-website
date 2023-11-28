@@ -5,7 +5,7 @@ import MenuItem from "../Menuitem/MenuItem"; */
 import PropTypes from "prop-types";
 import "./Meny.css";
 
-const Meny = ({ menuTitle }) => {
+const Meny = ({ menuTitle, menuData }) => {
   /* const [filteredMenu, setFilteredMenu] = useState(menuData);
   const [originalMenu] = useState(menuData); */
 
@@ -31,6 +31,16 @@ const Meny = ({ menuTitle }) => {
       <div className="meny-heading">
         <h1 className="headtext__cormorant">{menuTitle} Meny</h1>
       </div>
+      {menuData.map((category, categoryIndex) => (
+        <div key={categoryIndex}>
+          <h2 className="p__cormorant">{category.title}</h2>
+          {category.variants.map((variant, variantIndex) => (
+            <p className="p__opensans" key={variantIndex}>
+              {variant.subtitle}
+            </p>
+          ))}
+        </div>
+      ))}
 
       {/* <SearchBar onSearch={handleSearch} />
 
@@ -55,7 +65,7 @@ Meny.propTypes = {
       title: PropTypes.string.isRequired,
       variants: PropTypes.arrayOf(
         PropTypes.shape({
-          title: PropTypes.string.isRequired,
+          subtitle: PropTypes.string.isRequired,
           description: PropTypes.string.isRequired,
           price: PropTypes.string.isRequired,
           image: PropTypes.string.isRequired,
