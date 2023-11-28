@@ -1,15 +1,15 @@
 // Meny.jsx
-import { useState } from "react";
+/* import { useState } from "react";
 import SearchBar from "../SearchBar/SearchBar";
-import MenuItem from "../Menuitem/MenuItem";
+import MenuItem from "../Menuitem/MenuItem"; */
 import PropTypes from "prop-types";
 import "./Meny.css";
 
-const Meny = ({ menuData, menuTitle, id }) => {
-  const [filteredMenu, setFilteredMenu] = useState(menuData);
-  const [originalMenu] = useState(menuData);
+const Meny = ({ menuTitle }) => {
+  /* const [filteredMenu, setFilteredMenu] = useState(menuData);
+  const [originalMenu] = useState(menuData); */
 
-  const handleSearch = (query) => {
+  /* const handleSearch = (query) => {
     if (query === "") {
       setFilteredMenu(originalMenu);
     } else {
@@ -24,15 +24,15 @@ const Meny = ({ menuData, menuTitle, id }) => {
 
       setFilteredMenu(filteredItems);
     }
-  };
+  }; */
 
   return (
-    <div className="meny app__bg flex__center section__padding" id={id}>
+    <div className="meny app__bg flex__center section__padding">
       <div className="meny-heading">
         <h1 className="headtext__cormorant">{menuTitle} Meny</h1>
       </div>
 
-      <SearchBar onSearch={handleSearch} />
+      {/* <SearchBar onSearch={handleSearch} />
 
       {filteredMenu.map((category) => (
         <div key={category.title} className="category-wrapper">
@@ -44,7 +44,7 @@ const Meny = ({ menuData, menuTitle, id }) => {
             ))}
           </div>
         </div>
-      ))}
+      ))} */}
     </div>
   );
 };
