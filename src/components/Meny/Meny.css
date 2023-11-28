@@ -1,7 +1,25 @@
 .meny {
     flex-direction: column;
 }
+.meny-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
+.caard-container {
+  justify-items: center;
+}
+.variant-container {
+  max-width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 2em;
+}
+.variant-image {
+  max-width: 100%;
+}
 .meny-meny {
     display: flex;
     flex-wrap: wrap;

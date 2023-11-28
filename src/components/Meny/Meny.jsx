@@ -32,12 +32,21 @@ const Meny = ({ menuTitle, menuData }) => {
         <h1 className="headtext__cormorant">{menuTitle} Meny</h1>
       </div>
       {menuData.map((category, categoryIndex) => (
-        <div key={categoryIndex}>
+        <div key={categoryIndex} className="meny-container">
           <h2 className="p__cormorant">{category.title}</h2>
           {category.variants.map((variant, variantIndex) => (
-            <p className="p__opensans" key={variantIndex}>
-              {variant.subtitle}
-            </p>
+            <div key={variantIndex} className="card-container">
+              <div className="variant-container">
+                <img
+                  src={variant.image}
+                  alt={variant.alt}
+                  className="variant-image"
+                />
+                <p className="p__opensans" key={variantIndex}>
+                  {variant.subtitle}
+                </p>
+              </div>
+            </div>
           ))}
         </div>
       ))}

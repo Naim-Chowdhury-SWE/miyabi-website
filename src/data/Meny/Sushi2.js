@@ -1,4 +1,11 @@
-import images from "../../constants/images";
+import BlandadSushi7 from "../../assets/food/BlandadSushiSmall.webp";
+import BlandadSushi8 from "../../assets/food/BlandadSushiSmall.webp";
+import BlandadSushi9 from "../../assets/food/BlandadSushiSmall.webp";
+import BlandadSushi11 from "../../assets/food/BlandadSushiSmall.webp";
+import BlandadSushi13 from "../../assets/food/BlandadSushi.webp";
+import BlandadSushi14 from "../../assets/food/BlandadSushi.webp";
+import BlandadSushi16 from "../../assets/food/BlandadSushi.webp";
+import BlandadSushi20 from "../../assets/food/1111.jpg";
 
 const blandadSushi2 = [
   {
@@ -8,28 +15,28 @@ const blandadSushi2 = [
         subtitle: "7 bitar",
         description: "Blandad sushi med lax, rullar och avocado",
         price: "89kr",
-        image: images.BlandadSushi,
+        image: BlandadSushi7,
         alt: "Blandad Sushi 7 bitar",
       },
       {
         subtitle: "8 bitar",
         description: "Blandad sushi med lax, rullar och avocado",
         price: "99kr",
-        image: images.BlandadSushi,
+        image: BlandadSushi8,
         alt: "Blandad Sushi 8 bitar",
       },
       {
         subtitle: "9 bitar",
         description: "Blandad sushi med lax, rullar, räkor och avocado",
         price: "109kr",
-        image: images.BlandadSushi,
+        image: BlandadSushi9,
         alt: "Blandad Sushi 9 bitar",
       },
       {
         subtitle: "11 bitar",
         description: "Blandad sushi med lax, rullar, räkor och avocado",
         price: "129kr",
-        image: images.BlandadSushi,
+        image: BlandadSushi11,
         alt: "Blandad Sushi 11 bitar",
       },
     ],
@@ -41,34 +48,34 @@ const blandadSushi2 = [
         subtitle: "13 bitar",
         description: "Blandad sushi med lax, rullar, räkor och avocado",
         price: "149kr",
-        image: images.placeholderNigiri,
+        image: BlandadSushi13,
         alt: "Blandad Sushi 13 bitar",
       },
       {
         subtitle: "14 bitar",
         description: "Blandad sushi med lax, rullar, räkor och avocado",
         price: "159kr",
-        image: images.placeholderNigiri,
+        image: BlandadSushi14,
         alt: "Blandad Sushi 14 bitar",
       },
       {
         subtitle: "16 bitar",
         description: "Blandad sushi med lax, rullar, räkor och avocado",
         price: "179kr",
-        image: images.placeholderNigiri,
+        image: BlandadSushi16,
         alt: "Blandad Sushi 16 bitar",
       },
       {
         subtitle: "20 bitar",
         description: "Blandad sushi med lax, rullar, räkor och avocado",
         price: "219kr",
-        image: images.placeholderNigiri,
+        image: BlandadSushi20,
         alt: "Blandad Sushi 20 bitar",
       },
     ],
   },
 ];
-
+/* 
 const menuSushi2 = [
   {
     title: "Lax & Rullar Sushi",
@@ -352,6 +359,6 @@ const familjeSushi2 = [
     image: images.placeholderNigiri,
     alt: "Familjesushi 70 bitar",
   },
-];
+]; */
 
 export default [blandadSushi2 /* , menuSushi2, familjeSushi2 */];
