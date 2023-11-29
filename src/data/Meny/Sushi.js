@@ -82,7 +82,7 @@ const menuSushi = [
     description:
       "Blandad sushi som innehåller Vegetariska rullar, Avocado och Tofu",
     price: "129kr",
-    image: images.VegetariskSushi12Bitar,
+    image: images.VegetariskSushi12,
   },
   {
     title: "Mamma Sushi 10 bitar",
