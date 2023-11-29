@@ -77,13 +77,13 @@ const VarmratterMeny = [
     title: "Vegetarisk Gyoza 6 Bitar",
     description: "6 bitar vegetariska degknyten som serveras med ris och sås",
     price: "118kr",
-    image: images.placeholderFood,
+    image: images.Gyoza,
   },
   {
     title: "Vegetarisk Gyoza 8 Bitar",
     description: "6 bitar vegetariska degknyten som serveras med ris och sås",
     price: "138kr",
-    image: images.placeholderFood,
+    image: images.Gyoza,
   },
   {
     title: "Yakisoba",
@@ -155,13 +155,13 @@ const VarmratterMeny = [
     title: "Vegetariska Vårrullar 7 bitar",
     description: "Serveras med ris sallad samt sås",
     price: "110kr",
-    image: images.placeholderFood,
+    image: images.Vårrullar7,
   },
   {
     title: "Vegetariska Vårrullar 10 Bitar",
     description: "Serveras med ris sallad samt sås",
     price: "125kr",
-    image: images.placeholderFood,
+    image: images.Vårrullar10,
   },
 ];
 

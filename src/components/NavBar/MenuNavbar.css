@@ -49,7 +49,7 @@
   .menu-navbar ul {
     font-size: 16px;
     margin: 1em 1em;
-    padding: 0 0.2em;
+    padding: 0 0.8em;
 
     
   }
@@ -57,6 +57,5 @@
 @media screen and (max-width: 360px) {
   .menu-navbar ul {
     font-size: 14px;  
-    margin: 0em 0.5em;  
   }
 }

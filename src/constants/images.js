@@ -86,6 +86,8 @@ import StektRisRäka from "../assets/food/StektRisRäka.webp";
 import StektRisEntrecote from "../assets/food/StektRisEntrecote.webp";
 import Karaage from "../assets/food/Karaage.webp";
 import Laxteriyaki from "../assets/food/Laxteriyaki.webp";
+import Vårrullar7 from "../assets/food/Vårrullar7.webp";
+import Vårrullar10 from "../assets/food/Vårrullar10.webp";
 
 import UdonEntrecote from "../assets/food/UdonEntrecote.webp";
 import UdonVegetarisk from "../assets/food/UdonVegetarisk.webp";
@@ -168,6 +170,8 @@ export default {
   StektRisEntrecote,
   Karaage,
   Laxteriyaki,
+  Vårrullar7,
+  Vårrullar10,
   WokadKycklingStark,
   WokadRäkorStark,
   UdonEntrecote,
