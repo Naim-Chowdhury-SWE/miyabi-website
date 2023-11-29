@@ -4,11 +4,20 @@ import placeholderNigiri from "../assets/food/nigiri.jpg";
 import placeholderSashimi from "../assets/food/sashimi.jpg";
 import placeholderFood from "../assets/food/food.svg";
 
+/* -----Lunch Meny----- */
+
+import RisnudlarEntrecote from "../assets/food/RisnudlarEntrecote.webp";
+
 /* -----Sushi Meny----- */
 
 import BlandadSushi from "../assets/food/BlandadSushi.webp";
 import BlandadNigiri9 from "../assets/food/BlandadNigiri9.webp";
 import BlandadNigiri12 from "../assets/food/BlandadNigiri12.webp";
+import VegetariskSushi10 from "../assets/food/VegetariskSushi10.webp";
+import VegetariskSushi12 from "../assets/food/VegetariskSushi12.webp";
+import MammaSushi10 from "../assets/food/MammaSushi10.webp";
+import MammaSushi12 from "../assets/food/MammaSushi12.webp";
+
 import PappaLyx from "../assets/food/PappaLyx.webp";
 import LaxSushi from "../assets/food/LaxSushi.webp";
 import LaxSushi2 from "../assets/food/LaxSushi2.webp";
@@ -99,9 +108,14 @@ export default {
   placeholderNigiri,
   placeholderSashimi,
   placeholderFood,
+  RisnudlarEntrecote,
   BlandadSushi,
   BlandadNigiri9,
   BlandadNigiri12,
+  VegetariskSushi10,
+  VegetariskSushi12,
+  MammaSushi10,
+  MammaSushi12,
   PappaLyx,
   LaxSushi,
   LaxSushi2,

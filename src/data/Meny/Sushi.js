@@ -75,26 +75,26 @@ const menuSushi = [
     description:
       "Blandad sushi som innehåller Vegetariska rullar, Avocado och Tofu",
     price: "109kr",
-    image: images.placeholderNigiri,
+    image: images.VegetariskSushi10,
   },
   {
     title: "Vegetarisk / Vegansk 12 bitar",
     description:
       "Blandad sushi som innehåller Vegetariska rullar, Avocado och Tofu",
     price: "129kr",
-    image: images.placeholderNigiri,
+    image: images.VegetariskSushi12Bitar,
   },
   {
     title: "Mamma Sushi 10 bitar",
     description: "Blandad sushi men utan råfisk",
     price: "109kr",
-    image: images.placeholderNigiri,
+    image: images.MammaSushi10,
   },
   {
     title: "Mamma Sushi 12 bitar",
     description: "Blandad sushi men utan råfisk",
     price: "135kr",
-    image: images.placeholderNigiri,
+    image: images.MammaSushi12,
   },
   {
     title: "9 bitar Blandad Nigiri (utan rullar)",

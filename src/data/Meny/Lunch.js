@@ -5,7 +5,7 @@ const lunchMeny1 = [
     title: "Måndag",
     description: "Wokade Risnudlar med entrecote samt grönsaker",
     price: "125kr",
-    image: images.placeholderPhoto,
+    image: images.RisnudlarEntrecote,
   },
   {
     title: "Tisdag",
@@ -37,7 +37,7 @@ const lunchMeny2 = [
     title: "Blandad sushi 9/11/13 bitar",
     description: "Blandad sushi med lax, rullar, räkor och avocado",
     price: "108/128/149kr",
-    image: images.placeholderPhoto,
+    image: images.BlandadSushi,
   },
   {
     title: "Bibimpab",
