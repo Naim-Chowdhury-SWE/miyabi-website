@@ -98,6 +98,13 @@ import WokadKycklingStark from "../assets/food/WokadKycklingStark.webp";
 import WokadRäkorStark from "../assets/food/WokadRäkorStark.webp";
 import RamenRäka from "../assets/food/RamenRäka.webp";
 
+import BibimbapEntrecote from "../assets/food/BibimbapEntrecote.webp";
+import BibimbapKyckling from "../assets/food/BibimbapKyckling.webp";
+import BibimbapRäka from "../assets/food/BibimbapRäka.webp";
+import BibimbapLax from "../assets/food/BibimbapLax.webp";
+import BibimbapTofu from "../assets/food/BibimbapTofu.webp";
+import BibimbapMix from "../assets/food/BibimbapMix.webp";
+
 /* -----Barn Meny----- */
 
 import BarnYakiniku from "../assets/food/BarnYakiniku.webp";
@@ -174,6 +181,12 @@ export default {
   Vårrullar10,
   WokadKycklingStark,
   WokadRäkorStark,
+  BibimbapEntrecote,
+  BibimbapKyckling,
+  BibimbapRäka,
+  BibimbapLax,
+  BibimbapTofu,
+  BibimbapMix,
   UdonEntrecote,
   UdonVegetarisk,
   UdonTempura,

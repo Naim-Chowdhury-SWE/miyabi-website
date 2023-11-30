@@ -165,6 +165,45 @@ const VarmratterMeny = [
   },
 ];
 
+const Bibimbap = [
+  {
+    title: "Bibimbap Entrécôte",
+    description: `Koreansk rätt som innehåller ris, olika typer av sallader, kimchi och starksås. Toppas med ett stekt ägg`,
+    price: "139kr",
+    image: images.BibimbapEntrecote,
+  },
+  {
+    title: "Bibimbap Kyckling",
+    description: `Koreansk rätt som innehåller ris, olika typer av sallader, kimchi och starksås. Toppas med ett stekt ägg`,
+    price: "139kr",
+    image: images.BibimbapKyckling,
+  },
+  {
+    title: "Bibimbap Räkor",
+    description: `Koreansk rätt som innehåller ris, olika typer av sallader, kimchi och starksås. Toppas med ett stekt ägg`,
+    price: "139kr",
+    image: images.BibimbapRäka,
+  },
+  {
+    title: "Bibimbap Lax (Rå)",
+    description: `Koreansk rätt som innehåller ris, olika typer av sallader, kimchi och starksås. Toppas med ett stekt ägg`,
+    price: "139kr",
+    image: images.BibimbapLax,
+  },
+  {
+    title: "Bibimbap Tofu",
+    description: `Koreansk rätt som innehåller ris, olika typer av sallader, kimchi och starksås. Toppas med ett stekt ägg`,
+    price: "139kr",
+    image: images.BibimbapTofu,
+  },
+  {
+    title: "Bibimbap Mix",
+    description: `Entrécôte, Kyckling samt räkor ingår i denna Bibimbap`,
+    price: "139kr",
+    image: images.BibimbapMix,
+  },
+];
+
 const Soppor = [
   {
     title: "Uddon Entrecote",
@@ -206,4 +245,4 @@ const Soppor = [
   },
 ];
 
-export default { VarmratterMeny, Soppor };
+export default { VarmratterMeny, Bibimbap, Soppor };

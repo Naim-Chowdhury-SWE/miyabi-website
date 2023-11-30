@@ -43,7 +43,7 @@ const lunchMeny2 = [
     title: "Bibimpab",
     description: "Med entrecote, kyckling, räkor eller lax (rå lax)",
     price: "139kr",
-    image: images.placeholderPhoto,
+    image: images.BibimbapEntrecote,
   },
   {
     title: "Yakiniku",
