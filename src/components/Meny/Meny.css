@@ -1,14 +1,14 @@
 .meny {
     flex-direction: column;
 }
-.meny-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.meny-container h2 {
+  text-align: center;
 }
 
-.caard-container {
-  justify-items: center;
+.card-container {
+  display: grid;
+  border: 2px solid green;
+
 }
 .variant-container {
   max-width: 40%;
