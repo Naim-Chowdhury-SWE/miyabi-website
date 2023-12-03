@@ -107,13 +107,13 @@ const VarmratterMeny = [
     title: "Wokad biff med grönsaker",
     description: "Serveras med ris eller nudlar",
     price: "145kr",
-    image: images.placeholderFood,
+    image: images.WokadBiff,
   },
   {
     title: "Tempura",
     description: "Friterade jätteräkor med grönsaker och ris",
     price: "150kr",
-    image: images.placeholderFood,
+    image: images.Tempura,
   },
   {
     title: "Karaage",

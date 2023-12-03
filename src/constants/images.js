@@ -79,11 +79,13 @@ import BentoGyoza from "../assets/food/BentoGyoza.webp";
 import Gyoza from "../assets/food/Gyoza.webp";
 import Yakisoba from "../assets/food/Yakisoba.webp";
 import WokadKyckling from "../assets/food/WokadKyckling.webp";
+import WokadBiff from "../assets/food/WokadBiff.webp";
 import WokadRäkor from "../assets/food/WokadRäkor.webp";
 import StektRisVeg from "../assets/food/StektRisVeg.webp";
 import StektRisKyckling from "../assets/food/StektRisKyckling.webp";
 import StektRisRäka from "../assets/food/StektRisRäka.webp";
 import StektRisEntrecote from "../assets/food/StektRisEntrecote.webp";
+import Tempura from "../assets/food/Tempura.webp";
 import Karaage from "../assets/food/Karaage.webp";
 import Laxteriyaki from "../assets/food/Laxteriyaki.webp";
 import Vårrullar7 from "../assets/food/Vårrullar7.webp";
@@ -169,12 +171,14 @@ export default {
   BentoGyoza,
   Gyoza,
   Yakisoba,
+  WokadBiff,
   WokadKyckling,
   WokadRäkor,
   StektRisVeg,
   StektRisKyckling,
   StektRisRäka,
   StektRisEntrecote,
+  Tempura,
   Karaage,
   Laxteriyaki,
   Vårrullar7,
