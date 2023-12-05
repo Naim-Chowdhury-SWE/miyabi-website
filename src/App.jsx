@@ -1,7 +1,7 @@
 import NavBar from "./components/NavBar/NavBar";
 /* import MenuNavbar from "./components/NavBar/MenuNavbar"; */
 /* import LunchMeny from "./components/Meny/Lunch/Lunch"; */
-/* import Test from "./components/Meny/Test"; */
+import TestCard from "./components/TestCard";
 import SushiMeny from "./components/Meny/Sushi/Sushi";
 /* import NorimakiMeny from "./components/Meny/Norimaki/Norimaki";
 import SashimiMeny from "./components/Meny/Sashimi/Sashimi";
@@ -14,6 +14,7 @@ import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
 import Carousel from "./components/Carousel/Carousel";
 import { Suspense } from "react";
+import sushi2Data from "./data/Meny/Sushi2";
 
 const OPTIONS = {};
 const SLIDE_COUNT = 6;
@@ -33,7 +34,13 @@ function App() {
         {/*  <MenuNavbar /> */}
         {/*         <LunchMeny /> */}
         <Suspense>
-          {/* <Test /> */}
+          {sushi2Data.map((sushi) => (
+            <TestCard
+              key={sushi.title}
+              title={sushi.title}
+              variants={sushi.variants}
+            />
+          ))}
           <SushiMeny />
           {/* <NorimakiMeny />
           <SashimiMeny />
