@@ -48,12 +48,14 @@ import ShakeMaki from "../assets/food/ShakeMaki.webp";
 import KappaMaki from "../assets/food/KappaMaki.webp";
 import PhiladelphiaRoll from "../assets/food/PhiladelphiaRoll.webp";
 import FutomakiRoll from "../assets/food/FutomakiRoll.webp";
+import MiyabiSpecialRoll from "../assets/food/MiyabiSpecialRoll.webp";
 import TempuraRoll from "../assets/food/TempuraRoll.webp";
 import TempuraRollFriterad from "../assets/food/TempuraRollFriterad.webp";
 import TeriyakiRoll from "../assets/food/TeriyakiRoll.webp";
 import AlaskaRoll from "../assets/food/AlaskaRoll.webp";
 import SpicytunaRoll from "../assets/food/SpicytunaRoll.webp";
 import KaraageRoll from "../assets/food/KaraageRoll.webp";
+import YakinikuRoll from "../assets/food/YakinikuRoll.webp";
 
 /* -----Sashimi----- */
 
@@ -153,11 +155,13 @@ export default {
   PhiladelphiaRoll,
   FutomakiRoll,
   TeriyakiRoll,
+  MiyabiSpecialRoll,
   TempuraRoll,
   TempuraRollFriterad,
   AlaskaRoll,
   SpicytunaRoll,
   KaraageRoll,
+  YakinikuRoll,
   LaxTunaSashimiLiten,
   SashimiMixLiten,
   SashimiMixStor,

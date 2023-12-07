@@ -97,7 +97,7 @@ const NorimakiMeny1 = [
     title: "Miyabi Special (friterad rulle)",
     description: "Sjögräsrulle med lax, gurka och krabba samt chilimajo",
     price: "145kr",
-    image: images.placeholderMaki,
+    image: images.MiyabiSpecialRoll,
   },
   {
     title: "Karageroll",
@@ -123,7 +123,7 @@ const NorimakiMeny1 = [
     description:
       "Sjögräsrulle med yakinikukött, paprika, sallad och rödlök, toppas chilimajo",
     price: "130kr",
-    image: images.placeholderMaki,
+    image: images.YakinikuRoll,
   },
   {
     title: "Teriyakiroll",
