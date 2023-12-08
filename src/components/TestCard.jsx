@@ -1,7 +1,7 @@
 // TestCard.jsx
-import { useState } from "react";
+/* import { useState } from "react";
 import PropTypes from "prop-types";
-/* import TestCarousel from "./Carousel/TestCarousel"; */
+import TestCarousel from "./Carousel/TestCarousel";
 
 const TestCard = ({ title, variants }) => {
   const [selectedVariant, setSelectedVariant] = useState(variants[0]);
@@ -13,7 +13,7 @@ const TestCard = ({ title, variants }) => {
   return (
     <div className="card">
       <h2>{title}</h2>
-      {/* <TestCarousel variants={variants} /> */}
+      <TestCarousel variants={variants} />
       <div className="buttons">
         {variants.map((variant, index) => (
           <button key={index} onClick={() => handleButtonClick(variant)}>
@@ -30,6 +30,18 @@ const TestCard = ({ title, variants }) => {
 TestCard.propTypes = {
   title: PropTypes.string.isRequired,
   variants: PropTypes.array.isRequired,
+};
+
+export default TestCard; */
+
+import SushiData from "../data/Meny/Sushi2";
+
+const TestCard = () => {
+  return (
+    <div>
+      <h1>Sushi Menu</h1>
+    </div>
+  );
 };
 
 export default TestCard;

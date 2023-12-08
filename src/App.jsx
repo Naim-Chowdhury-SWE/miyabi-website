@@ -14,7 +14,7 @@ import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
 import Carousel from "./components/Carousel/Carousel";
 import { Suspense } from "react";
-import sushi2Data from "./data/Meny/Sushi2";
+/* import sushi2Data from "./data/Meny/Sushi2"; */
 
 const OPTIONS = {};
 const SLIDE_COUNT = 6;
@@ -34,13 +34,7 @@ function App() {
         {/*  <MenuNavbar /> */}
         {/*         <LunchMeny /> */}
         <Suspense>
-          {sushi2Data.map((sushi) => (
-            <TestCard
-              key={sushi.title}
-              title={sushi.title}
-              variants={sushi.variants}
-            />
-          ))}
+          <TestCard />
           <SushiMeny />
           {/* <NorimakiMeny />
           <SashimiMeny />
