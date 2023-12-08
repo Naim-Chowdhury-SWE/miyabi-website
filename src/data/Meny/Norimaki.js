@@ -146,7 +146,7 @@ const NorimakiMeny2 = [
     description:
       "Räka, krispig sallad, avokado, dragon sås toppas med grillad lax",
     price: "149kr",
-    image: images.placeholderMaki,
+    image: images.DragonRoll,
   },
   {
     title: "Crispy Spicy Tuna Roll",

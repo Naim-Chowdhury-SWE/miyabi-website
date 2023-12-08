@@ -53,6 +53,7 @@ import TempuraRoll from "../assets/food/TempuraRoll.webp";
 import TempuraRollFriterad from "../assets/food/TempuraRollFriterad.webp";
 import TeriyakiRoll from "../assets/food/TeriyakiRoll.webp";
 import AlaskaRoll from "../assets/food/AlaskaRoll.webp";
+import DragonRoll from "../assets/food/DragonRoll.webp";
 import SpicytunaRoll from "../assets/food/SpicytunaRoll.webp";
 import KaraageRoll from "../assets/food/KaraageRoll.webp";
 import YakinikuRoll from "../assets/food/YakinikuRoll.webp";
@@ -159,6 +160,7 @@ export default {
   TempuraRoll,
   TempuraRollFriterad,
   AlaskaRoll,
+  DragonRoll,
   SpicytunaRoll,
   KaraageRoll,
   YakinikuRoll,

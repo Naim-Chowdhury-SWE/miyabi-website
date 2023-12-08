@@ -32,20 +32,6 @@ const SpecialMeny = [
     image: images.placeholderFood,
   },
   {
-    title: "Bibimbap: Entrecote / Kyckling / Räkor eller Rå Lax",
-    description:
-      "Koreansk rätt som innehåller antingen Entrecote, Kyckling, Räkor eller Rå Lax. Stark sås ingår. Toppas med ett stekt ägg och serveras med ris, olika typer av sallader och kimchi",
-    price: "139 kr",
-    image: images.placeholderFood,
-  },
-  {
-    title: "Bibimbap Mix (Entrecote + kyckling + Räkor)",
-    description:
-      "Koreansk rätt som innehåller Entrecote, Kyckling och Räkor samt stark sås. Toppas med ett stekt ägg och serveras med ris, olika typer av sallader och kimchi",
-    price: "159 kr",
-    image: images.placeholderFood,
-  },
-  {
     title: "Wokad kyckling (stark)",
     description: "Stark smak ris/nudlar (cashew + 5kr)",
     price: "150 kr",
