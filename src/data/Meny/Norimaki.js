@@ -135,13 +135,6 @@ const NorimakiMeny1 = [
 
 const NorimakiMeny2 = [
   {
-    title: "Tempura Roll Special",
-    description:
-      "Friterade jätteräkor, avokado, krispig sallad toppas med grillad lax",
-    price: "159kr",
-    image: images.placeholderMaki,
-  },
-  {
     title: "Dragon Roll",
     description:
       "Räka, krispig sallad, avokado, dragon sås toppas med grillad lax",
