@@ -5,7 +5,7 @@ import BlandadSushi11 from "../../assets/food/BlandadSushiSmall.webp";
 import BlandadSushi13 from "../../assets/food/BlandadSushi.webp";
 import BlandadSushi14 from "../../assets/food/BlandadSushi.webp";
 import BlandadSushi16 from "../../assets/food/BlandadSushi.webp";
-import BlandadSushi20 from "../../assets/food/1111.jpg";
+import BlandadSushi20 from "../../assets/food/BlandadSushi.webp";
 
 const blandadSushi2 = [
   {
