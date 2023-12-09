@@ -7,7 +7,9 @@ import BlandadSushi14 from "../../assets/food/BlandadSushi.webp";
 import BlandadSushi16 from "../../assets/food/BlandadSushi.webp";
 import BlandadSushi20 from "../../assets/food/BlandadSushi.webp";
 
-const blandadSushi2 = [
+import images from "../../constants/images";
+
+export const blandadSushi2 = [
   {
     title: "Blandad Sushi 1",
     variants: [
@@ -75,8 +77,8 @@ const blandadSushi2 = [
     ],
   },
 ];
-/* 
-const menuSushi2 = [
+
+export const menuSushi2 = [
   {
     title: "Lax & Rullar Sushi",
     variants: [
@@ -326,7 +328,7 @@ const menuSushi2 = [
   },
 ];
 
-const familjeSushi2 = [
+export const familjeSushi2 = [
   {
     title: "Familjesushi 30 bitar",
     description:
@@ -359,6 +361,4 @@ const familjeSushi2 = [
     image: images.placeholderNigiri,
     alt: "Familjesushi 70 bitar",
   },
-]; */
-
-export default [blandadSushi2 /* , menuSushi2, familjeSushi2 */];
+];
