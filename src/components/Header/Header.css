@@ -1,10 +1,9 @@
-header {
+/* header {
     height: 40vh;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     padding: 0 6vw;
-    /* border: 1px solid var(--color-golden); */
 }
 
 .header {
@@ -13,7 +12,6 @@ header {
     max-height: 20vh;
     width: max-content;
     padding: 0 5vw;
-    /* border: 1px solid var(--color-golden); */
 }
 
 
@@ -42,4 +40,18 @@ header {
     .header {
         margin: 0 2em;
     }
+} */
+
+.header {
+    min-height: 40vh;
+    text-align: center;
+    font-size: 2em;
+}
+
+.header-p {
+    margin: 1em;
+}
+
+.gold {
+    color: var(--color-golden)
 }

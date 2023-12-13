@@ -15,9 +15,9 @@ const lunchMeny1 = [
   },
   {
     title: "Onsdag",
-    description: "Wokade glasnudlar med kyckling samt grönsaker",
+    description: "Japansk Curry med kyckling, grönsaker och ris",
     price: "125kr",
-    image: images.placeholderPhoto,
+    image: images.placeholderFood,
   },
   {
     title: "Torsdag",

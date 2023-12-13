@@ -86,13 +86,14 @@
 }
 
 .navbar-smallscreen_overlay .overlay__close {
-    font-size: 27px;
+    font-size: 22px;
     color: var(--color-golden);
     cursor: pointer;
 
     position: absolute;
-    top: 20px;
-    right: 20px;
+    top: 33px;
+    right: 16px;
+    scale: 108%;
 }
 
 .navbar-smallscreen-links {

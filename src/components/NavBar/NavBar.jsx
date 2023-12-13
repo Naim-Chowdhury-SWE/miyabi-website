@@ -12,9 +12,6 @@ const NavBar = () => {
         <img src={logo.miyabitextredwhite} alt="Miyabi Logo" />
       </div>
       <ul className="navbar-links">
-        {/* <li className="p__opensans">
-          <ScrollLink targetId="Hem">Hem</ScrollLink>
-        </li> */}
         <li className="p__opensans">
           <ScrollLink targetId="LunchMeny">Meny</ScrollLink>
         </li>
