@@ -30,7 +30,7 @@ const VarmratterMeny = [
     description:
       "Strimlad Entrecote, serveras med ris samt med 5 bitar blandad sushi",
     price: "159kr",
-    image: images.placeholderFood,
+    image: images.YakinikuSushi,
   },
   {
     title: "Bentolåda",

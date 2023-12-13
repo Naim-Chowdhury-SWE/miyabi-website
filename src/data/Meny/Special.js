@@ -26,6 +26,18 @@ const SpecialMeny = [
     image: images.placeholderFood,
   },
   {
+    title: "Kyckling med curry och kokosmjölk",
+    description: "Serveras med ris, grönsaker samt sallad (mellanstark)",
+    price: "150 kr",
+    image: images.KokosmjölkKyckling,
+  },
+  {
+    title: "Räkor med curry och kokosmjölk",
+    description: "Serveras med ris, grönsaker samt sallad (mellanstark)",
+    price: "150 kr",
+    image: images.KokosmjölkRäka,
+  },
+  {
     title: "Wokad Kyckling med ostronsås",
     description: "Smak av Thailand, Serveras med ris eller nudlar samt sallad",
     price: "150 kr",

@@ -39,28 +39,18 @@
 
   @media (min-width: 750px) {
     .sandbox {
-        padding: 0 5rem;
+        padding: 0 2rem;
     }
-  }
-  .sandbox__carousel {
-    position: relative;
-    background-color: var(--background-code);
   }
 
   
-  @media (max-width: 749px) {
+  @media (max-width: 768px) {
     .embla {
       --slide-height: 10rem;
     }
-    .sandbox__carousel {
-      border-top: 0.1rem solid var(--detail-low-contrast);
-      border-bottom: 0.1rem solid var(--detail-low-contrast);
+  }
+  @media (min-width: 769px) and (max-width: 1200px) {
+    .embla {
+      --slide-height: 15rem;
     }
   }
-  @media (min-width: 750px) {
-    .sandbox__carousel {
-      border-radius: 0.4rem;
-      border: 0.1rem solid var(--detail-low-contrast);
-    }
-  }
-  

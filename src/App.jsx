@@ -25,7 +25,7 @@ function App() {
       <Warning />
 
       <div className="sandbox app__bg">
-        <section className="sandbox__carousel">
+        <section>
           <Carousel slides={SLIDES} options={OPTIONS} />
         </section>
       </div>

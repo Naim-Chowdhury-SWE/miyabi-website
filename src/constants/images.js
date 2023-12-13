@@ -74,6 +74,7 @@ import PokebowlTofu from "../assets/food/PokebowlTofu.webp";
 
 import Yakitori from "../assets/food/Yakitori.webp";
 import Yakiniku from "../assets/food/Yakiniku.webp";
+import YakinikuSushi from "../assets/food/YakinikuSushi.webp";
 
 import Bento from "../assets/food/Bento.webp";
 import BentoMiyabi from "../assets/food/BentoMiyabi.webp";
@@ -102,6 +103,8 @@ import UdonGyoza from "../assets/food/UdonGyoza.webp";
 
 import WokadKycklingStark from "../assets/food/WokadKycklingStark.webp";
 import WokadRäkorStark from "../assets/food/WokadRäkorStark.webp";
+import KokosmjölkKyckling from "../assets/food/KokosmjölkKyckling.webp";
+import KokosmjölkRäka from "../assets/food/KokosmjölkRäka.webp";
 import RamenRäka from "../assets/food/RamenRäka.webp";
 
 import BibimbapEntrecote from "../assets/food/BibimbapEntrecote.webp";
@@ -171,8 +174,9 @@ export default {
   PokebowlRäka,
   PokebowlKyckling,
   PokebowlTofu,
-  Yakiniku,
   Yakitori,
+  Yakiniku,
+  YakinikuSushi,
   Bento,
   BentoMiyabi,
   BentoDeluxe,
@@ -193,6 +197,8 @@ export default {
   Vårrullar10,
   WokadKycklingStark,
   WokadRäkorStark,
+  KokosmjölkKyckling,
+  KokosmjölkRäka,
   BibimbapEntrecote,
   BibimbapKyckling,
   BibimbapRäka,
