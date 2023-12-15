@@ -17,7 +17,7 @@ const lunchMeny1 = [
     title: "Onsdag",
     description: "Japansk Curry med kyckling, grönsaker och ris",
     price: "125kr",
-    image: images.placeholderFood,
+    image: images.KycklingJapanskCurry,
   },
   {
     title: "Torsdag",

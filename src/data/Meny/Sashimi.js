@@ -11,7 +11,7 @@ const sashimiMeny = [
     title: "Lax Sashimi Stor",
     description: "Stora skivor Lax på salladsbädd",
     price: "250 kr",
-    image: images.placeholderSashimi,
+    image: images.SashimiLaxStor,
   },
   {
     title: "Tonfisk Sashimi Liten",
@@ -29,13 +29,13 @@ const sashimiMeny = [
     title: "Lax & Tonfisk Sashimi Liten",
     description: "Stora skivor Lax och Tonfisk på salladsbädd",
     price: "130 kr",
-    image: images.LaxTunaSashimiLiten,
+    image: images.SashimiLaxTunaLiten,
   },
   {
     title: "Lax & Tonfisk Sashimi Stor",
     description: "Stora skivor Lax och Tonfisk på salladsbädd",
     price: "250 kr",
-    image: images.placeholderSashimi,
+    image: images.SashimiLaxTunaStor,
   },
   {
     title: "Sashimi Mix Liten",

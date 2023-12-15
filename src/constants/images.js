@@ -7,7 +7,7 @@ import placeholderFood from "../assets/food/food.svg";
 /* -----Lunch Meny----- */
 
 import RisnudlarEntrecote from "../assets/food/RisnudlarEntrecote.webp";
-
+import KycklingJapanskCurry from "../assets/food/KycklingJapanskCurry.webp";
 /* -----Sushi Meny----- */
 
 import BlandadSushi from "../assets/food/BlandadSushi.webp";
@@ -62,7 +62,9 @@ import YakinikuRoll from "../assets/food/YakinikuRoll.webp";
 
 import SashimiMixLiten from "../assets/food/SashimiMixLiten.webp";
 import SashimiMixStor from "../assets/food/SashimiMixStor.webp";
-import LaxTunaSashimiLiten from "../assets/food/LaxTunaSashimiLiten.webp";
+import SashimiLaxTunaLiten from "../assets/food/SashimiLaxTunaLiten.webp";
+import SashimiLaxTunaStor from "../assets/food/SashimiLaxTunaStor.webp";
+import SashimiLaxStor from "../assets/food/SashimiLaxStor.webp";
 
 /* -----PokeBowls----- */
 
@@ -127,6 +129,7 @@ export default {
   placeholderSashimi,
   placeholderFood,
   RisnudlarEntrecote,
+  KycklingJapanskCurry,
   BlandadSushi,
   BlandadNigiri9,
   BlandadNigiri12,
@@ -167,7 +170,9 @@ export default {
   SpicytunaRoll,
   KaraageRoll,
   YakinikuRoll,
-  LaxTunaSashimiLiten,
+  SashimiLaxStor,
+  SashimiLaxTunaLiten,
+  SashimiLaxTunaStor,
   SashimiMixLiten,
   SashimiMixStor,
   PokebowlLax,
