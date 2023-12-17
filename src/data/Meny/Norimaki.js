@@ -55,7 +55,7 @@ const NorimakiMeny1 = [
     title: "Tekkamaki",
     description: "Sjögräsrulle med tonfisk samt gurka",
     price: "129kr",
-    image: images.placeholderMaki,
+    image: images.TekkaMaki,
   },
   {
     title: "Hawaiimaki Tonfisk",
@@ -153,7 +153,7 @@ const NorimakiMeny2 = [
     description:
       "Avokado, marinerad lax, krispig sallad och chilimajonnäs. Rullen friteras",
     price: "149kr",
-    image: images.placeholderMaki,
+    image: images.CrispyMiyabiRoll,
   },
   {
     title: "Crispy Tempura Roll",

@@ -45,6 +45,7 @@ import CaliforniaRollSpecial from "../assets/food/CaliforniaRollSpecial.webp";
 import VegetariskRoll from "../assets/food/VegetariskRoll.webp";
 import VegetariskMangoRoll from "../assets/food/VegetariskMangoRoll.webp";
 import ShakeMaki from "../assets/food/ShakeMaki.webp";
+import TekkaMaki from "../assets/food/TekkaMaki.webp";
 import KappaMaki from "../assets/food/KappaMaki.webp";
 import PhiladelphiaRoll from "../assets/food/PhiladelphiaRoll.webp";
 import FutomakiRoll from "../assets/food/FutomakiRoll.webp";
@@ -54,6 +55,7 @@ import TempuraRollFriterad from "../assets/food/TempuraRollFriterad.webp";
 import TeriyakiRoll from "../assets/food/TeriyakiRoll.webp";
 import AlaskaRoll from "../assets/food/AlaskaRoll.webp";
 import DragonRoll from "../assets/food/DragonRoll.webp";
+import CrispyMiyabiRoll from "../assets/food/CrispyMiyabiRoll.webp";
 import SpicytunaRoll from "../assets/food/SpicytunaRoll.webp";
 import KaraageRoll from "../assets/food/KaraageRoll.webp";
 import YakinikuRoll from "../assets/food/YakinikuRoll.webp";
@@ -158,6 +160,7 @@ export default {
   VegetariskRoll,
   VegetariskMangoRoll,
   ShakeMaki,
+  TekkaMaki,
   KappaMaki,
   PhiladelphiaRoll,
   FutomakiRoll,
@@ -167,6 +170,7 @@ export default {
   TempuraRollFriterad,
   AlaskaRoll,
   DragonRoll,
+  CrispyMiyabiRoll,
   SpicytunaRoll,
   KaraageRoll,
   YakinikuRoll,
