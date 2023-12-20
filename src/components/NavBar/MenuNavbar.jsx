@@ -44,7 +44,7 @@ const MenuNavbar = () => {
 
     if (isLandscape) {
       switch (true) {
-        case screenWidth >= 1400 && scrollY < 1000:
+        case screenWidth >= 1400 && scrollY < 1100:
           menuNavbar.classList.add("hidden");
           break;
         case screenWidth <= 1399 && screenWidth >= 1100 && scrollY < 1200:
