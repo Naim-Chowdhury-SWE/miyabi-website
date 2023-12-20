@@ -5,7 +5,7 @@ const sashimiMeny = [
     title: "Lax Sashimi Liten",
     description: "Stora skivor Lax på salladsbädd",
     price: "130 kr",
-    image: images.placeholderSashimi,
+    image: images.SashimiLaxLiten,
   },
   {
     title: "Lax Sashimi Stor",

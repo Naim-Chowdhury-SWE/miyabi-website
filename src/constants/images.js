@@ -56,6 +56,7 @@ import TeriyakiRoll from "../assets/food/TeriyakiRoll.webp";
 import AlaskaRoll from "../assets/food/AlaskaRoll.webp";
 import DragonRoll from "../assets/food/DragonRoll.webp";
 import CrispyMiyabiRoll from "../assets/food/CrispyMiyabiRoll.webp";
+import CrispyTempuraRoll from "../assets/food/CrispyTempuraRoll.webp";
 import SpicytunaRoll from "../assets/food/SpicytunaRoll.webp";
 import KaraageRoll from "../assets/food/KaraageRoll.webp";
 import YakinikuRoll from "../assets/food/YakinikuRoll.webp";
@@ -66,6 +67,7 @@ import SashimiMixLiten from "../assets/food/SashimiMixLiten.webp";
 import SashimiMixStor from "../assets/food/SashimiMixStor.webp";
 import SashimiLaxTunaLiten from "../assets/food/SashimiLaxTunaLiten.webp";
 import SashimiLaxTunaStor from "../assets/food/SashimiLaxTunaStor.webp";
+import SashimiLaxLiten from "../assets/food/SashimiLaxLiten.webp";
 import SashimiLaxStor from "../assets/food/SashimiLaxStor.webp";
 
 /* -----PokeBowls----- */
@@ -171,9 +173,11 @@ export default {
   AlaskaRoll,
   DragonRoll,
   CrispyMiyabiRoll,
+  CrispyTempuraRoll,
   SpicytunaRoll,
   KaraageRoll,
   YakinikuRoll,
+  SashimiLaxLiten,
   SashimiLaxStor,
   SashimiLaxTunaLiten,
   SashimiLaxTunaStor,
