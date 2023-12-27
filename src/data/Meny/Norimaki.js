@@ -167,7 +167,7 @@ const NorimakiMeny2 = [
     description:
       "Avokado, lax, krispig sallad och chilimajonnäs. Rullen friteras",
     price: "159kr",
-    image: images.placeholderMaki,
+    image: images.CrispyAlaskaRoll,
   },
   {
     title: "Crispy Vegetarisk Roll",
