@@ -113,6 +113,7 @@ import WokadRäkorStark from "../assets/food/WokadRäkorStark.webp";
 import KokosmjölkKyckling from "../assets/food/KokosmjölkKyckling.webp";
 import KokosmjölkRäka from "../assets/food/KokosmjölkRäka.webp";
 import RamenRäka from "../assets/food/RamenRäka.webp";
+import RamenKyckling from "../assets/food/RamenKyckling.webp";
 
 import BibimbapEntrecote from "../assets/food/BibimbapEntrecote.webp";
 import BibimbapKyckling from "../assets/food/BibimbapKyckling.webp";
@@ -228,4 +229,5 @@ export default {
   BarnYakitori,
   BarnKaraage,
   RamenRäka,
+  RamenKyckling,
 };

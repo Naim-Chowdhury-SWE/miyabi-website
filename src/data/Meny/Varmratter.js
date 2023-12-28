@@ -235,7 +235,7 @@ const Soppor = [
     title: "Ramen Kyckling",
     description: "Nudelsoppa gjord på äggnudlar, grönsaker och kokt ägg",
     price: "145kr",
-    image: images.placeholderFood,
+    image: images.RamenKyckling,
   },
   {
     title: "Ramen Räka",
