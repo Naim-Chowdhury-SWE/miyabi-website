@@ -10,7 +10,8 @@ import RisnudlarEntrecote from "../assets/food/RisnudlarEntrecote.webp";
 import KycklingJapanskCurry from "../assets/food/KycklingJapanskCurry.webp";
 /* -----Sushi Meny----- */
 
-import BlandadSushi from "../assets/food/BlandadSushi.webp";
+import BlandadSushiLiten from "../assets/food/BlandadSushiLiten.webp";
+import BlandadSushiStor from "../assets/food/BlandadSushiStor.webp";
 import BlandadNigiri9 from "../assets/food/BlandadNigiri9.webp";
 import BlandadNigiri12 from "../assets/food/BlandadNigiri12.webp";
 import VegetariskSushi10 from "../assets/food/VegetariskSushi10.webp";
@@ -136,7 +137,8 @@ export default {
   placeholderFood,
   RisnudlarEntrecote,
   KycklingJapanskCurry,
-  BlandadSushi,
+  BlandadSushiLiten,
+  BlandadSushiStor,
   BlandadNigiri9,
   BlandadNigiri12,
   VegetariskSushi10,
