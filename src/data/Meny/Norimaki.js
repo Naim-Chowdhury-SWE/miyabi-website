@@ -174,7 +174,7 @@ const NorimakiMeny2 = [
     description:
       "Avokado, krispig sallad, tofu och veganmajonnäs. Rullen friteras",
     price: "159kr",
-    image: images.placeholderMaki,
+    image: images.CrispyVegetariskRoll,
   },
   {
     title: "Bibimbap roll (entrecote, kyckling eller räkor)",

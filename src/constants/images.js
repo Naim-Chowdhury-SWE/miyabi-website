@@ -59,6 +59,7 @@ import DragonRoll from "../assets/food/DragonRoll.webp";
 import CrispyMiyabiRoll from "../assets/food/CrispyMiyabiRoll.webp";
 import CrispyAlaskaRoll from "../assets/food/CrispyAlaskaRoll.webp";
 import CrispyTempuraRoll from "../assets/food/CrispyTempuraRoll.webp";
+import CrispyVegetariskRoll from "../assets/food/CrispyVegetariskRoll.webp";
 import SpicytunaRoll from "../assets/food/SpicytunaRoll.webp";
 import KaraageRoll from "../assets/food/KaraageRoll.webp";
 import YakinikuRoll from "../assets/food/YakinikuRoll.webp";
@@ -179,6 +180,7 @@ export default {
   CrispyMiyabiRoll,
   CrispyAlaskaRoll,
   CrispyTempuraRoll,
+  CrispyVegetariskRoll,
   SpicytunaRoll,
   KaraageRoll,
   YakinikuRoll,
