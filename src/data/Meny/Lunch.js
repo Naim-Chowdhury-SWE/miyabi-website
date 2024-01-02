@@ -37,7 +37,7 @@ const lunchMeny2 = [
     title: "Blandad sushi 9/11/13 bitar",
     description: "Blandad sushi med lax, rullar, räkor och avocado",
     price: "108/128/149kr",
-    image: images.BlandadSushi,
+    image: images.BlandadSushiLiten,
   },
   {
     title: "Bibimpab",
