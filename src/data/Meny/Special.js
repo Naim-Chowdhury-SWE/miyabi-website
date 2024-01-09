@@ -71,13 +71,13 @@ const SpecialMeny = [
     title: "Pad Thai Kyckling",
     description: "Wokade Risnudlar med Kyckling, Grönsaker och Sallad",
     price: "150 kr",
-    image: images.placeholderFood,
+    image: images.PadThaiKyckling,
   },
   {
     title: "Pad Thai Räkor",
     description: "Wokade Risnudlar med Räkor, Grönsaker och Sallad",
     price: "150 kr",
-    image: images.placeholderFood,
+    image: images.PadThaiRäka,
   },
 ];
 

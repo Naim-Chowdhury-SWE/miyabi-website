@@ -105,17 +105,7 @@ import Laxteriyaki from "../assets/food/Laxteriyaki.webp";
 import Vårrullar7 from "../assets/food/Vårrullar7.webp";
 import Vårrullar10 from "../assets/food/Vårrullar10.webp";
 
-import UdonEntrecote from "../assets/food/UdonEntrecote.webp";
-import UdonVegetarisk from "../assets/food/UdonVegetarisk.webp";
-import UdonTempura from "../assets/food/UdonTempura.webp";
-import UdonGyoza from "../assets/food/UdonGyoza.webp";
-
-import WokadKycklingStark from "../assets/food/WokadKycklingStark.webp";
-import WokadRäkorStark from "../assets/food/WokadRäkorStark.webp";
-import KokosmjölkKyckling from "../assets/food/KokosmjölkKyckling.webp";
-import KokosmjölkRäka from "../assets/food/KokosmjölkRäka.webp";
-import RamenRäka from "../assets/food/RamenRäka.webp";
-import RamenKyckling from "../assets/food/RamenKyckling.webp";
+/* -----Bibimbap Meny----- */
 
 import BibimbapEntrecote from "../assets/food/BibimbapEntrecote.webp";
 import BibimbapKyckling from "../assets/food/BibimbapKyckling.webp";
@@ -123,6 +113,24 @@ import BibimbapRäka from "../assets/food/BibimbapRäka.webp";
 import BibimbapLax from "../assets/food/BibimbapLax.webp";
 import BibimbapTofu from "../assets/food/BibimbapTofu.webp";
 import BibimbapMix from "../assets/food/BibimbapMix.webp";
+
+/* -----Soppor----- */
+
+import UdonEntrecote from "../assets/food/UdonEntrecote.webp";
+import UdonVegetarisk from "../assets/food/UdonVegetarisk.webp";
+import UdonTempura from "../assets/food/UdonTempura.webp";
+import UdonGyoza from "../assets/food/UdonGyoza.webp";
+import RamenRäka from "../assets/food/RamenRäka.webp";
+import RamenKyckling from "../assets/food/RamenKyckling.webp";
+
+/* -----Special Meny----- */
+
+import WokadKycklingStark from "../assets/food/WokadKycklingStark.webp";
+import WokadRäkorStark from "../assets/food/WokadRäkorStark.webp";
+import KokosmjölkKyckling from "../assets/food/KokosmjölkKyckling.webp";
+import KokosmjölkRäka from "../assets/food/KokosmjölkRäka.webp";
+import PadThaiKyckling from "../assets/food/PadThaiKyckling.webp";
+import PadThaiRäka from "../assets/food/PadThaiRäka.webp";
 
 /* -----Barn Meny----- */
 
@@ -219,6 +227,8 @@ export default {
   WokadRäkorStark,
   KokosmjölkKyckling,
   KokosmjölkRäka,
+  PadThaiKyckling,
+  PadThaiRäka,
   BibimbapEntrecote,
   BibimbapKyckling,
   BibimbapRäka,
