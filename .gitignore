@@ -23,7 +23,4 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
-src/assets/food/Originals/*
 src/assets/*
-src/assets/food
-src/assets/logos
