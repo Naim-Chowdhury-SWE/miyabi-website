@@ -41,7 +41,19 @@ const SpecialMeny = [
     title: "Wokad Kyckling med ostronsås",
     description: "Smak av Thailand, Serveras med ris eller nudlar samt sallad",
     price: "150 kr",
-    image: images.placeholderFood,
+    image: images.OstronSåsKyckling,
+  },
+  {
+    title: "Wokade Räkor med ostronsås",
+    description: "Smak av Thailand, Serveras med ris eller nudlar samt sallad",
+    price: "150 kr",
+    image: images.OstronSåsRäka,
+  },
+  {
+    title: "Wokad Biff med ostronsås",
+    description: "Smak av Thailand, Serveras med ris eller nudlar samt sallad",
+    price: "150 kr",
+    image: images.OstronSåsBiff,
   },
   {
     title: "Wokad kyckling (stark)",

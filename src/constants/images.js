@@ -129,6 +129,9 @@ import WokadKycklingStark from "../assets/food/WokadKycklingStark.webp";
 import WokadRäkorStark from "../assets/food/WokadRäkorStark.webp";
 import KokosmjölkKyckling from "../assets/food/KokosmjölkKyckling.webp";
 import KokosmjölkRäka from "../assets/food/KokosmjölkRäka.webp";
+import OstronSåsKyckling from "../assets/food/OstronSåsKyckling.webp";
+import OstronSåsRäka from "../assets/food/OstronSåsRäka.webp";
+import OstronSåsBiff from "../assets/food/OstronSåsBiff.webp";
 import PadThaiKyckling from "../assets/food/PadThaiKyckling.webp";
 import PadThaiRäka from "../assets/food/PadThaiRäka.webp";
 
@@ -227,6 +230,9 @@ export default {
   WokadRäkorStark,
   KokosmjölkKyckling,
   KokosmjölkRäka,
+  OstronSåsKyckling,
+  OstronSåsRäka,
+  OstronSåsBiff,
   PadThaiKyckling,
   PadThaiRäka,
   BibimbapEntrecote,

@@ -2,36 +2,42 @@ import { useState, useEffect } from "react";
 
 const Closed = () => {
   const [currentTime, setCurrentTime] = useState(getFormattedTime());
-  const [isWithinTimeRange, setIsWithinTimeRange] = useState(checkTimeRange());
+  const [isNight, setIsNight] = useState(checkNightTime());
+  const [isMorning, setIsMorning] = useState(checkMorningTime());
 
-  // Function to get the current time in "hh:mm:ss" format
   function getFormattedTime() {
     const now = new Date();
-    const hours = now.getHours().toString().padStart(2, "0");
-    const minutes = now.getMinutes().toString().padStart(2, "0");
-    const seconds = now.getSeconds().toString().padStart(2, "0");
+    const formatNumber = (number) => number.toString().padStart(2, "0");
+    const hours = formatNumber(now.getHours());
+    const minutes = formatNumber(now.getMinutes());
+    const seconds = formatNumber(now.getSeconds());
     return `${hours}:${minutes}:${seconds}`;
   }
 
-  // Function to check if the current time is within the specified range
-  function checkTimeRange() {
+  function checkNightTime() {
     const now = new Date();
     const currentHour = now.getHours();
     const currentMinute = now.getMinutes();
-    return (currentHour >= 20 && currentMinute < 30) || currentHour < 11;
+    return currentHour >= 20 && currentMinute < 30;
   }
 
-  // Update the current time and check time range every second
+  function checkMorningTime() {
+    const now = new Date();
+    const currentHour = now.getHours();
+    return currentHour < 11;
+  }
+
   useEffect(() => {
-    const intervalId = setInterval(() => {
+    const updateTime = () => {
       setCurrentTime(getFormattedTime());
-      setIsWithinTimeRange(checkTimeRange());
-    }, 1000);
+      setIsNight(checkNightTime());
+      setIsMorning(checkMorningTime());
+    };
 
-    return () => clearInterval(intervalId);
+    const interval = setInterval(updateTime, 1000);
+
+    return () => clearInterval(interval);
   }, []);
-
-  console.log(currentTime);
 
   const centerStyle = {
     display: "flex",
@@ -43,12 +49,14 @@ const Closed = () => {
     backgroundColor: "#6a0000",
   };
 
-  // Render the component conditionally based on the time range check
-  return isWithinTimeRange ? (
-    <div style={centerStyle}>
-      <p className="p__cormorant">
-        Nu är restuarangen stängd, vi ses igen imorrn!
-      </p>
+  return isNight ? (
+    <div style={centerStyle} className="p__cormorant">
+      <p>Nu är restuarangen stängd, vi ses igen imorrn!</p>
+    </div>
+  ) : isMorning ? (
+    <div style={centerStyle} className="p__cormorant">
+      <p>Klockan 11 öppnar vi</p>
+      <p>Välkomna!</p>
     </div>
   ) : null;
 };
