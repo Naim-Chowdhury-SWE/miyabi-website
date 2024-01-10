@@ -24,7 +24,7 @@ const Closed = () => {
   function checkMorningTime() {
     const now = new Date();
     const currentHour = now.getHours();
-    return currentHour < 11;
+    return currentHour > 9 && currentHour < 11;
   }
 
   useEffect(() => {
