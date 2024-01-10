@@ -1,4 +1,5 @@
 import Warning from "./components/Warning/Warning";
+import Closed from "./components/Warning/Closed";
 import Christmas from "./components/Warning/Christmas";
 import NavBar from "./components/NavBar/NavBar";
 import MenuNavbar from "./components/NavBar/MenuNavbar";
@@ -24,6 +25,7 @@ function App() {
     <div>
       <NavBar />
       <Warning />
+      <Closed />
       <Christmas />
 
       <div className="sandbox app__bg">
