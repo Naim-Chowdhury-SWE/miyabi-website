@@ -49,6 +49,7 @@ import ShakeMaki from "../assets/food/ShakeMaki.webp";
 import TekkaMaki from "../assets/food/TekkaMaki.webp";
 import KappaMaki from "../assets/food/KappaMaki.webp";
 import PhiladelphiaRoll from "../assets/food/PhiladelphiaRoll.webp";
+import TemakeMax from "../assets/food/TemakeMax.webp";
 import FutomakiRoll from "../assets/food/FutomakiRoll.webp";
 import MiyabiSpecialRoll from "../assets/food/MiyabiSpecialRoll.webp";
 import TempuraRoll from "../assets/food/TempuraRoll.webp";
@@ -181,6 +182,7 @@ export default {
   TekkaMaki,
   KappaMaki,
   PhiladelphiaRoll,
+  TemakeMax,
   FutomakiRoll,
   TeriyakiRoll,
   MiyabiSpecialRoll,

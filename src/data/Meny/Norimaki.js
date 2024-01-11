@@ -73,7 +73,7 @@ const NorimakiMeny1 = [
     title: "Temakemax",
     description: "Sjögräsrulle med tonfisk, avocado och lax",
     price: "135kr",
-    image: images.placeholderMaki,
+    image: images.TemakeMax,
   },
   {
     title: "Futomaki",
