@@ -1,9 +1,9 @@
-import LaxSushi from "../assets/food/LaxSushi.webp";
-import CaliforniaRollSpecial from "../assets/food/CaliforniaRollSpecial.webp";
-import BentoDeluxe from "../assets/food/BentoDeluxe.webp";
-import GrillLaxSushi from "../assets/food/GrillLaxSushi.webp";
-import WokadKyckling from "../assets/food/WokadKyckling.webp";
-import FamiljeSushiMedium from "../assets/food/FamiljeSushi40.webp";
+import LaxSushi from "https://sushi-lidingo.se/images/food/LaxSushi.webp";
+import CaliforniaRollSpecial from "https://sushi-lidingo.se/images/food/CaliforniaRollSpecial.webp";
+import BentoDeluxe from "https://sushi-lidingo.se/images/food/BentoDeluxe.webp";
+import GrillLaxSushi from "https://sushi-lidingo.se/images/food/GrillLaxSushi.webp";
+import WokadKyckling from "https://sushi-lidingo.se/images/food/WokadKyckling.webp";
+import FamiljeSushiMedium from "https://sushi-lidingo.se/images/food/FamiljeSushi40.webp";
 
 export const images = [
   {

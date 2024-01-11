@@ -16,7 +16,7 @@ import miyabitextblack from "../assets/logos/miyabitextblack.svg";
 import miyabitextredblack from "../assets/logos/miyabitextredblack.svg";
 import miyabitextredwhite from "../assets/logos/miyabitextredwhite.svg";
 import miyabitextwhite from "../assets/logos/miyabitextwhite.svg";
-import bg from "../assets/bg.webp";
+import bg from "../assets/background.webp";
 
 export default {
   fanblack,

@@ -1,146 +1,146 @@
-import placeholderPhoto from "../assets/food/sushi.svg";
-import placeholderMaki from "../assets/food/maki.jpg";
-import placeholderNigiri from "../assets/food/nigiri.jpg";
-import placeholderSashimi from "../assets/food/sashimi.jpg";
-import placeholderFood from "../assets/food/food.svg";
+import placeholderPhoto from "https://sushi-lidingo.se/images/food/sushi.svg";
+import placeholderMaki from "https://sushi-lidingo.se/images/food/maki.jpg";
+import placeholderNigiri from "https://sushi-lidingo.se/images/food/nigiri.jpg";
+import placeholderSashimi from "https://sushi-lidingo.se/images/food/sashimi.jpg";
+import placeholderFood from "https://sushi-lidingo.se/images/food/food.svg";
 
 /* -----Lunch Meny----- */
 
-import RisnudlarEntrecote from "../assets/food/RisnudlarEntrecote.webp";
-import KycklingJapanskCurry from "../assets/food/KycklingJapanskCurry.webp";
+import RisnudlarEntrecote from "https://sushi-lidingo.se/images/RisnudlarEntrecote.webp";
+import KycklingJapanskCurry from "https://sushi-lidingo.se/images/KycklingJapanskCurry.webp";
 /* -----Sushi Meny----- */
 
-import BlandadSushiLiten from "../assets/food/BlandadSushiLiten.webp";
-import BlandadSushiStor from "../assets/food/BlandadSushiStor.webp";
-import BlandadNigiri9 from "../assets/food/BlandadNigiri9.webp";
-import BlandadNigiri12 from "../assets/food/BlandadNigiri12.webp";
-import VegetariskSushi10 from "../assets/food/VegetariskSushi10.webp";
-import VegetariskSushi12 from "../assets/food/VegetariskSushi12.webp";
-import MammaSushi10 from "../assets/food/MammaSushi10.webp";
-import MammaSushi12 from "../assets/food/MammaSushi12.webp";
+import BlandadSushiLiten from "https://sushi-lidingo.se/images/BlandadSushiLiten.webp";
+import BlandadSushiStor from "https://sushi-lidingo.se/images/BlandadSushiStor.webp";
+import BlandadNigiri9 from "https://sushi-lidingo.se/images/BlandadNigiri9.webp";
+import BlandadNigiri12 from "https://sushi-lidingo.se/images/BlandadNigiri12.webp";
+import VegetariskSushi10 from "https://sushi-lidingo.se/images/VegetariskSushi10.webp";
+import VegetariskSushi12 from "https://sushi-lidingo.se/images/VegetariskSushi12.webp";
+import MammaSushi10 from "https://sushi-lidingo.se/images/MammaSushi10.webp";
+import MammaSushi12 from "https://sushi-lidingo.se/images/MammaSushi12.webp";
 
-import PappaLyx from "../assets/food/PappaLyx.webp";
-import LaxSushi from "../assets/food/LaxSushi.webp";
-import LaxSushi2 from "../assets/food/LaxSushi2.webp";
-import LaxRullar8 from "../assets/food/LaxRullar8.webp";
-import LaxRullar10 from "../assets/food/LaxRullar10.webp";
-import LaxRullar12 from "../assets/food/LaxRullar12.webp";
-import LaxRäkorSushi from "../assets/food/LaxRäkorSushi.webp";
-import RäkSushi from "../assets/food/RäkSushi.webp";
-import GrillLaxSushi from "../assets/food/GrillLaxSushi.webp";
-import LaxAvocadoSushi from "../assets/food/LaxAvocadoSushi.webp";
-import AvocadoSushi from "../assets/food/AvocadoSushi.webp";
+import PappaLyx from "https://sushi-lidingo.se/images/PappaLyx.webp";
+import LaxSushi from "https://sushi-lidingo.se/images/LaxSushi.webp";
+import LaxSushi2 from "https://sushi-lidingo.se/images/LaxSushi2.webp";
+import LaxRullar8 from "https://sushi-lidingo.se/images/LaxRullar8.webp";
+import LaxRullar10 from "https://sushi-lidingo.se/images/LaxRullar10.webp";
+import LaxRullar12 from "https://sushi-lidingo.se/images/LaxRullar12.webp";
+import LaxRäkorSushi from "https://sushi-lidingo.se/images/LaxRäkorSushi.webp";
+import RäkSushi from "https://sushi-lidingo.se/images/RäkSushi.webp";
+import GrillLaxSushi from "https://sushi-lidingo.se/images/GrillLaxSushi.webp";
+import LaxAvocadoSushi from "https://sushi-lidingo.se/images/LaxAvocadoSushi.webp";
+import AvocadoSushi from "https://sushi-lidingo.se/images/AvocadoSushi.webp";
 
 /* -----FamilySushi----- */
 
-import FamiljeSushi30 from "../assets/food/FamiljeSushi30.webp";
-import FamiljeSushi40 from "../assets/food/FamiljeSushi40.webp";
-import FamiljeSushi50 from "../assets/food/FamiljeSushi50.webp";
-import FamiljeSushi70 from "../assets/food/FamiljeSushi70.webp";
+import FamiljeSushi30 from "https://sushi-lidingo.se/images/FamiljeSushi30.webp";
+import FamiljeSushi40 from "https://sushi-lidingo.se/images/FamiljeSushi40.webp";
+import FamiljeSushi50 from "https://sushi-lidingo.se/images/FamiljeSushi50.webp";
+import FamiljeSushi70 from "https://sushi-lidingo.se/images/FamiljeSushi70.webp";
 
 /* -----Norimaki Meny----- */
 
-import StandardRoll from "../assets/food/StandardRoll.webp";
-import CaliforniaRoll from "../assets/food/CaliforniaRoll.webp";
-import CaliforniaRollSpecial from "../assets/food/CaliforniaRollSpecial.webp";
-import VegetariskRoll from "../assets/food/VegetariskRoll.webp";
-import VegetariskMangoRoll from "../assets/food/VegetariskMangoRoll.webp";
-import ShakeMaki from "../assets/food/ShakeMaki.webp";
-import TekkaMaki from "../assets/food/TekkaMaki.webp";
-import KappaMaki from "../assets/food/KappaMaki.webp";
-import PhiladelphiaRoll from "../assets/food/PhiladelphiaRoll.webp";
-import TemakeMax from "../assets/food/TemakeMax.webp";
-import FutomakiRoll from "../assets/food/FutomakiRoll.webp";
-import MiyabiSpecialRoll from "../assets/food/MiyabiSpecialRoll.webp";
-import TempuraRoll from "../assets/food/TempuraRoll.webp";
-import TempuraRollFriterad from "../assets/food/TempuraRollFriterad.webp";
-import TeriyakiRoll from "../assets/food/TeriyakiRoll.webp";
-import AlaskaRoll from "../assets/food/AlaskaRoll.webp";
-import DragonRoll from "../assets/food/DragonRoll.webp";
-import CrispyMiyabiRoll from "../assets/food/CrispyMiyabiRoll.webp";
-import CrispyAlaskaRoll from "../assets/food/CrispyAlaskaRoll.webp";
-import CrispyTempuraRoll from "../assets/food/CrispyTempuraRoll.webp";
-import CrispyVegetariskRoll from "../assets/food/CrispyVegetariskRoll.webp";
-import SpicytunaRoll from "../assets/food/SpicytunaRoll.webp";
-import KaraageRoll from "../assets/food/KaraageRoll.webp";
-import YakinikuRoll from "../assets/food/YakinikuRoll.webp";
+import StandardRoll from "https://sushi-lidingo.se/images/StandardRoll.webp";
+import CaliforniaRoll from "https://sushi-lidingo.se/images/CaliforniaRoll.webp";
+import CaliforniaRollSpecial from "https://sushi-lidingo.se/images/CaliforniaRollSpecial.webp";
+import VegetariskRoll from "https://sushi-lidingo.se/images/VegetariskRoll.webp";
+import VegetariskMangoRoll from "https://sushi-lidingo.se/images/VegetariskMangoRoll.webp";
+import ShakeMaki from "https://sushi-lidingo.se/images/ShakeMaki.webp";
+import TekkaMaki from "https://sushi-lidingo.se/images/TekkaMaki.webp";
+import KappaMaki from "https://sushi-lidingo.se/images/KappaMaki.webp";
+import PhiladelphiaRoll from "https://sushi-lidingo.se/images/PhiladelphiaRoll.webp";
+import TemakeMax from "https://sushi-lidingo.se/images/TemakeMax.webp";
+import FutomakiRoll from "https://sushi-lidingo.se/images/FutomakiRoll.webp";
+import MiyabiSpecialRoll from "https://sushi-lidingo.se/images/MiyabiSpecialRoll.webp";
+import TempuraRoll from "https://sushi-lidingo.se/images/TempuraRoll.webp";
+import TempuraRollFriterad from "https://sushi-lidingo.se/images/TempuraRollFriterad.webp";
+import TeriyakiRoll from "https://sushi-lidingo.se/images/TeriyakiRoll.webp";
+import AlaskaRoll from "https://sushi-lidingo.se/images/AlaskaRoll.webp";
+import DragonRoll from "https://sushi-lidingo.se/images/DragonRoll.webp";
+import CrispyMiyabiRoll from "https://sushi-lidingo.se/images/CrispyMiyabiRoll.webp";
+import CrispyAlaskaRoll from "https://sushi-lidingo.se/images/CrispyAlaskaRoll.webp";
+import CrispyTempuraRoll from "https://sushi-lidingo.se/images/CrispyTempuraRoll.webp";
+import CrispyVegetariskRoll from "https://sushi-lidingo.se/images/CrispyVegetariskRoll.webp";
+import SpicytunaRoll from "https://sushi-lidingo.se/images/SpicytunaRoll.webp";
+import KaraageRoll from "https://sushi-lidingo.se/images/KaraageRoll.webp";
+import YakinikuRoll from "https://sushi-lidingo.se/images/YakinikuRoll.webp";
 
 /* -----Sashimi----- */
 
-import SashimiMixLiten from "../assets/food/SashimiMixLiten.webp";
-import SashimiMixStor from "../assets/food/SashimiMixStor.webp";
-import SashimiLaxTunaLiten from "../assets/food/SashimiLaxTunaLiten.webp";
-import SashimiLaxTunaStor from "../assets/food/SashimiLaxTunaStor.webp";
-import SashimiLaxLiten from "../assets/food/SashimiLaxLiten.webp";
-import SashimiLaxStor from "../assets/food/SashimiLaxStor.webp";
+import SashimiMixLiten from "https://sushi-lidingo.se/images/SashimiMixLiten.webp";
+import SashimiMixStor from "https://sushi-lidingo.se/images/SashimiMixStor.webp";
+import SashimiLaxTunaLiten from "https://sushi-lidingo.se/images/SashimiLaxTunaLiten.webp";
+import SashimiLaxTunaStor from "https://sushi-lidingo.se/images/SashimiLaxTunaStor.webp";
+import SashimiLaxLiten from "https://sushi-lidingo.se/images/SashimiLaxLiten.webp";
+import SashimiLaxStor from "https://sushi-lidingo.se/images/SashimiLaxStor.webp";
 
 /* -----PokeBowls----- */
 
-import PokebowlLax from "../assets/food/PokebowlLax.webp";
-import PokebowlRäka from "../assets/food/PokebowlRäka.webp";
-import PokebowlKyckling from "../assets/food/PokebowlKyckling.webp";
-import PokebowlTofu from "../assets/food/PokebowlTofu.webp";
+import PokebowlLax from "https://sushi-lidingo.se/images/PokebowlLax.webp";
+import PokebowlRäka from "https://sushi-lidingo.se/images/PokebowlRäka.webp";
+import PokebowlKyckling from "https://sushi-lidingo.se/images/PokebowlKyckling.webp";
+import PokebowlTofu from "https://sushi-lidingo.se/images/PokebowlTofu.webp";
 /* -----Varmrätter----- */
 
-import Yakitori from "../assets/food/Yakitori.webp";
-import Yakiniku from "../assets/food/Yakiniku.webp";
-import YakinikuSushi from "../assets/food/YakinikuSushi.webp";
+import Yakitori from "https://sushi-lidingo.se/images/Yakitori.webp";
+import Yakiniku from "https://sushi-lidingo.se/images/Yakiniku.webp";
+import YakinikuSushi from "https://sushi-lidingo.se/images/YakinikuSushi.webp";
 
-import Bento from "../assets/food/Bento.webp";
-import BentoMiyabi from "../assets/food/BentoMiyabi.webp";
-import BentoDeluxe from "../assets/food/BentoDeluxe.webp";
-import BentoGyoza from "../assets/food/BentoGyoza.webp";
+import Bento from "https://sushi-lidingo.se/images/Bento.webp";
+import BentoMiyabi from "https://sushi-lidingo.se/images/BentoMiyabi.webp";
+import BentoDeluxe from "https://sushi-lidingo.se/images/BentoDeluxe.webp";
+import BentoGyoza from "https://sushi-lidingo.se/images/BentoGyoza.webp";
 
-import Gyoza from "../assets/food/Gyoza.webp";
-import Yakisoba from "../assets/food/Yakisoba.webp";
-import WokadKyckling from "../assets/food/WokadKyckling.webp";
-import WokadBiff from "../assets/food/WokadBiff.webp";
-import WokadRäkor from "../assets/food/WokadRäkor.webp";
-import StektRisVeg from "../assets/food/StektRisVeg.webp";
-import StektRisKyckling from "../assets/food/StektRisKyckling.webp";
-import StektRisRäka from "../assets/food/StektRisRäka.webp";
-import StektRisEntrecote from "../assets/food/StektRisEntrecote.webp";
-import Tempura from "../assets/food/Tempura.webp";
-import Karaage from "../assets/food/Karaage.webp";
-import Laxteriyaki from "../assets/food/Laxteriyaki.webp";
-import Vårrullar7 from "../assets/food/Vårrullar7.webp";
-import Vårrullar10 from "../assets/food/Vårrullar10.webp";
+import Gyoza from "https://sushi-lidingo.se/images/Gyoza.webp";
+import Yakisoba from "https://sushi-lidingo.se/images/Yakisoba.webp";
+import WokadKyckling from "https://sushi-lidingo.se/images/WokadKyckling.webp";
+import WokadBiff from "https://sushi-lidingo.se/images/WokadBiff.webp";
+import WokadRäkor from "https://sushi-lidingo.se/images/WokadRäkor.webp";
+import StektRisVeg from "https://sushi-lidingo.se/images/StektRisVeg.webp";
+import StektRisKyckling from "https://sushi-lidingo.se/images/StektRisKyckling.webp";
+import StektRisRäka from "https://sushi-lidingo.se/images/StektRisRäka.webp";
+import StektRisEntrecote from "https://sushi-lidingo.se/images/StektRisEntrecote.webp";
+import Tempura from "https://sushi-lidingo.se/images/Tempura.webp";
+import Karaage from "https://sushi-lidingo.se/images/Karaage.webp";
+import Laxteriyaki from "https://sushi-lidingo.se/images/Laxteriyaki.webp";
+import Vårrullar7 from "https://sushi-lidingo.se/images/Vårrullar7.webp";
+import Vårrullar10 from "https://sushi-lidingo.se/images/Vårrullar10.webp";
 
 /* -----Bibimbap Meny----- */
 
-import BibimbapEntrecote from "../assets/food/BibimbapEntrecote.webp";
-import BibimbapKyckling from "../assets/food/BibimbapKyckling.webp";
-import BibimbapRäka from "../assets/food/BibimbapRäka.webp";
-import BibimbapLax from "../assets/food/BibimbapLax.webp";
-import BibimbapTofu from "../assets/food/BibimbapTofu.webp";
-import BibimbapMix from "../assets/food/BibimbapMix.webp";
+import BibimbapEntrecote from "https://sushi-lidingo.se/images/BibimbapEntrecote.webp";
+import BibimbapKyckling from "https://sushi-lidingo.se/images/BibimbapKyckling.webp";
+import BibimbapRäka from "https://sushi-lidingo.se/images/BibimbapRäka.webp";
+import BibimbapLax from "https://sushi-lidingo.se/images/BibimbapLax.webp";
+import BibimbapTofu from "https://sushi-lidingo.se/images/BibimbapTofu.webp";
+import BibimbapMix from "https://sushi-lidingo.se/images/BibimbapMix.webp";
 
 /* -----Soppor----- */
 
-import UdonEntrecote from "../assets/food/UdonEntrecote.webp";
-import UdonVegetarisk from "../assets/food/UdonVegetarisk.webp";
-import UdonTempura from "../assets/food/UdonTempura.webp";
-import UdonGyoza from "../assets/food/UdonGyoza.webp";
-import RamenRäka from "../assets/food/RamenRäka.webp";
-import RamenKyckling from "../assets/food/RamenKyckling.webp";
+import UdonEntrecote from "https://sushi-lidingo.se/images/UdonEntrecote.webp";
+import UdonVegetarisk from "https://sushi-lidingo.se/images/UdonVegetarisk.webp";
+import UdonTempura from "https://sushi-lidingo.se/images/UdonTempura.webp";
+import UdonGyoza from "https://sushi-lidingo.se/images/UdonGyoza.webp";
+import RamenRäka from "https://sushi-lidingo.se/images/RamenRäka.webp";
+import RamenKyckling from "https://sushi-lidingo.se/images/RamenKyckling.webp";
 
 /* -----Special Meny----- */
 
-import WokadKycklingStark from "../assets/food/WokadKycklingStark.webp";
-import WokadRäkorStark from "../assets/food/WokadRäkorStark.webp";
-import KokosmjölkKyckling from "../assets/food/KokosmjölkKyckling.webp";
-import KokosmjölkRäka from "../assets/food/KokosmjölkRäka.webp";
-import OstronSåsKyckling from "../assets/food/OstronSåsKyckling.webp";
-import OstronSåsRäka from "../assets/food/OstronSåsRäka.webp";
-import OstronSåsBiff from "../assets/food/OstronSåsBiff.webp";
-import PadThaiKyckling from "../assets/food/PadThaiKyckling.webp";
-import PadThaiRäka from "../assets/food/PadThaiRäka.webp";
+import WokadKycklingStark from "https://sushi-lidingo.se/images/WokadKycklingStark.webp";
+import WokadRäkorStark from "https://sushi-lidingo.se/images/WokadRäkorStark.webp";
+import KokosmjölkKyckling from "https://sushi-lidingo.se/images/KokosmjölkKyckling.webp";
+import KokosmjölkRäka from "https://sushi-lidingo.se/images/KokosmjölkRäka.webp";
+import OstronSåsKyckling from "https://sushi-lidingo.se/images/OstronSåsKyckling.webp";
+import OstronSåsRäka from "https://sushi-lidingo.se/images/OstronSåsRäka.webp";
+import OstronSåsBiff from "https://sushi-lidingo.se/images/OstronSåsBiff.webp";
+import PadThaiKyckling from "https://sushi-lidingo.se/images/PadThaiKyckling.webp";
+import PadThaiRäka from "https://sushi-lidingo.se/images/PadThaiRäka.webp";
 
 /* -----Barn Meny----- */
 
-import BarnYakiniku from "../assets/food/BarnYakiniku.webp";
-import BarnYakitori from "../assets/food/BarnYakitori.webp";
-import BarnKaraage from "../assets/food/BarnKaraage.webp";
+import BarnYakiniku from "https://sushi-lidingo.se/images/BarnYakiniku.webp";
+import BarnYakitori from "https://sushi-lidingo.se/images/BarnYakitori.webp";
+import BarnKaraage from "https://sushi-lidingo.se/images/BarnKaraage.webp";
 
 export default {
   placeholderPhoto,
