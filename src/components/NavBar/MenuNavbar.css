@@ -19,7 +19,7 @@
 }
 
 .menu-navbar.hidden {
-  background: url("https://sushi-lidingo.se/images/background.webp");
+  background: url("../assets/background.webp");
   background-size: cover;
   background-position: 20% 20%;
 }
