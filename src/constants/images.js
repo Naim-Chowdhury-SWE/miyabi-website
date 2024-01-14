@@ -48,6 +48,8 @@ import VegetariskMangoRoll from "../assets/food/VegetariskMangoRoll.webp";
 import ShakeMaki from "../assets/food/ShakeMaki.webp";
 import TekkaMaki from "../assets/food/TekkaMaki.webp";
 import KappaMaki from "../assets/food/KappaMaki.webp";
+import HawaiiMakiTuna from "../assets/food/HawaiiMakiTuna.webp";
+import HawaiiMakiLax from "../assets/food/HawaiiMakiLax.webp";
 import PhiladelphiaRoll from "../assets/food/PhiladelphiaRoll.webp";
 import TemakeMax from "../assets/food/TemakeMax.webp";
 import FutomakiRoll from "../assets/food/FutomakiRoll.webp";
@@ -181,6 +183,8 @@ export default {
   ShakeMaki,
   TekkaMaki,
   KappaMaki,
+  HawaiiMakiTuna,
+  HawaiiMakiLax,
   PhiladelphiaRoll,
   TemakeMax,
   FutomakiRoll,

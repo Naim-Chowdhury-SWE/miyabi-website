@@ -61,13 +61,13 @@ const NorimakiMeny1 = [
     title: "Hawaiimaki Tonfisk",
     description: "Sjögräsrulle med tonfisk och avocado",
     price: "120kr",
-    image: images.placeholderMaki,
+    image: images.HawaiiMakiTuna,
   },
   {
     title: "Hawaiimaki Lax",
     description: "Sjögräsrulle med lax och avocado",
     price: "120kr",
-    image: images.placeholderMaki,
+    image: images.HawaiiMakiLax,
   },
   {
     title: "Temakemax",
