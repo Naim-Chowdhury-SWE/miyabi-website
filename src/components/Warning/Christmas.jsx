@@ -1,18 +1,15 @@
 const ChristmasComponent = () => {
   const currentDate = new Date();
-  const startDate = new Date(
-    currentDate.getFullYear(),
-    currentDate.getMonth(),
-    16
-  );
 
-  const endDate = new Date(
-    currentDate.getFullYear(),
-    currentDate.getMonth(),
-    25
-  );
+  if (currentDate.getMonth() !== 11) {
+    return null;
+  }
+
+  const startDate = new Date(currentDate.getFullYear(), 11, 16);
+  const endDate = new Date(currentDate.getFullYear(), 11, 25);
 
   const isChristmas = currentDate >= startDate && currentDate <= endDate;
+
   const formatTime = (hours, minutes) => {
     return `${hours.toString().padStart(2, "0")}:${minutes
       .toString()
