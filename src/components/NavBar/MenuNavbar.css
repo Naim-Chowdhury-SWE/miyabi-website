@@ -19,7 +19,7 @@
 }
 
 .menu-navbar.hidden {
-  background: url("../assets/background.webp");
+  background: url("../../assets/background.webp");
   background-size: cover;
   background-position: 20% 20%;
 }
