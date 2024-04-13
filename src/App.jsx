@@ -24,9 +24,9 @@ function App() {
   return (
     <div>
       <NavBar />
-      <Warning />
+      {/* <Warning />
       <Closed />
-      <Christmas />
+      <Christmas /> */}
 
       <div className="sandbox app__bg">
         <section>
