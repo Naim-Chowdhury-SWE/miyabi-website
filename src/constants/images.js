@@ -25,8 +25,8 @@ import LaxSushi2 from "../assets/food/LaxSushi2.webp";
 import LaxRullar8 from "../assets/food/LaxRullar8.webp";
 import LaxRullar10 from "../assets/food/LaxRullar10.webp";
 import LaxRullar12 from "../assets/food/LaxRullar12.webp";
-import LaxRäkorSushi from "../assets/food/LaxRäkorSushi.webp";
-import RäkSushi from "../assets/food/RäkSushi.webp";
+import LaxRakorSushi from "../assets/food/LaxRakorSushi.webp";
+import RakSushi from "../assets/food/RakSushi.webp";
 import GrillLaxSushi from "../assets/food/GrillLaxSushi.webp";
 import LaxAvocadoSushi from "../assets/food/LaxAvocadoSushi.webp";
 import AvocadoSushi from "../assets/food/AvocadoSushi.webp";
@@ -79,10 +79,10 @@ import SashimiLaxStor from "../assets/food/SashimiLaxStor.webp";
 /* -----PokeBowls----- */
 
 import PokebowlLax from "../assets/food/PokebowlLax.webp";
-import PokebowlRäka from "../assets/food/PokebowlRäka.webp";
+import PokebowlRaka from "../assets/food/PokebowlRaka.webp";
 import PokebowlKyckling from "../assets/food/PokebowlKyckling.webp";
 import PokebowlTofu from "../assets/food/PokebowlTofu.webp";
-/* -----Varmrätter----- */
+/* -----Varmratter----- */
 
 import Yakitori from "../assets/food/Yakitori.webp";
 import Yakiniku from "../assets/food/Yakiniku.webp";
@@ -97,22 +97,22 @@ import Gyoza from "../assets/food/Gyoza.webp";
 import Yakisoba from "../assets/food/Yakisoba.webp";
 import WokadKyckling from "../assets/food/WokadKyckling.webp";
 import WokadBiff from "../assets/food/WokadBiff.webp";
-import WokadRäkor from "../assets/food/WokadRäkor.webp";
+import WokadRakor from "../assets/food/WokadRakor.webp";
 import StektRisVeg from "../assets/food/StektRisVeg.webp";
 import StektRisKyckling from "../assets/food/StektRisKyckling.webp";
-import StektRisRäka from "../assets/food/StektRisRäka.webp";
+import StektRisRaka from "../assets/food/StektRisRaka.webp";
 import StektRisEntrecote from "../assets/food/StektRisEntrecote.webp";
 import Tempura from "../assets/food/Tempura.webp";
 import Karaage from "../assets/food/Karaage.webp";
 import Laxteriyaki from "../assets/food/Laxteriyaki.webp";
-import Vårrullar7 from "../assets/food/Vårrullar7.webp";
-import Vårrullar10 from "../assets/food/Vårrullar10.webp";
+import Varrullar7 from "../assets/food/Varrullar7.webp";
+import Varrullar10 from "../assets/food/Varrullar10.webp";
 
 /* -----Bibimbap Meny----- */
 
 import BibimbapEntrecote from "../assets/food/BibimbapEntrecote.webp";
 import BibimbapKyckling from "../assets/food/BibimbapKyckling.webp";
-import BibimbapRäka from "../assets/food/BibimbapRäka.webp";
+import BibimbapRaka from "../assets/food/BibimbapRaka.webp";
 import BibimbapLax from "../assets/food/BibimbapLax.webp";
 import BibimbapTofu from "../assets/food/BibimbapTofu.webp";
 import BibimbapMix from "../assets/food/BibimbapMix.webp";
@@ -123,20 +123,20 @@ import UdonEntrecote from "../assets/food/UdonEntrecote.webp";
 import UdonVegetarisk from "../assets/food/UdonVegetarisk.webp";
 import UdonTempura from "../assets/food/UdonTempura.webp";
 import UdonGyoza from "../assets/food/UdonGyoza.webp";
-import RamenRäka from "../assets/food/RamenRäka.webp";
+import RamenRaka from "../assets/food/RamenRaka.webp";
 import RamenKyckling from "../assets/food/RamenKyckling.webp";
 
 /* -----Special Meny----- */
 
 import WokadKycklingStark from "../assets/food/WokadKycklingStark.webp";
-import WokadRäkorStark from "../assets/food/WokadRäkorStark.webp";
-import KokosmjölkKyckling from "../assets/food/KokosmjölkKyckling.webp";
-import KokosmjölkRäka from "../assets/food/KokosmjölkRäka.webp";
-import OstronSåsKyckling from "../assets/food/OstronSåsKyckling.webp";
-import OstronSåsRäka from "../assets/food/OstronSåsRäka.webp";
-import OstronSåsBiff from "../assets/food/OstronSåsBiff.webp";
+import WokadRakorStark from "../assets/food/WokadRakorStark.webp";
+import KokosmjolkKyckling from "../assets/food/KokosmjolkKyckling.webp";
+import KokosmjolkRaka from "../assets/food/KokosmjolkRaka.webp";
+import OstronSasKyckling from "../assets/food/OstronSasKyckling.webp";
+import OstronSasRaka from "../assets/food/OstronSasRaka.webp";
+import OstronSasBiff from "../assets/food/OstronSasBiff.webp";
 import PadThaiKyckling from "../assets/food/PadThaiKyckling.webp";
-import PadThaiRäka from "../assets/food/PadThaiRäka.webp";
+import PadThaiRaka from "../assets/food/PadThaiRaka.webp";
 
 /* -----Barn Meny----- */
 
@@ -167,8 +167,8 @@ export default {
   LaxRullar10,
   LaxRullar12,
   LaxAvocadoSushi,
-  LaxRäkorSushi,
-  RäkSushi,
+  LaxRakorSushi,
+  RakSushi,
   GrillLaxSushi,
   AvocadoSushi,
   FamiljeSushi30,
@@ -208,7 +208,7 @@ export default {
   SashimiMixLiten,
   SashimiMixStor,
   PokebowlLax,
-  PokebowlRäka,
+  PokebowlRaka,
   PokebowlKyckling,
   PokebowlTofu,
   Yakitori,
@@ -222,28 +222,28 @@ export default {
   Yakisoba,
   WokadBiff,
   WokadKyckling,
-  WokadRäkor,
+  WokadRakor,
   StektRisVeg,
   StektRisKyckling,
-  StektRisRäka,
+  StektRisRaka,
   StektRisEntrecote,
   Tempura,
   Karaage,
   Laxteriyaki,
-  Vårrullar7,
-  Vårrullar10,
+  Varrullar7,
+  Varrullar10,
   WokadKycklingStark,
-  WokadRäkorStark,
-  KokosmjölkKyckling,
-  KokosmjölkRäka,
-  OstronSåsKyckling,
-  OstronSåsRäka,
-  OstronSåsBiff,
+  WokadRakorStark,
+  KokosmjolkKyckling,
+  KokosmjolkRaka,
+  OstronSasKyckling,
+  OstronSasRaka,
+  OstronSasBiff,
   PadThaiKyckling,
-  PadThaiRäka,
+  PadThaiRaka,
   BibimbapEntrecote,
   BibimbapKyckling,
-  BibimbapRäka,
+  BibimbapRaka,
   BibimbapLax,
   BibimbapTofu,
   BibimbapMix,
@@ -254,6 +254,6 @@ export default {
   BarnYakiniku,
   BarnYakitori,
   BarnKaraage,
-  RamenRäka,
+  RamenRaka,
   RamenKyckling,
 };

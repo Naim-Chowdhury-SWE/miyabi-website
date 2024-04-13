@@ -13,7 +13,7 @@ const pokeBowl = [
     description:
       "Serveras med ris, mango, avokado, morötter, gurka, bönor. Toppas med chilimajo och teriyakisås",
     price: "139kr",
-    image: images.PokebowlRäka,
+    image: images.PokebowlRaka,
   },
   {
     title: "Pokébowl Kyckling",

@@ -95,7 +95,7 @@ const VarmratterMeny = [
     title: "Wokade räkor med grönsaker",
     description: "Serveras med ris eller nudlar",
     price: "149kr",
-    image: images.WokadRäkor,
+    image: images.WokadRakor,
   },
   {
     title: "Wokad kyckling med grönsaker",
@@ -143,7 +143,7 @@ const VarmratterMeny = [
     title: "Stekt Ris med Räkor",
     description: "Grönsaker samt sallad ingår",
     price: "149kr",
-    image: images.StektRisRäka,
+    image: images.StektRisRaka,
   },
   {
     title: "Lax Teriyaki",
@@ -155,13 +155,13 @@ const VarmratterMeny = [
     title: "Vegetariska Vårrullar 7 bitar",
     description: "Serveras med ris sallad samt sås",
     price: "110kr",
-    image: images.Vårrullar7,
+    image: images.Varrullar7,
   },
   {
     title: "Vegetariska Vårrullar 10 Bitar",
     description: "Serveras med ris sallad samt sås",
     price: "125kr",
-    image: images.Vårrullar10,
+    image: images.Varrullar10,
   },
 ];
 
@@ -182,7 +182,7 @@ const Bibimbap = [
     title: "Bibimbap Räkor",
     description: `Koreansk rätt som innehåller ris, olika typer av sallader, kimchi och starksås. Toppas med ett stekt ägg`,
     price: "139kr",
-    image: images.BibimbapRäka,
+    image: images.BibimbapRaka,
   },
   {
     title: "Bibimbap Lax (Rå)",
@@ -241,7 +241,7 @@ const Soppor = [
     title: "Ramen Räka",
     description: "Nudelsoppa gjord på äggnudlar, grönsaker och kokt ägg",
     price: "145kr",
-    image: images.RamenRäka,
+    image: images.RamenRaka,
   },
 ];
 

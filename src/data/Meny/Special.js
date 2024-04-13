@@ -29,31 +29,31 @@ const SpecialMeny = [
     title: "Kyckling med curry och kokosmjölk",
     description: "Serveras med ris, grönsaker samt sallad (mellanstark)",
     price: "150 kr",
-    image: images.KokosmjölkKyckling,
+    image: images.KokosmjolkKyckling,
   },
   {
     title: "Räkor med curry och kokosmjölk",
     description: "Serveras med ris, grönsaker samt sallad (mellanstark)",
     price: "150 kr",
-    image: images.KokosmjölkRäka,
+    image: images.KokosmjolkRäka,
   },
   {
     title: "Wokad Kyckling med ostronsås",
     description: "Smak av Thailand, Serveras med ris eller nudlar samt sallad",
     price: "150 kr",
-    image: images.OstronSåsKyckling,
+    image: images.OstronSasKyckling,
   },
   {
     title: "Wokade Räkor med ostronsås",
     description: "Smak av Thailand, Serveras med ris eller nudlar samt sallad",
     price: "150 kr",
-    image: images.OstronSåsRäka,
+    image: images.OstronSasRäka,
   },
   {
     title: "Wokad Biff med ostronsås",
     description: "Smak av Thailand, Serveras med ris eller nudlar samt sallad",
     price: "150 kr",
-    image: images.OstronSåsBiff,
+    image: images.OstronSasBiff,
   },
   {
     title: "Wokad kyckling (stark)",
@@ -65,7 +65,7 @@ const SpecialMeny = [
     title: "Wokade räkor (stark)",
     description: "Stark smak ris/nudlar (cashew + 5kr)",
     price: "150 kr",
-    image: images.WokadRäkorStark,
+    image: images.WokadRakorStark,
   },
   {
     title: "Wokade räkor + kyckling (stark)",
@@ -89,7 +89,7 @@ const SpecialMeny = [
     title: "Pad Thai Räkor",
     description: "Wokade Risnudlar med Räkor, Grönsaker och Sallad",
     price: "150 kr",
-    image: images.PadThaiRäka,
+    image: images.PadThaiRaka,
   },
 ];
 
